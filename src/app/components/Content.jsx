@@ -8,12 +8,8 @@ export default function Content() {
       {/* Tagline */}
         <div className="max-w-xl mb-10 text-center md:mx-auto lg:max-w-2xl md:mb-12">
           
-          <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold text-gray-900 capitalize sm:text-5xl md:mx-auto">
-            
-            Every cup tells a <span className='text-orange-800'>story</span>
-          </h2>
-          <p className="text-lg leading-relaxed text-gray-700 md:text-xl">
-            Try us out with a two-week 100% risk-free with a trial.
+          <p className="text-2xl leading-relaxed text-gray-700 md:text-4xl">
+            Try us <span className='font-bold text-orange-800'>FREE</span> for two full weeks
           </p>
         </div>
         
@@ -41,7 +37,7 @@ export default function Content() {
               Quality Beans, Exceptional Flavor
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
-              Kiwi Nutz coffee is crafted from the highest-quality beans. Our beans are roasted to perfection, unlock bold flavors, guaranteeing a flavor profile you won't grow tired of.
+              Kiwi Nutz coffee is crafted from the highest quality beans. Our signature blend is sourced from Columbia, Brazil and Ethiopia – the home of coffee. If our signature blend isn’t up to standard – we will provide alternatives to suit.
               </p>
             </div>
   

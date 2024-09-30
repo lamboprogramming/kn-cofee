@@ -6,14 +6,17 @@ import Tagline from './Tagline';
 
 export default function Hero() {
   return (
-    <div className='mb-12 sm:mt-12 sm:mb-8'>
+    <div className='mb-12 sm:mt-12 sm:mb-8' id="about">
     <div className="px-4 py-4 m-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
     <div className="grid gap-8 lg:grid-cols-2">
       <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
         <div className="max-w-xl mb-6">
           <Tagline />
-          <p className="text-xl leading-9 tracking-wide text-center gray-700 md:text-2xl">
-          Our selection of beans from around the world, creates a taste that's uniquely bold, nutty, and out of this world.
+          <p className="mb-4 text-lg leading-9 tracking-wider text-center gray-700 md:text-xl">
+          A New Zealand coffee company right here in the United States – tell ‘em he’s dreaming! 
+          </p>
+          <p className="text-lg leading-9 tracking-wider text-center gray-700 md:text-xl">
+          Our coffee is selected with precision, blended and roasted locally, to create a taste that is uniquely bold, nutty, and out of this world.
           </p>
         </div>
       </div>

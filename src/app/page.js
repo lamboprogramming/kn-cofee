@@ -3,9 +3,8 @@ import Image from "next/image";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Testimonials from "./components/Testimonials";
-import Test from "./components/Test";
 import Footer from "./components/Footer";
-import Accordion from "./components/Accordion";
+import Services from "./components/Services";
 import { Lato } from 'next/font/google';
 import Content from "./components/Content"
 import Hero from "./components/Hero";
@@ -22,19 +21,15 @@ const lato = Lato({
 export default function Home() {
   return (
 <div className={lato.className}>
-
 <Nav />
 <Hero />
 <About />
 <Content />
+<Services />
 <Testimonials />
-<Accordion />
 <PicSection />
 <Contact />
-
 <Footer />
-
-
 </div>
   );
 }

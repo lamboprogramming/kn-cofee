@@ -52,7 +52,7 @@ export default function Testimonials() {
       <span className='text-orange-800'>Kiwi Nutz</span> is commited to quality, from exceptional coffee to outstanding service, hear all about our commitment to quality.
       </Typography>
 
-      <div className="flex flex-wrap justify-center gap-8 p-4 bg-brown-600">
+      <div className="flex flex-wrap justify-center gap-8 p-4 bg-brown-800 sm:bg-white">
         {testimonials.map((testimonial, index) => (
           <Card key={index} className="w-full mb-4 sm:w-80 ">
          

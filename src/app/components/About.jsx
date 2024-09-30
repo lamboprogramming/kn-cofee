@@ -20,7 +20,7 @@ export default function About() {
     <div className=''>
 
     {/* Cards Start */}
-      <div className='flex flex-wrap items-center p-4 bg-brown-600 justify-evenly '>
+      <div className='flex flex-wrap items-center p-4 bg-brown-800 justify-evenly '>
         
         {/* Card 1 */}
         <div className='m-4'>
@@ -40,7 +40,7 @@ export default function About() {
               </Typography>
               {openIndex === 0 && (
                 <Typography className='mt-2'>
-                Our system monitors your coffee count around the clock, and as soon as you’re running low, we ship fresh beans straight to you—freshness is just a delivery away.
+                We monitor your coffee volume constantly, and as soon as you’re running low, we ship fresh beans straight to you.
                 </Typography>
               )}
               <Button onClick={() => toggleContent(0)} color="white"className="mt-2 text-orange-800 duration-200 border hover:bg-brown-50 hover:border-orange-800">
@@ -68,7 +68,7 @@ export default function About() {
               </Typography>
               {openIndex === 1 && (
                 <Typography className='pt-2'>
-                Our team regularly cleans and maintains each machine, ensuring it brews to perfection every time. With Kiwi Nutz, you can rely on consistent quality in every sip.
+                Our team regularly cleans and maintains each machine (completely free of charge!) ensuring it brews to perfection every time.
                 </Typography>
               )}
               <Button onClick={() => toggleContent(1)} color="white" className="mt-2 text-orange-800 duration-200 border hover:border-orange-800 hover:bg-brown-50 ">
@@ -89,14 +89,14 @@ export default function About() {
             </CardHeader>
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
-              Service When You Need It, Anytime
+              Innovative Pricing Models
               </Typography>
               <Typography>
-              Kiwi Nutz provides round-the-clock service for your coffee machines.
+              Kiwi Nutz provides exceptional quality, service and value.
               </Typography>
               {openIndex === 2 && (
                 <Typography className='pt-2'>
-                We act as your dedicated service techs, available 24/7, to ensure your machines are always running smoothly—100% free of charge. Anytime you need us, we’re just a call away.
+                We will tailor a pricing plan to suit your company’s needs. Our prices on a per cup basis are comparable to pod based coffee – just without the hassle, landfill, and ordinary quality.
                 </Typography>
               )}
               <Button onClick={() => toggleContent(2)} color="white" className="mt-2 text-orange-800 duration-200 border hover:bg-brown-50 hover:border-orange-800">

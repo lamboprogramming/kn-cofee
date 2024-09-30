@@ -64,13 +64,13 @@ export default function Nav() {
             </li>
       
             <li>
-              <a href="#testimonials" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
-                Testimonials
+              <a href="#services" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
+                Services
               </a>
             </li>
             <li>
-              <a href="#accordion" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
-                FAQs
+              <a href="#testimonials" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
+                Testimonials
               </a>
             </li>
         
