@@ -18,7 +18,7 @@ export default function Accordion() {
     },
     {
       heading: "What does the free trial include?",
-      content: "Our two-week trial includes delivery and installation of our machines. We prefer to prove our value before you decide whether to continue."
+      content: "Our trial includes a free two-week delivery and installation of our machines. We prefer to prove our value before you decide whether to continue."
     },
     {
       heading: "How often do you service the machine?",
@@ -52,7 +52,7 @@ export default function Accordion() {
         <div className="flex flex-col justify-center p-4 mx-auto md:w-2/3">
           {accordionItems.map((item, index) => (
             <div key={index} className="mb-4 border border-gray-200 rounded-lg">
-              <h2 id={`accordion-collapse-heading-${index}`} className='text-orange-800 '>
+              <h2 id={`accordion-collapse-heading-${index}`}>
                 <button
                   type="button"
                   className={`flex items-center justify-between w-full gap-3 p-5 font-extrabold bg-white hover:bg-brown-100`}

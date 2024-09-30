@@ -8,7 +8,7 @@ export default function Content() {
       {/* Tagline */}
         <div className="max-w-xl mb-10 text-center md:mx-auto lg:max-w-2xl md:mb-12">
           
-          <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold text-gray-900 sm:text-5xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold text-gray-900 capitalize sm:text-5xl md:mx-auto">
             
             Every cup tells a <span className='text-orange-800'>story</span>
           </h2>
@@ -41,7 +41,7 @@ export default function Content() {
               Quality Beans, Exceptional Flavor
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
-              Kiwi Nutz coffee is crafted from the highest-quality beans. Our beans are  roasted to unlock bold flavors, ensuring every cup is a flavorful experience worth savoring.
+              Kiwi Nutz coffee is crafted from the highest-quality beans. Our beans are roasted to perfection, unlock bold flavors, guaranteeing a flavor profile you won't grow tired of.
               </p>
             </div>
   
@@ -50,7 +50,7 @@ export default function Content() {
               Bold Flavor, Endless Variety
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
-              Our machines offer a wide range of brewing options to suit every palate—from rich espressos to smooth lattes. With Kiwi Nutz, you'll never run out of choices, ensuring that each cup caters to your unique coffee craving.
+              Our machines offer a wide range of brewing options to suit every palate—from rich espressos to smooth lattes. With Kiwi Nutz, you'll never run out of choices and we can cater to every unique coffee craving.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function Content() {
                 Convenient, Time-Saving Coffee at Work
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
-                Skip the coffee shop lines and save precious time at the office! With Kiwi Nutz coffee machines, enjoy premium coffee at your fingertips, boosting productivity while delivering the perfect brew with zero wait.
+                Skip the coffee shop lines and save precious time at the office! With our coffee machines, enjoy premium coffee with zero wait, boost productivity, and foster a thriving environment.
               </p>
             </div>
           </div>
