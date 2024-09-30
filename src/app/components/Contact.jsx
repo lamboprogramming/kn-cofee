@@ -27,19 +27,18 @@ const handleSubmit = (e) => {
 
   return (
     <>
-    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12">
-    
-      <div className="max-w-screen-lg sm:mx-auto">
-
-
+    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+    <div className="max-w-screen-sm p-4 mt-4 sm:text-center sm:mx-auto ">
+  
+    <p className="text-xl text-gray-700 md:text-2xl sm:px-4">
+    Take your workplace to the next level with café-quality coffee at no risk, with a <span className='text-orange-800'>free</span> two-week trial.
+    </p>
+    <hr className="w-full my-8 border-gray-300" />
+  </div>
+      <div className="max-w-screen-lg p-4 sm:mx-auto">
+        <div className="transition duration-300 transform rounded shadow-sm ">
         
-        <div className="p-5 transition duration-300 transform rounded shadow-sm ">
-
-          <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-        
-        </div>
-        
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="p-4 space-y-4 ">
             <div className="relative z-0 w-full mb-5 group">
               <input
                 type="email"
@@ -125,6 +124,7 @@ const handleSubmit = (e) => {
           </form>
         </div>
       </div>
+      
     </div>
     </>
   );

@@ -6,34 +6,19 @@ import Tagline from './Tagline';
 
 export default function Hero() {
   return (
-    <>
+    <div className='mb-12 sm:mt-12 sm:mb-8'>
     <div className="px-4 py-4 m-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16 " id='services'>
     <div className="grid gap-8 lg:grid-cols-2">
       <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
         <div className="max-w-xl mb-6">
           <Tagline />
-          <p className="text-base text-gray-700 md:text-lg">
-          Our coffee is blended with precision, selecting only the finest beans from around the world to create a taste that's uniquely bold, nutty, and out of this world.
+          <p className="text-xl leading-9 tracking-wide gray-700 md:text-2xl">
+          Our coffee is blended with precision, selecting only the finest beans from around the world, we create a taste that's uniquely bold, nutty, and out of this world.
           </p>
         </div>
-       {/* <div>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-            <svg
-              className="inline-block w-3 ml-2"
-              fill="currentColor"
-              viewBox="0 0 12 12"
-            >
-              <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-            </svg>
-          </a>
-        </div>
-        */} 
       </div>
+      
+      {/* Pictures */}
       <div className="flex items-center justify-center -mx-4 lg:pl-8">
         <div className="flex flex-col items-end px-3">
           <img
@@ -57,6 +42,6 @@ export default function Hero() {
       </div>
     </div>
   </div>
-  </>
+  </div>
   );
 }

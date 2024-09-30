@@ -17,8 +17,7 @@ export default function About() {
   };
 
   return (
-    <>
-    <div className="">
+    <div className=''>
 
     {/* Cards Start */}
       <div className='flex flex-wrap items-center p-4 bg-brown-400 justify-evenly '>
@@ -108,7 +107,7 @@ export default function About() {
         </div>
 
       </div>
+  
     </div>
-    </>
   );
 }

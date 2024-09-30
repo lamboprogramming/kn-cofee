@@ -3,7 +3,7 @@ import Image from "next/image";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Testimonials from "./components/Testimonials";
-import Cards from "./components/Cards";
+
 import Test from "./components/Test";
 import Footer from "./components/Footer";
 import Accordion from "./components/Accordion";
@@ -27,8 +27,10 @@ export default function Home() {
 <Hero />
 <About />
 <Content />
-<Accordion />
 <Testimonials />
+<Accordion />
+
+
 <PicSection />
 <Contact />
 <Footer />
