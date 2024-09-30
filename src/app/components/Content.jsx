@@ -4,20 +4,19 @@ import React, {useState} from 'react';
 export default function Content() {
   return (
     <div className='pt-4 sm:pt-0' id='content'>
-      <div className="px-4 mx-auto mt-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+      <div className="px-4 mx-auto mt-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12">
+      {/* Tagline */}
+        <div className="max-w-xl mb-10 text-center md:mx-auto lg:max-w-2xl md:mb-12">
           
           <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold text-gray-900 sm:text-5xl md:mx-auto">
-            <span className="relative inline-block">
-              
-              <span className="relative">A</span>
-            </span>{' '}
-            <span className='text-orange-800'>flavorful</span> story in every cup
+            
+            Every cup tells a <span className='text-orange-800'>story</span>
           </h2>
           <p className="text-lg leading-relaxed text-gray-700 md:text-xl">
             Try us out with a two-week 100% risk-free with a trial.
           </p>
         </div>
+        
         <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
           <div className="grid grid-cols-2 gap-5">
             <img
@@ -55,8 +54,8 @@ export default function Content() {
               </p>
             </div>
 
-            <div>
-              <h6 className="mb-2 text-lg font-semibold leading-6 text-orange-800">
+            <div className='pb-4 mb-4 border-b'>
+              <h6 className="mb-2 text-lg font-semibold leading-6 text-orange-800 ">
                 Convenient, Time-Saving Coffee at Work
               </h6>
               <p className="text-base leading-relaxed text-gray-900">

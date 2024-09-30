@@ -36,7 +36,7 @@ export default function Accordion() {
 
   return (
     <>
-      <div className='mb-4 ' id='accordion'>
+      <div className='pt-5 mb-4 ' id='accordion'>
         {/* Logo Section */}
         <div className="flex justify-center mb-6">
           <div className="relative mx-auto border-gray-900 dark:bg-gray-800 dark:border-gray-800 border-[10px] rounded-[2.5rem] h-[213px] w-[208px]">
@@ -52,7 +52,7 @@ export default function Accordion() {
         <div className="flex flex-col justify-center p-4 mx-auto md:w-2/3">
           {accordionItems.map((item, index) => (
             <div key={index} className="mb-4 border border-gray-200 rounded-lg">
-              <h2 id={`accordion-collapse-heading-${index}`}>
+              <h2 id={`accordion-collapse-heading-${index}`} className='text-orange-800 '>
                 <button
                   type="button"
                   className={`flex items-center justify-between w-full gap-3 p-5 font-extrabold bg-white hover:bg-brown-100`}
@@ -62,7 +62,7 @@ export default function Accordion() {
                 >
                   <span className="text-lg sm:text-xl md:text-2xl lg:text-2xl">{item.heading}</span>
                   {activeIndex === index ? (
-                    <TiMinus className="w-5 h-5 text-red-400" />
+                    <TiMinus className="w-5 h-5 text-orange-800" />
                   ) : (
                     <FaPlus className="w-5 h-5 text-brown-400" />
                   )}

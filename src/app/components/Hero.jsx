@@ -12,8 +12,8 @@ export default function Hero() {
       <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
         <div className="max-w-xl mb-6">
           <Tagline />
-          <p className="text-xl leading-9 tracking-wide gray-700 md:text-2xl">
-          Our coffee is blended with precision, selecting only the finest beans from around the world, we create a taste that's uniquely bold, nutty, and out of this world.
+          <p className="text-xl leading-9 tracking-wide text-center gray-700 md:text-2xl">
+          Our selection of beans from around the world, creates a taste that's uniquely bold, nutty, and out of this world.
           </p>
         </div>
       </div>

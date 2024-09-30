@@ -68,6 +68,11 @@ export default function Nav() {
                 Testimonials
               </a>
             </li>
+            <li>
+              <a href="#accordion" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
+                FAQs
+              </a>
+            </li>
         
             <li className='#contact'>
               <a href="#contact" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">

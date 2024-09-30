@@ -43,12 +43,12 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className='pt-12 mb-12 sm:pt-12 lg:mb-20' id='testimonials'>
+    <div className='pt-5 mb-12 sm:pt-12 lg:mb-20' id='testimonials'>
     <div className="max-w-screen-xl mx-auto text-center ">
-      <Typography variant="h2" color="blue-gray" className="mb-4 text-4xl sm:text-5xl">
+      <Typography variant="h2" color="blue-gray" className="m-4 mb-4 text-4xl sm:text-5xl">
         Hear what our <span className='text-orange-800'>clients</span> have to say
       </Typography>
-      <Typography className="mb-8 text-lg leading-9 text-gray-800 sm:mb-12">
+      <Typography className="m-4 mb-8 text-lg leading-9 text-gray-800 sm:mb-12">
         Discover why our clients love <span className='text-orange-800'>Kiwi Nutz</span>. From exceptional coffee to outstanding service, hear all about our commitment to quality.
       </Typography>
 
