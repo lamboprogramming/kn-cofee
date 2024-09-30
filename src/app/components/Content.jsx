@@ -10,9 +10,9 @@ export default function Content() {
           <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold text-gray-900 sm:text-5xl md:mx-auto">
             <span className="relative inline-block">
               
-              <span className="relative">Every</span>
+              <span className="relative">A</span>
             </span>{' '}
-            A <span className='text-orange-800'>flavorful</span> story in every cup
+            <span className='text-orange-800'>flavorful</span> story in every cup
           </h2>
           <p className="text-lg leading-relaxed text-gray-700 md:text-xl">
             Try us out with a two-week 100% risk-free with a trial.

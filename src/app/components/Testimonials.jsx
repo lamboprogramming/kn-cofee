@@ -43,7 +43,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className='py-12 mt-8 sm:py-20 sm:mt-12' id='testimonials'>
+    <div className='pt-12 mb-12 sm:pt-12 lg:mb-20' id='testimonials'>
     <div className="max-w-screen-xl mx-auto text-center ">
       <Typography variant="h2" color="blue-gray" className="mb-4 text-4xl sm:text-5xl">
         Hear what our <span className='text-orange-800'>clients</span> have to say

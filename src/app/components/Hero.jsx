@@ -7,7 +7,7 @@ import Tagline from './Tagline';
 export default function Hero() {
   return (
     <div className='mb-12 sm:mt-12 sm:mb-8'>
-    <div className="px-4 py-4 m-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16 " id='services'>
+    <div className="px-4 py-4 m-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
     <div className="grid gap-8 lg:grid-cols-2">
       <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
         <div className="max-w-xl mb-6">

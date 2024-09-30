@@ -58,15 +58,11 @@ export default function Nav() {
               </a>
             </li>
             <li>
-              <a href="#services"  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#content" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
+              <a href="#about"  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
                 About Us
               </a>
             </li>
+      
             <li>
               <a href="#testimonials" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0 ">
                 Testimonials

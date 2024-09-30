@@ -46,11 +46,11 @@ const handleSubmit = (e) => {
                 id="email"
                 value={formData.email}
                 onChange={handleInputChange}
-                className="block py-2.5 px-0 w-full text-md text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
+                className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
                 placeholder=" "
                 required
               />
-              <label htmlFor="email" className="peer-focus:font-medium absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">Email</label>
+              <label htmlFor="email" className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">Email</label>
             </div>
 
             <div className="grid gap-6 md:grid-cols-2">
@@ -61,11 +61,11 @@ const handleSubmit = (e) => {
                   id="firstName"
                   value={formData.firstName}
                   onChange={handleInputChange}
-                  className="block py-2.5 px-0 w-full text-md text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
+                  className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
                   placeholder=" "
                   required
                 />
-                <label htmlFor="firstName" className="peer-focus:font-medium absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">First Name</label>
+                <label htmlFor="firstName" className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">First Name</label>
               </div>
 
               <div className="relative z-0 w-full mb-5 group">
@@ -75,11 +75,11 @@ const handleSubmit = (e) => {
                   id="lastName"
                   value={formData.lastName}
                   onChange={handleInputChange}
-                  className="block py-2.5 px-0 w-full text-md text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
+                  className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
                   placeholder=" "
                   required
                 />
-                <label htmlFor="lastName" className="peer-focus:font-medium absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">Last Name</label>
+                <label htmlFor="lastName" className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">Last Name</label>
               </div>
             </div>
 
@@ -91,11 +91,11 @@ const handleSubmit = (e) => {
                   id="company"
                   value={formData.company}
                   onChange={handleInputChange}
-                  className="block py-2.5 px-0 w-full text-md text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
+                  className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
                   placeholder=" "
                   required
                 />
-                <label htmlFor="company" className="peer-focus:font-medium absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">Company</label>
+                <label htmlFor="company" className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">Company</label>
               </div>
 
               <div className="relative z-0 w-full mb-5 group">
@@ -105,11 +105,11 @@ const handleSubmit = (e) => {
                   id="phoneNumber"
                   value={formData.phoneNumber}
                   onChange={handleInputChange}
-                  className="block py-2.5 px-0 w-full text-md text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
+                  className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-brown-500 peer"
                   placeholder=" "
                   required
                 />
-                <label htmlFor="phoneNumber" className="peer-focus:font-medium absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">Phone Number</label>
+                <label htmlFor="phoneNumber" className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500">Phone Number</label>
               </div>
             </div>
 
@@ -117,7 +117,7 @@ const handleSubmit = (e) => {
 
             <button
               type="submit"
-              className="w-full text-gray-800 bg-brown-100 hover:bg-brown-200 focus:ring-4 focus:outline-none font-medium rounded-lg text-md px-5 py-2.5 text-center border"
+              className="w-full text-gray-800 bg-brown-100 hover:bg-brown-200 focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-5 py-2.5 text-center border"
             >
               Submit
             </button>
