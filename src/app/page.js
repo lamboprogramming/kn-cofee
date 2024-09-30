@@ -3,7 +3,6 @@ import Image from "next/image";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Testimonials from "./components/Testimonials";
-
 import Test from "./components/Test";
 import Footer from "./components/Footer";
 import Accordion from "./components/Accordion";
@@ -12,6 +11,7 @@ import Content from "./components/Content"
 import Hero from "./components/Hero";
 import About from "./components/About";
 import PicSection from "./components/PicSection";
+
 
 const lato = Lato({
   subsets: ['latin'],
@@ -29,10 +29,9 @@ export default function Home() {
 <Content />
 <Testimonials />
 <Accordion />
-
-
 <PicSection />
 <Contact />
+
 <Footer />
 
 

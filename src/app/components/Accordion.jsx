@@ -55,7 +55,7 @@ export default function Accordion() {
               <h2 id={`accordion-collapse-heading-${index}`}>
                 <button
                   type="button"
-                  className={`flex items-center justify-between w-full gap-3 p-5 font-extrabold bg-white hover:bg-brown-100`}
+                  className={`flex items-center justify-between w-full gap-3 p-5 font-semibold bg-white hover:bg-brown-100`}
                   onClick={() => handleToggle(index)}
                   aria-expanded={activeIndex === index}
                   aria-controls={`accordion-collapse-body-${index}`}

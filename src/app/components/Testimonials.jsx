@@ -49,10 +49,10 @@ export default function Testimonials() {
         Hear what our <span className='text-orange-800'>clients</span> have to say
       </Typography>
       <Typography className="m-4 mb-8 text-lg leading-9 text-gray-800 sm:mb-12">
-         <span className='text-orange-800'>Kiwi Nutz</span> is commited to quality, from exceptional coffee to outstanding service.
+      <span className='text-orange-800'>Kiwi Nutz</span> is commited to quality, from exceptional coffee to outstanding service, hear all about our commitment to quality.
       </Typography>
 
-      <div className="flex flex-wrap justify-center gap-8 p-4 bg-brown-400">
+      <div className="flex flex-wrap justify-center gap-8 p-4 bg-brown-600">
         {testimonials.map((testimonial, index) => (
           <Card key={index} className="w-full mb-4 sm:w-80 ">
          

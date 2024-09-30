@@ -20,7 +20,7 @@ export default function About() {
     <div className=''>
 
     {/* Cards Start */}
-      <div className='flex flex-wrap items-center p-4 bg-brown-400 justify-evenly '>
+      <div className='flex flex-wrap items-center p-4 bg-brown-600 justify-evenly '>
         
         {/* Card 1 */}
         <div className='m-4'>
