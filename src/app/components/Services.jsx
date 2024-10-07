@@ -12,7 +12,7 @@ export default function Services() {
 
      
       <p className="text-3xl leading-relaxed tracking-wide text-white md:text-4xl">
-      We believe in making premium coffee services simple, affordable, and hassle-free for businesses.
+      Corporate coffee services made simple, affordable, and hassle-free for businesses.
       </p>
     </div>
     <div className="grid max-w-screen-lg gap-8 row-gap-10 mx-auto lg:grid-cols-2">

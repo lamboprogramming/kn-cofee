@@ -12,11 +12,12 @@ export default function Hero() {
       <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
         <div className="max-w-xl mb-6">
           <Tagline />
-          <p className="mb-4 text-lg leading-9 tracking-wider text-center gray-700 md:text-xl">
+          <p className="mb-6 text-lg leading-8 tracking-widest text-center gray-700 md:text-xl">
           A New Zealand coffee company right here in the United States – tell ‘em he’s dreaming! 
           </p>
           <p className="text-lg leading-9 tracking-wider text-center gray-700 md:text-xl">
-          Our coffee is selected with precision, blended and roasted locally, to create a taste that is uniquely bold, nutty, and out of this world.
+          Kiwi Nutz believes great coffee fuels great ideas. Specializing in providing premium <span className='font-semibold text-orange-800'>corporate</span> coffee solutions, we ensure that every cup served ignites creativity and collaboration.
+
           </p>
         </div>
       </div>
