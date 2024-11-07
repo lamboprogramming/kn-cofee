@@ -20,6 +20,7 @@ export default function Nav() {
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
       minHeight: '100vh',
+      
     }}
   >
   
@@ -27,7 +28,7 @@ export default function Nav() {
         
         {/* Logo */}
         <a href="/" className="flex items-center p-2 space-x-3 rtl:space-x-reverse">
-          <Image src={Logo} alt="company logo" width={250} height={50} />
+          <Image src={Logo} alt="company logo" width={250} height={50} priority={true} />
         </a>
 
         {/* Mobile Menu Button */}

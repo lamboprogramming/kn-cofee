@@ -9,9 +9,9 @@
 }
 
 .logo {
-  width: 250px; /* Adjust the width */
+  width: 250px; 
   height: auto; 
-  max-height: 400px; /* Limit height if needed */
+  max-height: 400px; 
 }
 html {
   scroll-behavior: smooth;
