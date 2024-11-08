@@ -51,7 +51,7 @@ export default function Contact() {
     <>
       <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="max-w-screen-sm p-4 sm:text-center sm:mx-auto">
-          <p className="text-2xl font-bold leading-9 tracking-wide text-orange-800 sm:mt-4 md:text-3xl sm:px-4">
+          <p className="text-2xl font-bold leading-9 tracking-wide text-blue-900 sm:mt-4 md:text-3xl sm:px-4">
             Take your workplace to the next level with quality coffee at any time of the day.
           </p>
           <ContactInfo />
