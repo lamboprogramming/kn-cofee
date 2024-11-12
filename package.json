@@ -12,7 +12,6 @@
     "@emailjs/browser": "^4.4.1",
     "@heroicons/react": "^2.1.5",
     "@material-tailwind/react": "^2.1.10",
-    "@next/font": "^14.2.12",
     "clsx": "^2.1.1",
     "emailjs-com": "^3.2.0",
     "flowbite": "^2.5.1",

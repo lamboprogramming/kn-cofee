@@ -14,7 +14,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Kiwi Nutz Coffee",
-  description: "New Zealand Based Coffee Company",
+  description: "New Zealand based corporate coffee machine supplier",
 };
 
 export default function RootLayout({ children }) {
