@@ -18,17 +18,17 @@ export default function Content() {
             <img
               className="object-cover w-full h-56 col-span-2 rounded shadow-lg"
               src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?q=80&w=1328&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
+              alt="coffee beans and ground beans"
             />
             <img
               className="object-cover w-full h-48 rounded shadow-lg"
               src="https://images.unsplash.com/photo-1482273326129-33adc184ab8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwZGlzcG9zYWJsZXxlbnwwfHwwfHx8MA%3D%3D"
-              alt=""
+              alt="white disposable coffee cup with lid"
             />
             <img
               className="object-cover w-full h-48 rounded shadow-lg"
               src="https://st2.depositphotos.com/1970689/5224/i/450/depositphotos_52246287-stock-photo-espresso-maker.jpg"
-              alt=""
+              alt="coffee machine pouring coffee into white glass cup"
             />
           </div>
           <div className="flex flex-col justify-center">

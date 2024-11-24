@@ -56,7 +56,7 @@ export default function About() {
             <CardHeader color="blue-gray" className="relative h-56">
               <img
                 src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="coffee in glass"
+                alt="flavored brown coffee in a tall glass"
               />
             </CardHeader>
             <CardBody>
@@ -84,7 +84,7 @@ export default function About() {
             <CardHeader color="blue-gray" className="relative h-56">
               <img
                 src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1484&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="office"
+                alt="four people in office working with computers"
               />
             </CardHeader>
             <CardBody>

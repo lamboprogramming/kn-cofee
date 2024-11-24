@@ -7,7 +7,7 @@ export default function PicSection() {
         <img
           className="object-cover w-full h-56 sm:h-96"
           src="https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-          alt=""
+          alt="group in office raising fists in celebration"
         />
    
  
