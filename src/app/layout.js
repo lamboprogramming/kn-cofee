@@ -14,7 +14,10 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Kiwi Nutz Coffee",
-  description: "New Zealand based corporate coffee machine supplier",
+  description: "A New Zealand based Corporate coffee machine supplier, prioritizing quality, exceptional service, and great value.",
+  icons: {
+    icon: "./favicon.ico", 
+  },
 };
 
 export default function RootLayout({ children }) {

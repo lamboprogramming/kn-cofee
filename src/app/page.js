@@ -10,7 +10,7 @@ import Content from "./components/Content"
 import Hero from "./components/Hero";
 import About from "./components/About";
 import PicSection from "./components/PicSection";
-import ContactInfo from "./components/ContactInfo";
+
 
 
 const lato = Lato({

@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { CiCoffeeCup } from "react-icons/ci";
 import Tagline from './Tagline';
 
 export default function Hero() {
