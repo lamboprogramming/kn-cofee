@@ -8,11 +8,7 @@
   padding: 0;
 }
 
-.logo {
-  width: 250px; 
-  height: auto; 
-  max-height: 400px; 
-}
+
 html {
   scroll-behavior: smooth;
 }
