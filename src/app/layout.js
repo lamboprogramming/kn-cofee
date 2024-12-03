@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Head from "next/head";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -17,20 +17,32 @@ export const metadata = {
   title: "Kiwi Nutz Coffee Company",
   description:
     "Corporate coffee machine supplier, based out of New Zealand. Prioritizing quality, exceptional service, and great value isn't what we do, it's who we are. We're here to revolutionize office coffee experience.",
+  openGraph: {
+    title: "Kiwi Nutz Coffee Company",
+    description:
+      "Corporate coffee machine supplier, based out of New Zealand. Prioritizing quality, exceptional service, and great value isn't what we do, it's who we are. We're here to revolutionize office coffee experience.",
+    images: "/knvector.svg", // Adjust the path as needed
+    url: "https://www.kiwinutz.com",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        {/* Google Tag Script */}
-        <script
-          async
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        {children}
+
+        {/* Next.js Script Component for Google Analytics */}
+        <Script
+          strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-X9N313DD2J"
-        ></script>
-        <script
+          async
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -39,12 +51,7 @@ export default function RootLayout({ children }) {
               gtag('config', 'G-X9N313DD2J');
             `,
           }}
-        ></script>
-      </Head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+        />
       </body>
     </html>
   );

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Logo from '../../../public/vector.svg';
 
 
+
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

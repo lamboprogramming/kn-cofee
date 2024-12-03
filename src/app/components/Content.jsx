@@ -1,5 +1,9 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import c1 from '../../../public/content1.jpeg'
+import c2 from '../../../public/content2.jpeg'
+import c3 from '../../../public/content3.jpg'
 
 export default function Content() {
   return (
@@ -15,19 +19,19 @@ export default function Content() {
         
         <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
           <div className="grid grid-cols-2 gap-5">
-            <img
+            <Image
               className="object-cover w-full h-56 col-span-2 rounded shadow-lg"
-              src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?q=80&w=1328&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={c1}
               alt="coffee beans and ground beans"
             />
-            <img
+            <Image
               className="object-cover w-full h-48 rounded shadow-lg"
-              src="https://images.unsplash.com/photo-1482273326129-33adc184ab8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwZGlzcG9zYWJsZXxlbnwwfHwwfHx8MA%3D%3D"
+              src={c2}
               alt="white disposable coffee cup with lid"
             />
-            <img
+            <Image
               className="object-cover w-full h-48 rounded shadow-lg"
-              src="https://st2.depositphotos.com/1970689/5224/i/450/depositphotos_52246287-stock-photo-espresso-maker.jpg"
+              src={c3}
               alt="coffee machine pouring coffee into white glass cup"
             />
           </div>
@@ -37,7 +41,7 @@ export default function Content() {
               Quality Beans, Exceptional Flavor
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
-              Kiwi Nutz coffee is crafted from the highest quality beans. Our signature blend is sourced from Columbia, Brazil and Ethiopia – the home of coffee. If our signature blend isn’t up to standard – we will provide alternatives to suit.
+              Kiwi Nutz coffee is crafted from the highest quality beans. Our signature blends are sourced from Columbia, Brazil and Ethiopia – the homes of coffee.
               </p>
             </div>
   
@@ -46,7 +50,7 @@ export default function Content() {
               Bold Flavor, Endless Variety
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
-              Our machines offer a wide range of brewing options to suit every palate—from rich espressos to smooth lattes. With Kiwi Nutz, you'll never run out of choices and we can cater to every unique coffee craving.
+              Our machines offer a wide range of brewing options to suit every palate—from rich espressos to smooth lattes. With Kiwi Nutz, you&apos;ll never run out of choices and we can cater to every unique coffee craving.
               </p>
             </div>
 

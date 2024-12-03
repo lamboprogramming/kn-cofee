@@ -8,7 +8,7 @@ export default function Footer() {
     <div className=''>
     <footer className="flex flex-row flex-wrap items-center justify-center w-full py-6 text-center border-t gap-y-6 gap-x-12 border-blue-gray-50 md:justify-evenly">
       <Typography color="blue-gray" className="font-normal">
-        &copy; 2024 Kiwi Nutz Coffee
+        &copy; 2024 Kiwi Nutz Coffee Company
       </Typography>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
         <li>

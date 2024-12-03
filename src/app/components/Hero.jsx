@@ -1,6 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Tagline from './Tagline';
+import h1 from '../../../public/hero1.jpeg'
+import h2 from '../../../public/hero2.jpeg'
+import h3 from '../../../public/hero3.jpeg'
+
 
 export default function Hero() {
   return (
@@ -16,7 +20,7 @@ export default function Hero() {
             <div className="max-w-xl mb-6">
               <Tagline />
               <p className="mb-6 text-lg leading-8 tracking-widest text-center gray-700 md:text-xl">
-                A New Zealand coffee company right here in the United States – tell ‘em he’s dreaming!
+                A New Zealand coffee company right here in the United States. Tell &apos;em he&apos;s dreaming!
               </p>
               <p className="text-lg leading-9 tracking-wider text-center gray-700 md:text-xl">
                 We believes that great coffee fuels great ideas. Specializing in providing premium <span className='font-semibold text-orange-800'>corporate</span> coffee solutions, we ensure that every cup served ignites creativity and collaboration.
@@ -27,21 +31,21 @@ export default function Hero() {
           {/* Pictures */}
           <div className="flex items-center justify-center -mx-4 lg:pl-8">
             <div className="flex flex-col items-end px-3">
-              <img
+              <Image
                 className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src="https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={h1}
                 alt="coffee beans being roasted"
               />
-              <img
+              <Image
                 className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                src="https://images.unsplash.com/photo-1664139694630-c9eaccd84765?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGNvZmZlZSUyMGJyZWFrfGVufDB8fDB8fHwy"
+                src={h2}
                 alt="cup of coffee in white glass and croissant"
               />
             </div>
             <div className="px-3">
-              <img
+              <Image
                 className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                src={h3}
                 alt="group of people in office drinking coffee and socializing"
               />
             </div>

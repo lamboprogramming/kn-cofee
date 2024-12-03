@@ -1,5 +1,9 @@
-"use client";
+'use client';
+import Image from 'next/image';
 import React, { useState } from 'react';
+import a1 from '../../../public/about1.jpeg'
+import a2 from '../../../public/about2.jpeg'
+import a3 from '../../../public/about3.jpeg'
 
 import {
   Card,
@@ -25,18 +29,19 @@ export default function About() {
         {/* Card 1 */}
         <div className='m-4'>
           <Card className="mt-6 w-96">
-            <CardHeader color="blue-gray" className="relative h-56">
-              <img
-                src="https://images.unsplash.com/photo-1671225146283-c6aae20a9d07?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="coffee beans"
-              />
-            </CardHeader>
+          <CardHeader color="blue-gray" className="relative h-56">
+          <Image
+            src={a1}
+            alt="a bunch of coffee beans with a white cup with more beans in it"
+            className="object-cover w-full h-full"
+          />
+        </CardHeader>
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
               Always Fresh, Always Ready
               </Typography>
               <Typography>
-                We understand that coffee is more than just another beverage — it's an essential part of the office. 
+                We understand that coffee is more than just another beverage — it&apos;s an essential part of the office. 
               </Typography>
               {openIndex === 0 && (
                 <Typography className='mt-2'>
@@ -53,12 +58,13 @@ export default function About() {
         {/* Card 2 */}
         <div className='m-4'>
           <Card className="mt-6 w-96">
-            <CardHeader color="blue-gray" className="relative h-56">
-              <img
-                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="flavored brown coffee in a tall glass"
-              />
-            </CardHeader>
+          <CardHeader color="blue-gray" className="relative h-56">
+          <Image
+            src={a2}
+            alt="a bunch of coffee beans with a white cup with more beans in it"
+            className="object-cover w-full h-full"
+          />
+        </CardHeader>
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
               Precision in Every Brew
@@ -81,22 +87,23 @@ export default function About() {
         {/* Card 3 */}
         <div className='m-4'>
           <Card className="mt-6 w-96">
-            <CardHeader color="blue-gray" className="relative h-56">
-              <img
-                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1484&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="four people in office working with computers"
-              />
-            </CardHeader>
+          <CardHeader color="blue-gray" className="relative h-56">
+          <Image
+            src={a3}
+            alt="a bunch of coffee beans with a white cup with more beans in it"
+            className="object-cover w-full h-full"
+          />
+        </CardHeader>
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
               Innovative Pricing Models
               </Typography>
               <Typography>
-              Kiwi Nutz provides exceptional quality, service and value.
+              Kiwi Nutz provides exceptional quality, service and value to corporate offices.
               </Typography>
               {openIndex === 2 && (
                 <Typography className='pt-2'>
-                We will tailor a pricing plan to suit your company’s needs. Our prices on a per cup basis are comparable to pod based coffee – just without the hassle, landfill, and ordinary quality.
+                We will tailor a pricing plan to suit your company&apos;s needs. Our prices on a per cup basis are comparable to pod based coffee minus without the hassle, landfill, and ordinary quality.
                 </Typography>
               )}
               <Button onClick={() => toggleContent(2)} color="white" className="mt-2 text-orange-800 duration-200 border hover:bg-brown-50 hover:border-orange-800">

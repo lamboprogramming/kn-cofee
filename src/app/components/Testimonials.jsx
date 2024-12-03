@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, CardBody, Typography, Button } from "@material-tailwind/react";
 
 export default function Testimonials() {
@@ -6,19 +5,19 @@ export default function Testimonials() {
     {
       name: "Office Manager",
       company: "Architect Firm",
-      testimonial: "It is such a pleasure to have you come by and the dedication you take to cleaning and wiping down every part of the machine, it's unmatched.",
+      testimonial: "It is such a pleasure to have you come by and the dedication you take to cleaning and wiping down every part of the machine, absolutely unmatched.",
       image: "https://randomuser.me/api/portraits/women/44.jpg"
     },
     {
       name: "Office Coordinator",
       company: "Film Editing Company",
-      testimonial: "To maintain productivity here we need our coffee so we appreciate you for being so flexible and coming to fix our machine so quickly. We know technology isn't perfect. ",
+      testimonial: "To maintain productivity here we need our coffee so we appreciate you for being so flexible and coming to fix our machine so quickly.",
       image: "https://randomuser.me/api/portraits/men/44.jpg"
     },
     {
       name: "Employee",
       company: "Financial Technology Business",
-      testimonial: "I think at this point I just enjoy the taste of the coffee because I really don't need anymore caffeine today, but I'm ready for another cup. ",
+      testimonial: "I think at this point I just enjoy the taste, O literally drink four cups a day.",
       image: "https://randomuser.me/api/portraits/women/45.jpg"
     },
     {
@@ -30,7 +29,7 @@ export default function Testimonials() {
     {
       name: "Owner",
       company: "Restaurant & Pub",
-      testimonial: "I didn't even know a machine could come with this many options of coffee, that is really amazing.",
+      testimonial: "I had no idea a machine could come with this many options of coffee, that is really amazing.",
       image: "https://randomuser.me/api/portraits/women/45.jpg"
     },
     {
@@ -49,7 +48,7 @@ export default function Testimonials() {
         Hear what our <span className='text-orange-800'>clients</span> have to say
       </Typography>
       <Typography className="m-4 mb-8 text-lg leading-9 text-gray-800 sm:mb-12">
-      <span className='text-orange-800'>Kiwi Nutz Coffee Company</span> is commited to quality, exceptional coffee, and outstanding service
+      <span className='text-orange-800'>Kiwi Nutz</span> is committed to quality, exceptional coffee, and outstanding service
       </Typography>
 
       <div className="flex flex-wrap justify-center gap-8 p-4 bg-brown-800 sm:bg-white">
@@ -61,7 +60,7 @@ export default function Testimonials() {
                 {testimonial.name} - {testimonial.company}
               </Typography>
               <Typography className="text-gray-900">
-                "{testimonial.testimonial}"
+                &quot;{testimonial.testimonial}&quot;
               </Typography>
             </CardBody>
           </Card>
