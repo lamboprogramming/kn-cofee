@@ -36,11 +36,11 @@ export default function About() {
               Always Fresh, Always Ready
               </Typography>
               <Typography>
-                We understand that coffee is more than just a beverage — it's an essential part of your workplace culture. 
+                We understand that coffee is more than just another beverage — it's an essential part of the office. 
               </Typography>
               {openIndex === 0 && (
                 <Typography className='mt-2'>
-                We monitor your coffee volume constantly, and as soon as you’re running low, we ship fresh beans straight to you.
+                We monitor your coffee volume constantly. When your beans are running low we will have fresh beans shipped to your office.
                 </Typography>
               )}
               <Button onClick={() => toggleContent(0)} color="white"className="mt-2 text-orange-800 duration-200 border hover:bg-brown-50 hover:border-orange-800">
@@ -64,11 +64,11 @@ export default function About() {
               Precision in Every Brew
               </Typography>
               <Typography>
-              We take care of your coffee machines so every cup is as rich and flavorful as the first.
+              We take care of your coffee machines so every cup is as rich and flavorful as the first and the last.
               </Typography>
               {openIndex === 1 && (
                 <Typography className='pt-2'>
-                Our team regularly cleans and maintains each machine (completely free of charge!) ensuring it brews to perfection every time.
+                Our team regularly cleans and maintains each machine (completely free of charge!) which includes the refrigerator and the water system.
                 </Typography>
               )}
               <Button onClick={() => toggleContent(1)} color="white" className="mt-2 text-orange-800 duration-200 border hover:border-orange-800 hover:bg-brown-50 ">

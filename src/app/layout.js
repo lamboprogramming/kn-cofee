@@ -14,9 +14,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Kiwi Nutz Coffee",
+  title: "Kiwi Nutz Coffee Company",
   description:
-    "A New Zealand based Corporate coffee machine supplier, prioritizing quality, exceptional service, and great value.",
+    "Corporate coffee machine supplier, based out of New Zealand. Prioritizing quality, exceptional service, and great value isn't what we do, it's who we are. We're here to revolutionize office coffee experience.",
 };
 
 export default function RootLayout({ children }) {

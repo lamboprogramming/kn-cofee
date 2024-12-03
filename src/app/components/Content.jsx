@@ -52,7 +52,7 @@ export default function Content() {
 
             <div className='pb-4 mb-4 border-b'>
               <h6 className="mb-2 text-lg font-semibold leading-6 text-orange-800 ">
-                Convenient, Time-Saving Coffee at Work
+                Coffee convenience at the office
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
                 Skip the coffee shop lines and save precious time at the office! With our coffee machines, enjoy premium coffee with zero wait, boost productivity, and foster a thriving environment.
