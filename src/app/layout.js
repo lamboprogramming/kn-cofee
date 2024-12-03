@@ -16,12 +16,12 @@ const geistMono = localFont({
 export const metadata = {
   title: "Kiwi Nutz Coffee Company",
   description:
-    "Corporate coffee machine supplier, based out of New Zealand. Prioritizing quality, exceptional service, and great value isn't what we do, it's who we are. We're here to revolutionize office coffee experience.",
+    "Corporate coffee machine supplier, based out of New Zealand. Prioritizing quality, exceptional service, and great value isn't what we do, it's who we are.",
   openGraph: {
     title: "Kiwi Nutz Coffee Company",
     description:
       "Corporate coffee machine supplier, based out of New Zealand. Prioritizing quality, exceptional service, and great value isn't what we do, it's who we are. We're here to revolutionize office coffee experience.",
-    images: "/knvector.svg", // Adjust the path as needed
+    images: "./../../public/knvector.svg", // Adjust the path as needed
     url: "https://www.kiwinutz.com",
   },
 };

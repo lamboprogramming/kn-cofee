@@ -29,7 +29,16 @@ export default function Nav() {
         
         {/* Logo */}
         <a href="/" className="flex items-center p-2 space-x-3 rtl:space-x-reverse">
-          <Image src={Logo} alt="company logo" width={250} height={50} priority={true} />
+        <Image 
+        src={Logo} 
+        alt="company logo image of kiwi bird and coffee beans with faces" 
+        width={250} 
+        height={50} 
+        priority={true}
+        sizes="(max-width: 768px) 200px, 250px" 
+        quality={75} 
+        style={{ width: '100%', height: 'auto' }}
+      />
         </a>
 
         {/* Mobile Menu Button */}
