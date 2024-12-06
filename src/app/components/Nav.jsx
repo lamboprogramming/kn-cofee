@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <>
       <nav
-        className="relative opacity-90"
+        className="relative opacity-90 overflow-hidden max-w-full"
         style={{
           backgroundImage: `url(https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg)`,
           backgroundSize: 'cover',
@@ -23,13 +23,13 @@ export default function Nav() {
         }}
       >
         {/* Flex container for logo and hamburger menu */}
-        <div className="flex items-center justify-between z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm p-4">
+        <div className="flex items-center justify-between z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm">
           {/* Logo */}
           <a href="/" className="flex-shrink-0">
             <Image
               src={Logo}
               alt="company logo image of kiwi bird and coffee beans with faces"
-              width={250}
+              width={350}
               height={200}
               priority={true}
               sizes="(max-width: 768px) 200px, 250px"
@@ -37,6 +37,52 @@ export default function Nav() {
               style={{ width: '100%', height: 'auto' }}
             />
           </a>
+          
+            {/* Desktop Menu - Positioned at the top right for md and lg screens */}
+        <div className="hidden md:flex  sm:ml-auto sm:space-x-8 p-6  ">
+          <ul className="flex space-x-8 text-lg font-bold text-brown-50">
+            <li>
+              <a
+                href="/"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#content"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -56,38 +102,59 @@ export default function Nav() {
               )}
             </svg>
           </button>
-
-          {/* Desktop & Mobile Menu */}
-          <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
-            <ul className="flex flex-col p-4 m-8 mt-4 text-lg font-bold border border-gray-100 rounded-lg text-brown-50 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
-              <li>
-                <a href="/" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#testimonials" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0">
-                  Testimonials
-                </a>
-              </li>
-              <li className='#contact'>
-                <a href="#contact" className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
+        
+
+        {/* Mobile Menu - Positioned below the navbar */}
+        <div
+          className={`overflow-x-hidden sm:hidden absolute left-1/2 transform -translate-x-1/2 w-full bg-brown-900 bg-opacity-70 p-4 transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-[300px] opacity-100' : 'top-[-200px] opacity-0 pointer-events-none'}`}
+        >
+          <ul className="flex flex-col text-lg font-bold text-brown-50">
+            <li>
+              <a
+                href="/"
+                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#content"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      
+
       </nav>
     </>
   );
