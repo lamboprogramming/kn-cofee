@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Logo from '../../../public/vector.svg';
@@ -38,51 +39,51 @@ export default function Nav() {
             />
           </a>
           
-            {/* Desktop Menu - Positioned at the top right for md and lg screens */}
-        <div className="hidden md:flex  sm:ml-auto sm:space-x-8 p-6  ">
-          <ul className="flex space-x-8 text-lg font-bold text-brown-50">
-            <li>
-              <a
-                href="/"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#about"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#content"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
-              >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#testimonials"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
-              >
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a
-                href="#contact"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+          {/* Desktop Menu */}
+          <div className="hidden md:flex sm:ml-auto sm:space-x-8 p-6">
+            <ul className="flex space-x-8 text-lg font-bold text-brown-50">
+              <li>
+                <a
+                  href="/"
+                  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#content"
+                  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#testimonials"
+                  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                >
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -103,11 +104,10 @@ export default function Nav() {
             </svg>
           </button>
         </div>
-        
 
         {/* Mobile Menu - Positioned below the navbar */}
         <div
-          className={`overflow-x-hidden sm:hidden absolute left-1/2 transform -translate-x-1/2 w-full bg-brown-900 bg-opacity-70 p-4 transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-[300px] opacity-100' : 'top-[-200px] opacity-0 pointer-events-none'}`}
+          className={`overflow-x-hidden md:hidden absolute left-1/2 transform -translate-x-1/2 w-full p-4 transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-[300px] opacity-100' : 'top-[-200px] opacity-0 pointer-events-none'} backdrop-blur-sm bg-black bg-opacity-50  border border-brown-600 `}
         >
           <ul className="flex flex-col text-lg font-bold text-brown-50">
             <li>
@@ -152,9 +152,6 @@ export default function Nav() {
             </li>
           </ul>
         </div>
-
-      
-
       </nav>
     </>
   );
