@@ -20,7 +20,7 @@ const lato = Lato({
 
 export default function Home() {
   return (
-<div className={lato.className}>
+<div className="">
 <Nav />
 <Hero />
 <About />

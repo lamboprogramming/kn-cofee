@@ -16,26 +16,28 @@ export default function Nav() {
    <>
     <nav 
     className="relative opacity-90"
-    style={{ 
+    style={{
       backgroundImage: `url(https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg)`, 
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
-      minHeight: '100vh',
-      
+      height: '100vh', 
+      width: '100%', 
+      overflow: 'hidden',  
     }}
   >
+
   
-      <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto bg-black bg-opacity-40 backdrop-blur-sm">
+      <div className="flex flex-wrap items-center justify-between z mx-auto bg-black bg-opacity-40 backdrop-blur-sm">
         
         {/* Logo */}
-        <a href="/" className="flex items-center p-2 space-x-3 rtl:space-x-reverse">
+        <a href="/" className=" ">
         <Image 
         src={Logo} 
         alt="company logo image of kiwi bird and coffee beans with faces" 
         width={250} 
-        height={50} 
+        height={200} 
         priority={true}
-        sizes="(max-width: 768px) 200px, 250px" 
+        sizes="(max-width: 768px) 200px, 250px"
         quality={75} 
         style={{ width: '100%', height: 'auto' }}
       />
