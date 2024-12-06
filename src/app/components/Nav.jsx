@@ -24,14 +24,12 @@ export default function Nav() {
         }}
       >
         {/* Flex container for logo and hamburger menu */}
-        <div className="flex items-center justify-between z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm">
+        <div className="flex items-center justify-evenly z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm">
           {/* Logo */}
           <a href="/" className="flex-shrink-0">
             <Image
               src={Logo}
               alt="company logo image of kiwi bird and coffee beans with faces"
-              width={350}
-              height={200}
               priority={true}
               sizes="(max-width: 768px) 200px, 250px"
               quality={75}
@@ -39,8 +37,8 @@ export default function Nav() {
             />
           </a>
           
-          {/* Desktop Menu */}
-          <div className="hidden md:flex sm:ml-auto sm:space-x-8 p-6">
+          {/* Desktop Menu - This is shown on md and higher */}
+          <div className="hidden md:flex  p-6">
             <ul className="flex space-x-8 text-lg font-bold text-brown-50">
               <li>
                 <a
@@ -85,7 +83,7 @@ export default function Nav() {
             </ul>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button - Shown on small screens only */}
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -107,9 +105,9 @@ export default function Nav() {
 
         {/* Mobile Menu - Positioned below the navbar */}
         <div
-          className={`overflow-x-hidden md:hidden absolute left-1/2 transform -translate-x-1/2 w-full p-4 transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-[300px] opacity-100' : 'top-[-200px] opacity-0 pointer-events-none'} backdrop-blur-sm bg-black bg-opacity-50  border border-brown-600 `}
+          className={`overflow-x-hidden md:hidden absolute left-1/2 transform -translate-x-1/2 w-full p-4 transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-[300px] opacity-100' : 'top-[-200px] opacity-0 pointer-events-none'} backdrop-blur-sm bg-black bg-opacity-50 border border-brown-600`}
         >
-          <ul className="flex flex-col text-lg font-bold text-brown-50">
+          <ul className="flex flex-col text-lg font-bold text-brown-50 space-y-4">
             <li>
               <a
                 href="/"
@@ -121,7 +119,7 @@ export default function Nav() {
             <li>
               <a
                 href="#about"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 About
               </a>
@@ -129,7 +127,7 @@ export default function Nav() {
             <li>
               <a
                 href="#content"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 Services
               </a>
@@ -137,7 +135,7 @@ export default function Nav() {
             <li>
               <a
                 href="#testimonials"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 Testimonials
               </a>
@@ -145,7 +143,7 @@ export default function Nav() {
             <li>
               <a
                 href="#contact"
-                className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 Contact
               </a>
