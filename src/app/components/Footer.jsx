@@ -5,7 +5,7 @@ import { Typography } from "@material-tailwind/react";
 
 export default function Footer() {
   return (
-    <div className=''>
+    <div className='min-w-[250px]'>
     <footer className="flex flex-row flex-wrap items-center justify-center w-full py-6 text-center border-t gap-y-6 gap-x-12 border-blue-gray-50 md:justify-evenly">
       <Typography color="blue-gray" className="font-normal">
         &copy; 2024 Kiwi Nutz Coffee Company
