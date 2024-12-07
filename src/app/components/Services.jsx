@@ -11,7 +11,7 @@ export default function Services() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <div className='bg-brown-900' id="services">
+    <div className='bg-brown-900 min-w-[250px]' id="services">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 relative">
         
    

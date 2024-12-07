@@ -21,7 +21,7 @@ const lato = Lato({
 export default function Home() {
   return (
 <div className="">
-<Nav />
+ <Nav /> 
 <Hero />
 <About />
 <Content />

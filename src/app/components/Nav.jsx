@@ -11,29 +11,31 @@ export default function Nav() {
   };
 
   return (
-    <>
+    <div className=''>
       <nav
-        className="relative opacity-90 overflow-hidden max-w-full"
+        className="relative opacity-90 "
         style={{
           backgroundImage: `url(https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '100vh',
-          width: '100%',
-          overflow: 'hidden',
+          width: '100',
+        
+          
         }}
       >
         {/* Flex container for logo and hamburger menu */}
-        <div className="flex items-center justify-evenly z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm">
+        <div className="min-w-[250px] flex items-center justify-between z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm overflow-hidden">
           {/* Logo */}
-          <a href="/" className="flex-shrink-0">
+          <a href="/" className="flex-shrink-0 p-4">
             <Image
               src={Logo}
               alt="company logo image of kiwi bird and coffee beans with faces"
               priority={true}
-              sizes="(max-width: 768px) 200px, 250px"
+              sizes="(max-width: 1600px) 150px, (max-width: 1024px) 200px, 250px"
               quality={75}
-              style={{ width: '100%', height: 'auto' }}
+              className="w-44"
+
             />
           </a>
           
@@ -105,8 +107,12 @@ export default function Nav() {
 
         {/* Mobile Menu - Positioned below the navbar */}
         <div
-          className={`overflow-x-hidden md:hidden absolute left-1/2 transform -translate-x-1/2 w-full p-4 transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-[300px] opacity-100' : 'top-[-200px] opacity-0 pointer-events-none'} backdrop-blur-sm bg-black bg-opacity-50 border border-brown-600`}
-        >
+  className={`absolute left-0 w-full bg-black bg-opacity-50 p-4 transform transition-all duration-200 ease-in-out z-50 ${
+    isMenuOpen
+      ? 'top-[13rem] opacity-100 visible'
+      : '-top-full opacity-0 invisible'
+  }`}
+>
           <ul className="flex flex-col text-lg font-bold text-brown-50 space-y-4">
             <li>
               <a
@@ -151,6 +157,14 @@ export default function Nav() {
           </ul>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
+
+{/*
+  
+  
+  
+  
+  
+  */}
