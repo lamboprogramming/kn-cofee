@@ -21,7 +21,7 @@ export default function About() {
   };
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden min-w-[250px]'>
       {/* Cards Start */}
       <div className='flex flex-wrap items-center justify-center bg-brown-800'>
         
