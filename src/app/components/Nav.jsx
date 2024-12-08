@@ -25,7 +25,7 @@ export default function Nav() {
         }}
       >
         {/* Flex container for logo and hamburger menu */}
-        <div className="min-w-[250px] flex items-center justify-between z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm overflow-hidden">
+        <div className="min-w-[250px] flex items-center justify-between z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm overflow-hidden h-80">
           {/* Logo */}
           <a href="/" className="flex-shrink-0 p-4">
             <Image
@@ -34,12 +34,12 @@ export default function Nav() {
               priority={true}
               sizes="(max-width: 1600px) 150px, (max-width: 1024px) 200px, 250px"
               quality={75}
-              className="w-44"
+              className="w-56"
 
             />
           </a>
           
-          {/* Desktop Menu - This is shown on md and higher */}
+          {/* Desktop Menu shown on md and higher */}
           <div className="hidden md:flex  p-6">
             <ul className="flex space-x-8 text-lg font-bold text-brown-50">
               <li>
@@ -109,7 +109,7 @@ export default function Nav() {
         <div
   className={`absolute left-0 w-full bg-black bg-opacity-50 p-4 transform transition-all duration-200 ease-in-out z-50 ${
     isMenuOpen
-      ? 'top-[13rem] opacity-100 visible'
+      ? 'top-[20rem] opacity-100 visible'
       : '-top-full opacity-0 invisible'
   }`}
 >
