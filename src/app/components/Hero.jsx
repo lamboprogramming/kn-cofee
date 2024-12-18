@@ -23,7 +23,7 @@ export default function Hero() {
                 A New Zealand coffee company right here in the United States. Tell &apos;em he&apos;s dreaming!
               </p>
               <p className="text-lg leading-9 tracking-wider text-center gray-700 md:text-xl">
-                We believes that great coffee fuels great ideas. Specializing in providing premium <span className='font-semibold text-orange-800'>corporate</span> coffee solutions, we ensure that every cup served ignites creativity and collaboration.
+                We believe great coffee fuels great ideas. Our <span className='font-semibold text-orange-800'>corporate</span> coffee solutions ignite creativity and collaboration.
               </p>
             </div>
           </div>
