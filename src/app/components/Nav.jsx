@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Logo from '../../../public/vector.svg';
+import Link from 'next/link';
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ export default function Nav() {
         }}
       >
         {/* Flex container for logo and hamburger menu */}
-        <div className="min-w-[250px] flex items-center justify-between z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm overflow-hidden h-80">
+        <div className="min-w-[250px] flex items-center justify-evenly z-10 mx-auto bg-black bg-opacity-40 backdrop-blur-sm overflow-hidden h-80">
           {/* Logo */}
           <a href="/" className="flex-shrink-0 p-4">
             <Image
@@ -40,8 +41,8 @@ export default function Nav() {
           </a>
           
           {/* Desktop Menu shown on md and higher */}
-          <div className="hidden md:flex  p-6">
-            <ul className="flex space-x-8 text-lg font-bold text-brown-50">
+          <div className="hidden md:flex  p-6 ">
+            <ul className="flex space-x-8 text-lg font-bold text-brown-50 ">
               <li>
                 <a
                   href="/"
@@ -50,14 +51,7 @@ export default function Nav() {
                   Home
                 </a>
               </li>
-              <li>
-                <a
-                  href="#about"
-                  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
-                >
-                  About
-                </a>
-              </li>
+           
               <li>
                 <a
                   href="#content"
@@ -80,6 +74,14 @@ export default function Nav() {
                   className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
                 >
                   Contact
+                </a>
+              </li>
+              <li>
+                <a
+                  href="../blog"
+                  className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                >
+                  Blog
                 </a>
               </li>
             </ul>
@@ -117,7 +119,7 @@ export default function Nav() {
             <li>
               <a
                 href="/"
-                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                className="sm:block px-4 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 Home
               </a>
@@ -125,23 +127,16 @@ export default function Nav() {
             <li>
               <a
                 href="#about"
-                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                className="sm:block px-4 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 About
               </a>
             </li>
-            <li>
-              <a
-                href="#content"
-                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
-              >
-                Services
-              </a>
-            </li>
+           
             <li>
               <a
                 href="#testimonials"
-                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                className="sm:block px-4 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 Testimonials
               </a>
@@ -149,9 +144,17 @@ export default function Nav() {
             <li>
               <a
                 href="#contact"
-                className="sm:block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+                className="sm:block px-4 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 Contact
+              </a>
+            </li>
+            <li>
+              <a
+                href="/blog"
+                className="sm:block px-4 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
+              >
+                Blog
               </a>
             </li>
           </ul>
