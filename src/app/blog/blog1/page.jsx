@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import img1 from '../../../../public/blog/blog1.jpg'
 import BlogNav from '../../components/BlogNav'
+import BackToTop from '@/app/components/BackToTop';
 
 const page = () => {
   return (
@@ -65,10 +66,10 @@ const page = () => {
         <p className="text-base sm:text-sm md:text-lg leading-loose sm:leading-10 md:leading-8  px-6 pt-6pb-2">
           In conclusion, New Zealand&apos;s coffee culture is a testament to the power of immigration, innovation, and cultural exchange. From its humble beginnings in the 19th century to its current status as a <span className="text-amber-600 font-bold">global coffee destination</span>, the evolution of New Zealand&apos;s coffee culture is a rich and dynamic story. As Kiwis continue to embrace and celebrate their love affair with coffee, one thing is clear: the spirit of <span className="font-bold text-gray-900">hospitality, creativity, and community</span> that defines New Zealand&apos;s coffee culture is here to stay.
         </p>
-
-
         </div>
-
+        <div className='flex justify-center text-3xl mt-4'>
+        <BackToTop />
+        </div>
     </div>
   )
 }

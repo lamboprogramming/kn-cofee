@@ -1,7 +1,9 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import img1 from '../../../../public/blog/blog3.jpg'
 import Nav from '../../components/BlogNav'
+import BackToTop from '@/app/components/BackToTop';
 
 const Page = () => {
   return (
@@ -10,7 +12,7 @@ const Page = () => {
     <div className="bg-gray-50 min-h-screen py-10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="mb-10 text-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Coffee Breaks: The Secret Ingredient to Productivity</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">Are Coffee Breaks The Secret Ingredient to Productivity?</h1>
           <p className="text-gray-600 text-lg">
             Coffee breaks are more than just a chance to grab a caffeine boost—they&apos;re a secret productivity hack for workplaces worldwide.
           </p>
@@ -97,6 +99,7 @@ const Page = () => {
         </footer>
       </div>
     </div>
+    <BackToTop/>
     </>
   );
 };

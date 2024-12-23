@@ -15,7 +15,7 @@ const page = () => {
 
 {/* Intro */}
     <div className='flex text-3xl ml-2'> <HiNewspaper />
-      <h2 className="block antialiased tracking-normal font-sans font-semibold text-orange-800 !text-2xl !leading-snug lg:!text-3xl ml-2"
+      <h2 className="block antialiased tracking-normal font-sans font-semibold text-gray-900 !text-2xl !leading-snug lg:!text-3xl ml-2"
       >&quot; Tell Em He&apos;s Dreaming &quot;
       </h2>
     </div>
@@ -101,7 +101,7 @@ const page = () => {
         <h4
           className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
         >
-          Coffee Breaks: The Secret Ingredient to Productivity
+          Are The Secret Ingredient to Productivity?
         </h4>
         <p
           className="block antialiased font-sans text-xs leading-relaxed text-white my-2 font-normal"
