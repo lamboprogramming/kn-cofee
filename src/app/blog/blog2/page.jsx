@@ -26,7 +26,7 @@ const Page = () => {
 
         <main className="space-y-8">
           <section>
-            <h2 className="text-2xl font-semibold text-yellow-300/90 mb-4">1. Upgrade the Machine</h2>
+            <h2 className="text-2xl font-semibold text-blue-700/90 mb-4">1. Upgrade the Machine</h2>
             <p className="text-gray-700 mb-2">
               Investing in the right coffee machine can make a world of difference. Choose a machine based on your team’s size and preferences:
             </p>
@@ -42,7 +42,7 @@ const Page = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-orange-800/90 mb-4">2. Curate the Beans</h2>
+            <h2 className="text-2xl font-semibold text-blue-700/90 mb-4">2. Curate the Beans</h2>
             <p className="text-gray-700 mb-2">
               High-quality coffee starts with the beans. Offering variety can cater to diverse tastes and make employees feel valued:
             </p>
@@ -57,7 +57,7 @@ const Page = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-orange-400/90 mb-4">3. Stock the Essentials</h2>
+            <h2 className="text-2xl font-semibold text-blue-700/90 mb-4">3. Stock the Essentials</h2>
             <p className="text-gray-700 mb-2">
               A complete coffee setup needs extras to make coffee personal. Stock your station with:
             </p>
@@ -73,7 +73,7 @@ const Page = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-brown-700/90 mb-4">4. Create a Coffee Corner</h2>
+            <h2 className="text-2xl font-semibold text-blue-700/90 mb-4">4. Create a Coffee Corner</h2>
             <p className="text-gray-700 mb-2">
               The ambiance of your coffee space matters. Design a space that invites relaxation and social interaction:
             </p>
@@ -89,7 +89,7 @@ const Page = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-700/90 mb-4">5. Ask for Feedback</h2>
+            <h2 className="text-2xl font-semibold text-blue-700/90 mb-4">5. Ask for Feedback</h2>
             <p className="text-gray-700 mb-2">
               The best way to improve your coffee experience is by asking employees what they want:
             </p>

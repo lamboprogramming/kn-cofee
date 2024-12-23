@@ -41,7 +41,7 @@ export default function Content() {
               Quality Beans, Exceptional Flavor
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
-              Kiwi Nutz coffee is crafted from the highest quality beans. Our signature blends are sourced from Columbia, Brazil and Ethiopia – the homes of coffee.
+              Kiwi Nutz coffee is crafted from the highest quality beans. Our signature blend is sourced from Columbia, Brazil and Ethiopia.
               </p>
             </div>
   

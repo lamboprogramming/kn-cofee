@@ -21,7 +21,7 @@ const page = () => {
     </div>
 
       <p className="block antialiased font-sans text-xl leading-relaxed text-inherit mt-4 max-w-lg !font-normal !text-gray-900">
-        That moment you're so tired you drink a cup of coffee to wake up, but you're still tired—so you drink another cup, only to realize you're just a highly caffeinated zombie running on vibes...
+        That moment you&apos;re so tired you drink a cup of coffee to wake up, but you&apos;re still tired—so you drink another cup, only to realize you&apos;re just a highly caffeinated zombie running on vibes...
       </p>
       <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
           {/* Blog 1 */}
@@ -38,7 +38,7 @@ const page = () => {
         <h4
           className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
         >
-          Tracing the Roots: The Origins of New Zealand's Coffee Culture
+          Tracing the Roots: The Origins of New Zealand&apos;s Coffee Culture
         </h4>
         <p
           className="block antialiased font-sans text-xs leading-relaxed text-white my-2 font-normal"
@@ -75,7 +75,7 @@ const page = () => {
         <p
           className="block antialiased font-sans text-xs leading-relaxed text-white my-2 font-normal"
         >
-          While office coffee setups can range from a basic pot to high-tech machines, improving the coffee experience doesn’t have to be complicated or costly.
+          While office coffee setups can range from a basic pot to high-tech machines, improving the coffee experience doesn&apos;t have to be complicated or costly.
         </p>
         <div className="flex justify-between items-center text-white mt-2">
                  
@@ -101,12 +101,13 @@ const page = () => {
         <h4
           className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
         >
-          5 Ways to Improve Your Office Coffee Experience
+          Coffee Breaks: The Secret Ingredient to Productivity
         </h4>
         <p
           className="block antialiased font-sans text-xs leading-relaxed text-white my-2 font-normal"
         >
-          While office coffee setups can range from a basic pot to high-tech machines, improving the coffee experience doesn’t have to be complicated or costly.
+          Some of the best ideas are born over a cup of coffee. A coffee break can spark creativity and help employees approach challenges with fresh perspectives.
+
         </p>
         <div className="flex justify-between items-center text-white mt-2">
                  

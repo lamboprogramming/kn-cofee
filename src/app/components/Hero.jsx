@@ -20,10 +20,10 @@ export default function Hero() {
             <div className="max-w-xl mb-6">
               <Tagline />
               <p className="mb-6 text-lg leading-8 tracking-widest text-center gray-700 md:text-xl">
-                A New Zealand coffee company right here in the United States. Tell &apos;em he&apos;s dreaming!
+                A New Zealand coffee company right here in the United States? You must be dreaming!
               </p>
               <p className="text-lg leading-9 tracking-wider text-center gray-700 md:text-xl">
-                We believe great coffee fuels great ideas. Our <span className='font-semibold text-orange-800'>corporate</span> coffee solutions ignite creativity and collaboration.
+              We believe great coffee sparks great ideas. Our specialty lies in delivering top-notch <strong>corporate coffee solutions</strong>, ensuring every cup inspires creativity and teamwork.
               </p>
             </div>
           </div>

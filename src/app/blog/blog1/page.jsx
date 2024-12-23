@@ -43,7 +43,7 @@ const page = () => {
 
          {/* Paragraph 3 */}
          <p className="text-base sm:text-sm md:text-lg leading-loose sm:leading-10 md:leading-8  px-6 pt-6">
-          <span className="font-semibold text-blue-900">The Espresso Revolution:</span> It wasn't until the mid-20th century that coffee consumption in New Zealand experienced a significant shift, thanks in large part to the influx of European immigrants from coffee-loving countries such as Italy and Greece. These immigrants brought with them their passion for <span className="font-bold text-amber-600">espresso-based coffee drinks</span>, igniting a cultural revolution that would forever change the way New Zealanders approached coffee. Espresso bars began to spring up in urban centers, serving up authentic Italian-style espresso shots and cappuccinos to eager customers.
+          <span className="font-semibold text-blue-900">The Espresso Revolution:</span> It wasn&aapos;t until the mid-20th century that coffee consumption in New Zealand experienced a significant shift, thanks in large part to the influx of European immigrants from coffee-loving countries such as Italy and Greece. These immigrants brought with them their passion for <span className="font-bold text-amber-600">espresso-based coffee drinks</span>, igniting a cultural revolution that would forever change the way New Zealanders approached coffee. Espresso bars began to spring up in urban centers, serving up authentic Italian-style espresso shots and cappuccinos to eager customers.
         </p>
 
         {/* Paragraph 4 */}
@@ -53,12 +53,12 @@ const page = () => {
 
         {/* Paragraph 5 */}
         <p className="text-base sm:text-sm md:text-lg leading-loose sm:leading-10 md:leading-8  px-6 pt-6">
-          <span className="font-semibold text-blue-900">Innovation and Excellence:</span> In recent years, New Zealand&apos;s coffee culture has continued to evolve and innovate, driven by a passion for <span className="italic text-amber-600">excellence</span> and a commitment to quality. The country's coffee industry has become increasingly sophisticated, with a focus on specialty coffee roasting, brewing techniques, and barista training. New Zealand has gained recognition on the global stage for its <span className="font-bold text-gray-900">world-class coffee</span>, with Auckland and Wellington consistently ranked among the top coffee cities in the world.
+          <span className="font-semibold text-blue-900">Innovation and Excellence:</span> In recent years, New Zealand&apos;s coffee culture has continued to evolve and innovate, driven by a passion for <span className="italic text-amber-600">excellence</span> and a commitment to quality. The country&apos;s coffee industry has become increasingly sophisticated, with a focus on specialty coffee roasting, brewing techniques, and barista training. New Zealand has gained recognition on the global stage for its <span className="font-bold text-gray-900">world-class coffee</span>, with Auckland and Wellington consistently ranked among the top coffee cities in the world.
         </p>
 
         {/* Paragraph 6 */}
         <p className="text-base sm:text-sm md:text-lg leading-loose sm:leading-10 md:leading-8  px-6 pt-6">
-          <span className="font-semibold text-blue-900">Cultural Impact:</span> Beyond its culinary significance, coffee plays a central role in New Zealand&apos;s cultural fabric, serving as a symbol of <span className="font-bold text-gray-900">hospitality, connection, and creativity</span>. Whether it's catching up with friends over a <span className="italic">flat white</span>, brainstorming ideas at a local café, or enjoying a leisurely weekend brunch, coffee has become an integral part of everyday life for many New Zealanders.
+          <span className="font-semibold text-blue-900">Cultural Impact:</span> Beyond its culinary significance, coffee plays a central role in New Zealand&apos;s cultural fabric, serving as a symbol of <span className="font-bold text-gray-900">hospitality, connection, and creativity</span>. Whether it&apos;s catching up with friends over a <span className="italic">flat white</span>, brainstorming ideas at a local café, or enjoying a leisurely weekend brunch, coffee has become an integral part of everyday life for many New Zealanders.
         </p>
 
         {/* Conclusion */}
