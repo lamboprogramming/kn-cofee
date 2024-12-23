@@ -2,6 +2,9 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { LuCircleArrowRight } from "react-icons/lu";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { IoLogoLinkedin } from "react-icons/io5";
 
 const BlogNav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,12 +17,32 @@ const BlogNav = () => {
     <div>
       <nav className="block py-4 px-8 shadow-md w-full max-w-full rounded-none text-white bg-transparent">
         <div className="container mx-auto flex items-center justify-between text-gray-900">
-          <Link
+          <div
             href="#"
             className="block antialiased font-sans leading-relaxed text-blue-gray-900 mr-4 cursor-pointer text-lg font-bold"
           >
+            <div className='flex flex-row'>
             Kiwi Nutz Coffee Company
-          </Link>
+            <div className='flex mt-2 ml-2'>
+              <Link href="https://www.instagram.com/kiwinutzcoffee/p/DDuguHEJ0vz/" className='ml-2 mr-2 text-pink-700'>
+              <FaSquareInstagram/>
+              </Link>
+
+              <Link href="https://www.facebook.com/people/Kiwi-Nutz-Coffee/61570572638619/" className='mr-2 text-blue-700'> 
+                <FaFacebookSquare />
+              </Link>
+              <Link href="https://www.linkedin.com/in/stu-mills-749b892a/" className='text-blue-500'> 
+                <IoLogoLinkedin/>
+              </Link>
+           
+           
+            
+            </div>
+            
+            </div>
+            
+
+          </div>
    
           <Link href="/blog">
           <button
