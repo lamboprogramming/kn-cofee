@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { MdDateRange } from "react-icons/md";
 import img from '../../../../public/blog/coff5.jpg'
-import BackToTop from '@/app/components/BackToTop';
+
 import Footer from '@/app/components/Footer';
 import BlogNav from '@/app/components/BlogNav';
 
@@ -98,7 +98,7 @@ an employer of choice.
         </p>
        </div>
     </div>
-    <BackToTop/>
+    
     <Footer />
     </>
   )
