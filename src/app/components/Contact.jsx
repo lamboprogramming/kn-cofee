@@ -47,7 +47,7 @@ export default function Contact() {
     <>
       <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 min-w-[250px]">
         <div className="max-w-screen-sm p-4 sm:text-center sm:mx-auto">
-          <p className="text-2xl font-bold leading-9 tracking-wide text-blue-900 sm:mt-4 md:text-3xl sm:px-4">
+          <p className="text-xl font-bold leading-9 tracking-wide text-blue-900 sm:mt-4 md:text-3xl sm:px-4">
             Take your workplace to the next level with quality coffee at any time of the day.
           </p>
           <ContactInfo />
@@ -57,7 +57,7 @@ export default function Contact() {
         <div className="max-w-screen-lg p-4 sm:mx-auto">
           <div className="transition duration-300 transform rounded shadow-sm">
             {isSubmitted ? (
-              <p className="text-center text-green-600">Thank you for contacting us! We’ll get back to you shortly.</p>
+              <p className="text-center text-green-600">Thank you for contacting us! We&apos;ll get back to you shortly.</p>
             ) : (
               <form ref={form} onSubmit={handleSubmit} className="p-4 space-y-4 tracking-widest">
                 {/* Email Field */}
@@ -182,7 +182,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full text-gray-800 bg-brown-100 hover:bg-brown-200 focus:ring-4 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center border uppercase"
+                  className="w-full text-white bg-brown-800/80 hover:bg-brown-900 focus:ring-4 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center border uppercase"
                 >
                   Submit
                 </button>
