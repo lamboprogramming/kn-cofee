@@ -57,7 +57,7 @@ export default function Footer() {
                 as="a"
                 href="#contact"
                 color="white"
-                className="font-normal transition-color text-lg md:text-xl"
+                className="font-normal transition-color text-sm md:text-xl"
               >
                 Contact Us
               </Typography>

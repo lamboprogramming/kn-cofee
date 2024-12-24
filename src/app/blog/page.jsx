@@ -28,7 +28,7 @@ const page = () => {
       <div className='min-w-[250px] bg-opacity-60 bg-black '>
         <footer className="flex flex-row flex-wrap items-center justify-center w-full
           text-center border-t gap-y-6 gap-x-12 border-blue-gray-50 md:justify-evenly pt-20 pb-20">
-          <Typography color="white" className="font-normal text-lg sm:text-2xl md:text-3xl">
+          <Typography color="white" className="font-normal text-sm md:text-xl">
             &copy; 2024 Kiwi Nutz Coffee Supply
           </Typography>
           <ul className="flex flex-wrap items-center gap-y-2 gap-x-8 justify-center ">
@@ -37,7 +37,7 @@ const page = () => {
                 as="a"
                 href="#"
                 color="white"
-                className="font-normal transition-colors text-xl md:text-2xl"
+                className="font-normal transition-colors text-sm md:text-xl"
               >
                 About Us
               </Typography>
@@ -47,7 +47,7 @@ const page = () => {
                 as="a"
                 href="#"
                 color="white"
-                className="font-normal transition-colors text-xl md:text-2xl"
+                className="font-normal transition-colors text-sm md:text-xl"
               >
                 License
               </Typography>
@@ -57,7 +57,7 @@ const page = () => {
                 as="a"
                 href="#"
                 color="white"
-                className="font-normal transition-colors text-xl md:text-2xl "
+                className="font-normal transition-colors text-sm md:text-xl "
               >
                 Contribute
               </Typography>
@@ -67,7 +67,7 @@ const page = () => {
                 as="a"
                 href="#contact"
                 color="white"
-                className="font-normal transition-color text-xl md:text-2xl "
+                className="font-normal transition-color text-sm md:text-xl"
               >
                 Contact Us
               </Typography>
