@@ -22,7 +22,8 @@ const BlogNav = () => {
             className="block antialiased font-sans leading-relaxed text-blue-gray-900 mr-4 cursor-pointer text-lg font-bold"
           >
             <div className='flex flex-row'>
-            Kiwi Nutz Coffee 
+              <Link href="/blog">Kiwi Nutz Coffee </Link>
+            
 
             <div className=' ml-4 '>
 

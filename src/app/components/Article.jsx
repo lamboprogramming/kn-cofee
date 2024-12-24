@@ -12,22 +12,25 @@ import { LuCircleArrowRight } from "react-icons/lu";
 
 const page = () => {
   return (
-    <div>
+    <div className='pb-4 md:pt-2 pt-4 md:pb-6'>
 
           <section className="container mx-auto px-8 ">
 
 {/* Intro */}
       <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
 
-          {/* Blog 4 12-16-24 */}
+          {/* Blog 1 12-16-24 */}
           <div
             className="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"
           >
+            
             <Image
              src={blog4}
               alt="new zealand landscape with the ocean in the back"
               className="absolute inset-0 h-full w-full object-cover object-center"
             />
+            
+            
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
@@ -57,7 +60,7 @@ const page = () => {
       </div>
           </div>
 
-          {/* Blog 3 12-9-24 */}
+          {/* Blog 2 12-9-24 */}
           <div
             className="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"
           >
@@ -94,7 +97,7 @@ const page = () => {
       </div>
           </div>
 
-          {/* Blog 2 12-2-24 */}
+          {/* Blog 3 12-2-24 */}
            <div
             className="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"
           >
@@ -131,7 +134,7 @@ const page = () => {
            </div>
 
 
-          {/* Blog 1 11-25-24 */}
+          {/* Blog 4 11-25-24 */}
           <div
             className="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"
           >
@@ -180,7 +183,7 @@ const page = () => {
          </div>
           </section>
 
-        </div>
+    </div>
   )
 }
 
