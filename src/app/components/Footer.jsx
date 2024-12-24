@@ -12,7 +12,7 @@ const BackToTop = () => {
   };
 
   return (
-    <div className="w-full text-center py-4 flex items-center justify-center">
+    <div className="w-full text-center py-8 flex items-center justify-center">
       <button
         onClick={scrollToTop}
         className=" gap-2 text-orange-700 font-medium hover:text-orange-800   "
@@ -47,7 +47,7 @@ export default function Footer() {
 
           {/* Footer Content */}
           <footer className="flex flex-row flex-wrap items-center justify-center w-full
-            text-center gap-y-4 gap-x-12  md:justify-evenly pb-8 pt-4 md:pb-12 md:pt-8 lg:pt-20 bg-black opacity-70">
+            text-center gap-y-4 gap-x-12  md:justify-evenly pb-12 pt-4 md:pb-20 md:pt-8 lg:pt-20 bg-black opacity-70">
 
             <Typography color="white" className="font-normal text-sm md:text-xl">
               &copy; 2024 Kiwi Nutz Coffee Company
