@@ -31,7 +31,7 @@ const page = () => {
           <Typography color="white" className="font-normal text-lg sm:text-2xl md:text-3xl">
             &copy; 2024 Kiwi Nutz Coffee Supply
           </Typography>
-          <ul className="flex flex-wrap items-center gap-y-2 gap-x-8 ">
+          <ul className="flex flex-wrap items-center gap-y-2 gap-x-8 justify-center ">
             <li>
               <Typography
                 as="a"
