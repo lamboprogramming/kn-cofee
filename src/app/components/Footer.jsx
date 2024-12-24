@@ -15,9 +15,9 @@ const BackToTop = () => {
     <div className="w-full text-center py-4 flex items-center justify-center">
       <button
         onClick={scrollToTop}
-        className=" gap-2 text-white font-medium transition hover:text-yellow-400/80"
+        className=" gap-2 text-orange-700 font-medium hover:text-orange-800   "
       >
-        <IoArrowUpCircleSharp className="flex text-3xl items-center justify-center" />
+        <IoArrowUpCircleSharp className="flex text-4xl items-center justify-center" />
        
       </button>
     </div>
@@ -27,9 +27,14 @@ const BackToTop = () => {
 export default function Footer() {
   return (
     <>
+       {/* Back to Top Link */}
+       <div className="min-w-[250px] bg-transparent text-black">
+        <BackToTop />
+       </div>
+      
       {/* Footer Section */}
       <div
-        className="relative"
+        className="relative opacity-90 "
         style={{
           backgroundImage: `url(https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg)`,
           backgroundSize: 'cover',
@@ -37,13 +42,13 @@ export default function Footer() {
           width: '100%',
         }}
       >
-        <div className="min-w-[250px] bg-opacity-60 bg-black">
-          {/* Back to Top Link */}
-          <BackToTop />
+        
+       
 
           {/* Footer Content */}
           <footer className="flex flex-row flex-wrap items-center justify-center w-full
-            text-center  gap-y-4 gap-x-12  md:justify-evenly pt-4 pb-20">
+            text-center gap-y-4 gap-x-12  md:justify-evenly pb-8 pt-4 md:pb-12 md:pt-8 lg:pt-20 bg-black opacity-70">
+
             <Typography color="white" className="font-normal text-sm md:text-xl">
               &copy; 2024 Kiwi Nutz Coffee Company
             </Typography>
@@ -90,7 +95,7 @@ export default function Footer() {
               </li>
             </ul>
           </footer>
-        </div>
+        
       </div>
     </>
   );
