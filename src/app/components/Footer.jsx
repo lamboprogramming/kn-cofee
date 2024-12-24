@@ -43,7 +43,7 @@ export default function Footer() {
 
           {/* Footer Content */}
           <footer className="flex flex-row flex-wrap items-center justify-center w-full
-            text-center border-t gap-y-6 gap-x-12 border-blue-gray-50 md:justify-evenly pt-10 pb-20">
+            text-center  gap-y-4 gap-x-12  md:justify-evenly pt-4 pb-20">
             <Typography color="white" className="font-normal text-sm md:text-xl">
               &copy; 2024 Kiwi Nutz Coffee Company
             </Typography>

@@ -14,10 +14,9 @@ const page = () => {
   return (
     <div className='pb-4 md:pt-2 pt-4 md:pb-6'>
 
-          <section className="container mx-auto px-8 ">
+        <section className="container mx-auto p-4 sm:p-2  ">
 
-{/* Intro */}
-      <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
+         <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-3">
 
           {/* Blog 1 12-16-24 */}
           <div
@@ -34,7 +33,7 @@ const page = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
-          className="block antialiased tracking-widest font-serif text-xs font-semibold leading-snug text-gray-200 mb-4"
+          className="block antialiased tracking-widest  text-xs  font-semibold leading-snug text-yellow-200 mb-4"
         >
           December 16 2024
         </h4>
@@ -72,7 +71,7 @@ const page = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
-          className="block antialiased tracking-widest font-serif text-xs font-semibold leading-snug text-gray-200 mb-4"
+          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-yellow-200 mb-4"
         >
           December 9 2024
         </h4>
@@ -109,7 +108,7 @@ const page = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
-          className="block antialiased tracking-widest font-serif text-xs font-semibold leading-snug text-gray-200 mb-4"
+          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-yellow-200 mb-4"
         >
           December 2 2024
         </h4>
@@ -133,7 +132,6 @@ const page = () => {
       </div>
            </div>
 
-
           {/* Blog 4 11-25-24 */}
           <div
             className="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"
@@ -146,7 +144,7 @@ const page = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
-          className="block antialiased tracking-widest font-serif text-xs font-semibold leading-snug text-gray-200 mb-4"
+          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-yellow-200 mb-4"
         >
           November 25 2024
         </h4>
@@ -181,7 +179,8 @@ const page = () => {
 
 
          </div>
-          </section>
+
+        </section>
 
     </div>
   )
