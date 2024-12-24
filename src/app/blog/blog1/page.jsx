@@ -1,8 +1,10 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import img1 from '../../../../public/blog/blog1.jpg'
 import BlogNav from '../../components/BlogNav'
 import BackToTop from '@/app/components/BackToTop';
+import Footer from '@/app/components/Footer';
 
 const page = () => {
   return (
@@ -17,7 +19,8 @@ const page = () => {
 
         {/* Title */}
         <div className="flex flex-col items-center text-center font-bold lg:text-3xl text-2xl text-gray-800 leading-tight mt-4">
-            <h1 className='p-4'>The Origins of New Zealand Coffee Culture</h1>
+            <h2 className='text-xs font-thin '>November 25 2024</h2>
+            <h1 className='p-4'>Tracing the Roots: The Origins of New Zealand Coffee Culture</h1>
         </div>
 
 
@@ -70,6 +73,7 @@ const page = () => {
         <div className='flex justify-center text-3xl mt-4'>
         <BackToTop />
         </div>
+        <Footer />
     </div>
   )
 }

@@ -14,11 +14,6 @@ const page = () => {
           <section className="container mx-auto px-8 ">
 
 {/* Intro */}
-
-      <p className="block antialiased font-sans sm:text-2xl md:text-3xl md:leading-relaxed text-inherit mt-4 md:max-w-3xl !font-normal !text-gray-900">
-        That moment you&apos;re so tired you drink a cup of coffee to wake up, but you&apos;re still tired—so you drink another cup, only to realize you&apos;re just a highly caffeinated zombie running on vibes.
-      </p>
-      <div className="mt-6 border-t border-gray-800 pt-6"></div>
       <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
           {/* Blog 1 */}
           <div
