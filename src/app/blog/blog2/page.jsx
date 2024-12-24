@@ -3,7 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 import img1 from '../../../../public/blog/blog2.jpg'
 import Nav from '../../components/BlogNav.jsx'
-import BackToTop from '@/app/components/BackToTop';
 import Footer from '@/app/components/Footer';
 import { MdDateRange } from "react-icons/md";
 
@@ -128,7 +127,6 @@ const Page = () => {
         </footer>
       </div>
     </div>
-    <BackToTop />
     <Footer />
     </>
   );

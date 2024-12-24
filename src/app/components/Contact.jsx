@@ -45,16 +45,16 @@ export default function Contact() {
 
   return (
     <>
-      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 min-w-[250px]">
+      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 min-w-[450px]">
         <div className="max-w-screen-sm p-4 sm:text-center sm:mx-auto">
-          <p className="text-xl font-bold leading-9 tracking-wide text-blue-900 sm:mt-4 md:text-3xl sm:px-4">
+          <p className="text-xl font-bold leading-9 tracking-wide text-orange-800 sm:mt-4 md:text-3xl sm:px-4">
             Take your workplace to the next level with quality coffee at any time of the day.
           </p>
           <ContactInfo />
           <hr className="w-full my-4 border-gray-300" />
         </div>
 
-        <div className="max-w-screen-lg p-4 sm:mx-auto">
+        <div className="max-w-screen-full">
           <div className="transition duration-300 transform rounded shadow-sm">
             {isSubmitted ? (
               <p className="text-center text-green-600">Thank you for contacting us! We&apos;ll get back to you shortly.</p>
@@ -68,7 +68,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleInputChange}
                     className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-brown-500 peer"
-                    placeholder=" "
+                    placeholder=""
                     required
                   />
                   <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">Email</label>
@@ -182,7 +182,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full text-white bg-brown-800/80 hover:bg-brown-900 focus:ring-4 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center border uppercase"
+                  className="w-full text-white bg-brown-700/80 hover:bg-brown-800/80 focus:ring-4 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center border uppercase"
                 >
                   Submit
                 </button>

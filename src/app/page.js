@@ -10,7 +10,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import PicSection from "./components/PicSection";
 import Link from "next/link";
-import BackToTop from "./components/BackToTop";
+
 
 
 
@@ -31,7 +31,6 @@ export default function Home() {
 <Testimonials />
 <PicSection />
 <Contact />
-<BackToTop />
 <Footer />
 </div>
   );
