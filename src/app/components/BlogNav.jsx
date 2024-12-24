@@ -18,14 +18,14 @@ const BlogNav = () => {
 
   return (
     <div className={montserrat.className}>
-      <nav className="block py-4 px-8 shadow-md w-full max-w-full rounded-none text-white bg-transparent">
+      <nav className="block py-4 px-8 shadow-md w-full max-w-full rounded-none text-white bg-transparent min-w-[400px]">
         <div className="container mx-auto flex items-center justify-between text-gray-900">
           {/* Logo and Social Links */}
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center md:space-x-8 ">
             <Link href="/blog" className="text-lg font-bold">
               Kiwi Nutz <span className="text-brown-600">Coffee</span>
             </Link>
-            <div className="flex  space-x-8">
+            <div className="flex  ml-4 space-x-4 ">
               <Link
                 href="https://www.instagram.com/kiwinutzcoffee/"
                 className="text-pink-700"
