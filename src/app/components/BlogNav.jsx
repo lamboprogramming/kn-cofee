@@ -27,7 +27,7 @@ const BlogNav = () => {
             <div className=' ml-4 '>
 
             <div className='flex mt-1 space-x-6'>
-              <Link href="https://www.instagram.com/kiwinutzcoffee/p/DDuguHEJ0vz/" className=' text-pink-700'>
+              <Link href="https://www.instagram.com/kiwinutzcoffee/" className=' text-pink-700'>
               <FaSquareInstagram/>
               </Link>
 
