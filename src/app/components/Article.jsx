@@ -35,11 +35,17 @@ const page = () => {
             />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
+      <h4
+          className="block antialiased tracking-widest font-serif text-xs font-semibold leading-snug text-gray-200 mb-4"
+        >
+          November 25 2024
+        </h4>
         <h4
           className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
         >
-          Tracing the Roots: The Origins of New Zealand&apos;s Coffee Culture
+          Tracing the Roots: The Origins of New Zealand Coffee Culture
         </h4>
+        
         <p
           className="block antialiased font-sans text-xs leading-relaxed text-white my-2 font-normal"
         >
@@ -67,6 +73,11 @@ const page = () => {
             />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
+      <h4
+          className="block antialiased tracking-widest font-serif text-xs font-semibold leading-snug text-gray-200 mb-4"
+        >
+          December 2 2024
+        </h4>
         <h4
           className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
         >
@@ -98,15 +109,20 @@ const page = () => {
             />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
+      <h4
+          className="block antialiased tracking-widest font-serif text-xs font-semibold leading-snug text-gray-200 mb-4"
+        >
+          December 9 2024
+        </h4>
         <h4
           className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
         >
-          Are The Secret Ingredient to Productivity?
+          Coffee Breaks: The Secret Ingredient to Productivity
         </h4>
         <p
           className="block antialiased font-sans text-xs leading-relaxed text-white my-2 font-normal"
         >
-          Some of the best ideas are born over a cup of coffee. A coffee break can spark creativity and help employees approach challenges with fresh perspectives.
+          Some of the best ideas are born over a cup of coffee. A coffee break can help employees approach challenges with fresh perspectives.
 
         </p>
         <div className="flex justify-between items-center text-white mt-2">
