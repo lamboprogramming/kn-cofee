@@ -1,8 +1,10 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import img1 from '../../../../public/blog/blog1.jpg'
 import BlogNav from '../../components/BlogNav'
 import BackToTop from '@/app/components/BackToTop';
+import Footer from '@/app/components/Footer';
 
 const page = () => {
   return (
@@ -17,7 +19,8 @@ const page = () => {
 
         {/* Title */}
         <div className="flex flex-col items-center text-center font-bold lg:text-3xl text-2xl text-gray-800 leading-tight mt-4">
-            <h1 className='p-4'>The Origins of New Zealand Coffee Culture</h1>
+            <h2 className='text-xs font-thin '>November 25 2024</h2>
+            <h1 className='p-4'>Tracing the Roots: The Origins of New Zealand Coffee Culture</h1>
         </div>
 
 
@@ -44,7 +47,7 @@ const page = () => {
 
          {/* Paragraph 3 */}
          <p className="text-base sm:text-sm md:text-lg leading-loose sm:leading-10 md:leading-8  px-6 pt-6">
-          <span className="font-semibold text-blue-900">The Espresso Revolution:</span> It wasn&aapos;t until the mid-20th century that coffee consumption in New Zealand experienced a significant shift, thanks in large part to the influx of European immigrants from coffee-loving countries such as Italy and Greece. These immigrants brought with them their passion for <span className="font-bold text-amber-600">espresso-based coffee drinks</span>, igniting a cultural revolution that would forever change the way New Zealanders approached coffee. Espresso bars began to spring up in urban centers, serving up authentic Italian-style espresso shots and cappuccinos to eager customers.
+          <span className="font-semibold text-blue-900">The Espresso Revolution:</span> It wasn&apos;t until the mid-20th century that coffee consumption in New Zealand experienced a significant shift, thanks in large part to the influx of European immigrants from coffee-loving countries such as Italy and Greece. These immigrants brought with them their passion for <span className="font-bold text-amber-600">espresso-based coffee drinks</span>, igniting a cultural revolution that would forever change the way New Zealanders approached coffee. Espresso bars began to spring up in urban centers, serving up authentic Italian-style espresso shots and cappuccinos to eager customers.
         </p>
 
         {/* Paragraph 4 */}
@@ -70,6 +73,7 @@ const page = () => {
         <div className='flex justify-center text-3xl mt-4'>
         <BackToTop />
         </div>
+        <Footer />
     </div>
   )
 }

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import img1 from '../../../../public/blog/blog2.jpg'
 import Nav from '../../components/BlogNav.jsx'
 import BackToTop from '@/app/components/BackToTop';
+import Footer from '@/app/components/Footer';
 
 const Page = () => {
   return (
@@ -12,10 +13,16 @@ const Page = () => {
     <div className="bg-gray-50 min-h-screen py-10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
               {/* Picture */}
-              <div className="flex justify-center p-4 mb-4">
+              <div className="flex justify-center p-4 ">
           <Image src={img1} priority className="max-w-full sm:max-w-3xl rounded-2xl shadow-lg " alt='new zealand landscape with view of the ocean'/>
+          
         </div>
+        <div className='flex justify-start mb-4 mt-2'>
+        <h2 className='text-xs font-thin '>December 2 2024</h2>
+        </div>
+        
         <header className="mb-10">
+       
           <h1 className="text-4xl font-bold text-gray-800 mb-4">5 Ways to Improve Your Office Coffee Experience</h1>
           <p className="text-gray-600 text-lg">
           For many employees, coffee is more than just a drink—it’s a daily ritual that fuels focus, creativity, and social connection. While office coffee setups can range from a basic pot to high-tech machines, improving the coffee experience doesn’t have to be complicated or costly. 
@@ -120,6 +127,7 @@ const Page = () => {
       </div>
     </div>
     <BackToTop />
+    <Footer />
     </>
   );
 };
