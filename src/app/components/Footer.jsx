@@ -15,7 +15,7 @@ const BackToTop = () => {
     <div className="w-full text-center py-8 flex items-center justify-center">
       <button
         onClick={scrollToTop}
-        className=" gap-2 text-orange-700 font-medium hover:text-orange-800   "
+        className=" gap-2 text-black font-medium hover:text-gray-500   "
       >
         <IoArrowUpCircleSharp className="flex text-4xl items-center justify-center" />
        
