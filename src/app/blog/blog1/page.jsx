@@ -8,9 +8,11 @@ import Footer from '@/app/components/Footer';
 
 const page = () => {
   return (
+    <>
+    <BlogNav/>
     <div className='flex flex-col lg:p-20 sm:p-8'>
         {/* Navigation */}
-        <BlogNav /> 
+        
 
         {/* Picture */}
         <div className="flex justify-center p-4">
@@ -74,7 +76,7 @@ const page = () => {
         <BackToTop />
         </div>
         <Footer />
-    </div>
+    </div></>
   )
 }
 
