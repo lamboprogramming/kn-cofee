@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { MdDateRange } from "react-icons/md";
 import img1 from '../../../../public/blog/coff4.jpg'
 import Nav from '../../components/BlogNav'
-import BackToTop from '@/app/components/BackToTop';
 import Footer from '@/app/components/Footer';
 
 const Page = () => {
@@ -112,7 +111,7 @@ const Page = () => {
         </footer>
       </div>
     </div>
-    <BackToTop/>
+  
     <Footer />
     </>
   );
