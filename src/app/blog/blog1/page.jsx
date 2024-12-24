@@ -17,7 +17,7 @@ const page = () => {
 
         {/* Title */}
         <div className="flex flex-col items-center text-center font-bold lg:text-3xl text-2xl text-gray-800 leading-tight mt-4">
-            <h1 className='p-4'>Tracing the Roots: The Origins of New Zealand Coffee Culture</h1>
+            <h1 className='p-4'>The Origins of New Zealand Coffee Culture</h1>
         </div>
 
 
