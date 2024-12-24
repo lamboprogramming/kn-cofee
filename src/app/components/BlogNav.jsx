@@ -22,22 +22,26 @@ const BlogNav = () => {
             className="block antialiased font-sans leading-relaxed text-blue-gray-900 mr-4 cursor-pointer text-lg font-bold"
           >
             <div className='flex flex-row'>
-            Kiwi Nutz Coffee Company
-            <div className='flex mt-2 ml-2'>
-              <Link href="https://www.instagram.com/kiwinutzcoffee/p/DDuguHEJ0vz/" className='ml-2 mr-2 text-pink-700'>
+            Kiwi Nutz Coffee 
+
+            <div className=' ml-4 '>
+
+            <div className='flex mt-1 space-x-6'>
+              <Link href="https://www.instagram.com/kiwinutzcoffee/p/DDuguHEJ0vz/" className=' text-pink-700'>
               <FaSquareInstagram/>
               </Link>
 
-              <Link href="https://www.facebook.com/people/Kiwi-Nutz-Coffee/61570572638619/" className='mr-2 text-blue-700'> 
+              <Link href="https://www.facebook.com/people/Kiwi-Nutz-Coffee/61570572638619/" className=' text-blue-700'> 
                 <FaFacebookSquare />
               </Link>
               <Link href="https://www.linkedin.com/in/stu-mills-749b892a/" className='text-blue-500'> 
                 <IoLogoLinkedin/>
               </Link>
-           
-           
-            
+
             </div>
+
+            </div>
+            
             
             </div>
             
