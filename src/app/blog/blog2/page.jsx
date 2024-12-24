@@ -5,6 +5,7 @@ import img1 from '../../../../public/blog/blog2.jpg'
 import Nav from '../../components/BlogNav.jsx'
 import BackToTop from '@/app/components/BackToTop';
 import Footer from '@/app/components/Footer';
+import { MdDateRange } from "react-icons/md";
 
 const Page = () => {
   return (
@@ -17,15 +18,16 @@ const Page = () => {
           <Image src={img1} priority className="max-w-full sm:max-w-3xl rounded-2xl shadow-lg " alt='new zealand landscape with view of the ocean'/>
           
         </div>
-        <div className='flex justify-start mb-4 mt-2'>
-        <h2 className='text-xs font-thin '>December 2 2024</h2>
-        </div>
+        <div className='flex justify-center'>
+                <MdDateRange/>
+                <h2 className='text-xs font-medium mb-4 mt-0.5 ml-0.5 text-gray-800  '> December 2 2024</h2>
+            </div>
         
         <header className="mb-10">
        
           <h1 className="text-4xl font-bold text-gray-800 mb-4">5 Ways to Improve Your Office Coffee Experience</h1>
           <p className="text-gray-600 text-lg">
-          For many employees, coffee is more than just a drink—it’s a daily ritual that fuels focus, creativity, and social connection. While office coffee setups can range from a basic pot to high-tech machines, improving the coffee experience doesn’t have to be complicated or costly. 
+          For many employees, coffee is more than just a drink—it&apos;s a daily ritual that fuels focus, creativity, and social connection. While office coffee setups can range from a basic pot to high-tech machines, improving the coffee experience doesn&apos;t have to be complicated or costly. 
           </p>
           <p className="text-gray-600 text-lg mt-6">
           Here are five actionable ways to elevate the <strong>coffee</strong> game in your workplace and keep your team <strong>energized</strong> and <strong>satisfied</strong>.
@@ -37,7 +39,7 @@ const Page = () => {
           <section>
             <h2 className="text-2xl font-semibold text-blue-700/90 mb-4">1. Upgrade the Machine</h2>
             <p className="text-gray-700 mb-2">
-              Investing in the right coffee machine can make a world of difference. Choose a machine based on your team’s size and preferences:
+              Investing in the right coffee machine can make a world of difference. Choose a machine based on your team&apos;s size and preferences:
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-700">
               <li><strong>Single-Serve Machines:</strong> Ideal for smaller offices or employees with varying tastes (e.g., Keurig or Nespresso).</li>
