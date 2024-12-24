@@ -12,7 +12,7 @@ import { LuCircleArrowRight } from "react-icons/lu";
 
 const page = () => {
   return (
-    <div className='pb-4 md:pt-2 pt-4 md:pb-6'>
+    <div className='pb-4 md:pt-2 pt-4 md:pb-6 bg-slate-50'>
 
         <section className="container mx-auto p-4 sm:p-2  ">
 
@@ -149,7 +149,7 @@ const page = () => {
           November 25 2024
         </h4>
         <h4
-          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-yellow-200"
+          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-orange-200"
         >
           The Origins of New Zealand Coffee
         </h4>
@@ -162,7 +162,7 @@ const page = () => {
         </p>
         <div className="flex justify-between items-center text-white mt-2">
                  
-                 <Link href="/blog/blog1" className="inline-flex items-center font-medium text-yellow-200  hover:underline hover:underline-offset-8">
+                 <Link href="/blog/blog1" className="inline-flex items-center font-medium text-orange-200  hover:underline hover:underline-offset-8">
                      Read more
                      <LuCircleArrowRight className='ml-2 transition-transform duration-300 hover:-rotate-90'/>
                  </Link>
