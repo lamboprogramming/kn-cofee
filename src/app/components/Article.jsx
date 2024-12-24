@@ -11,18 +11,14 @@ const page = () => {
   return (
     <div>
 
-          <section className="container mx-auto px-8 py-10 lg:py-28">
+          <section className="container mx-auto px-8 ">
 
 {/* Intro */}
-    <div className='flex text-3xl ml-2'> <HiNewspaper />
-      <h2 className="block antialiased tracking-normal font-sans font-semibold text-gray-900 !text-2xl !leading-snug lg:!text-3xl ml-2"
-      >&quot; Tell Em He&apos;s Dreaming &quot;
-      </h2>
-    </div>
 
-      <p className="block antialiased font-sans text-xl leading-relaxed text-inherit mt-4 max-w-lg !font-normal !text-gray-900">
-        That moment you&apos;re so tired you drink a cup of coffee to wake up, but you&apos;re still tired—so you drink another cup, only to realize you&apos;re just a highly caffeinated zombie running on vibes...
+      <p className="block antialiased font-sans sm:text-2xl md:text-3xl md:leading-relaxed text-inherit mt-4 md:max-w-3xl !font-normal !text-gray-900">
+        That moment you&apos;re so tired you drink a cup of coffee to wake up, but you&apos;re still tired—so you drink another cup, only to realize you&apos;re just a highly caffeinated zombie running on vibes.
       </p>
+      <div className="mt-6 border-t border-gray-800 pt-6"></div>
       <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
           {/* Blog 1 */}
           <div
