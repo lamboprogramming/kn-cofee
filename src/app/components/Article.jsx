@@ -16,7 +16,7 @@ const page = () => {
 
         <section className="container mx-auto p-4 sm:p-2  ">
 
-         <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-3">
+         <div className="sm:mt-10 grid grid-cols-1 gap-6 lg:grid-cols-3">
 
           {/* Blog 1 12-16-24 */}
           <div
