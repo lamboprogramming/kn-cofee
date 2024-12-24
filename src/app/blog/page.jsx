@@ -11,7 +11,7 @@ const page = () => {
   return (
     <>
     <BlogNav />
-    <div className='bg-blue-900/90 '>
+    <div className=''>
     <Article />
     </div>
     <Footer />
