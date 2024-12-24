@@ -47,7 +47,7 @@ const page = () => {
 
          {/* Paragraph 3 */}
          <p className="text-base sm:text-sm md:text-lg leading-loose sm:leading-10 md:leading-8  px-6 pt-6">
-          <span className="font-semibold text-blue-900">The Espresso Revolution:</span> It wasn&aapos;t until the mid-20th century that coffee consumption in New Zealand experienced a significant shift, thanks in large part to the influx of European immigrants from coffee-loving countries such as Italy and Greece. These immigrants brought with them their passion for <span className="font-bold text-amber-600">espresso-based coffee drinks</span>, igniting a cultural revolution that would forever change the way New Zealanders approached coffee. Espresso bars began to spring up in urban centers, serving up authentic Italian-style espresso shots and cappuccinos to eager customers.
+          <span className="font-semibold text-blue-900">The Espresso Revolution:</span> It wasn&apos;t until the mid-20th century that coffee consumption in New Zealand experienced a significant shift, thanks in large part to the influx of European immigrants from coffee-loving countries such as Italy and Greece. These immigrants brought with them their passion for <span className="font-bold text-amber-600">espresso-based coffee drinks</span>, igniting a cultural revolution that would forever change the way New Zealanders approached coffee. Espresso bars began to spring up in urban centers, serving up authentic Italian-style espresso shots and cappuccinos to eager customers.
         </p>
 
         {/* Paragraph 4 */}
