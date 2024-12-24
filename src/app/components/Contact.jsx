@@ -54,7 +54,7 @@ export default function Contact() {
           <hr className="w-full my-4 border-gray-300" />
         </div>
 
-        <div className="max-w-screen-lg p-4 sm:mx-auto">
+        <div className="max-w-screen-lg p-4 sm:mx-auto shadow-md">
           <div className="transition duration-300 transform rounded shadow-sm">
             {isSubmitted ? (
               <p className="text-center text-green-600">Thank you for contacting us! We&apos;ll get back to you shortly.</p>
@@ -182,7 +182,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full text-white bg-brown-700/80 hover:bg-brown-800/80 focus:ring-4 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center border uppercase"
+                  className="w-full text-black duration-200  hover:bg-brown-50 hover:border-orange-800 focus:ring-4 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center  uppercase border border-black"
                 >
                   Submit
                 </button>
