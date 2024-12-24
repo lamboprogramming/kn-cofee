@@ -33,12 +33,12 @@ const page = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
-          className="block antialiased tracking-widest  text-xs  font-semibold leading-snug text-yellow-200 mb-4"
+          className="block antialiased tracking-widest  text-xs  font-semibold leading-snug text-white mb-4"
         >
           December 16 2024
         </h4>
         <h4
-          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
+          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-200"
         >
           Fueling Success: The Benefits of Quality Coffee in the Office
         </h4>
@@ -51,9 +51,9 @@ const page = () => {
         </p>
         <div className="flex justify-between items-center text-white mt-2">
                  
-                 <Link href="/blog/blog4" className="inline-flex items-center font-medium text-white  hover:underline">
+                 <Link href="/blog/blog4" className="inline-flex items-center font-medium text-blue-200  hover:underline hover:underline-offset-8">
                      Read more
-                     <LuCircleArrowRight className='ml-2'/>
+                     <LuCircleArrowRight className='ml-2 transition-transform duration-300 hover:-rotate-90'/>
                  </Link>
              </div>
       </div>
@@ -71,12 +71,12 @@ const page = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
-          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-yellow-200 mb-4"
+          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-white mb-4"
         >
           December 9 2024
         </h4>
         <h4
-          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
+          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-200"
         >
           Coffee Breaks: The Secret Ingredient to Productivity
         </h4>
@@ -88,9 +88,9 @@ const page = () => {
         </p>
         <div className="flex justify-between items-center text-white mt-2">
                  
-                 <Link href="/blog/blog3" className="inline-flex items-center font-medium text-white  hover:underline">
+                 <Link href="/blog/blog3" className="inline-flex items-center font-medium text-blue-200  hover:underline hover:underline-offset-8">
                      Read more
-                     <LuCircleArrowRight className='ml-2'/>
+                     <LuCircleArrowRight className='ml-2 transition-transform duration-300 hover:-rotate-90'/>
                  </Link>
              </div>
       </div>
@@ -108,12 +108,12 @@ const page = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
-          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-yellow-200 mb-4"
+          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-white mb-4"
         >
           December 2 2024
         </h4>
         <h4
-          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
+          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-200"
         >
           5 Ways to Improve Your Office Coffee Experience
         </h4>
@@ -124,9 +124,9 @@ const page = () => {
         </p>
         <div className="flex justify-between items-center text-white mt-2">
                  
-                 <Link href="/blog/blog2" className="inline-flex items-center font-medium text-white  hover:underline">
+                 <Link href="/blog/blog2" className="inline-flex items-center font-medium text-blue-200  hover:underline hover:underline-offset-8">
                      Read more
-                     <LuCircleArrowRight className='ml-2'/>
+                     <LuCircleArrowRight className='ml-2 transition-transform duration-300 hover:-rotate-90'/>
                  </Link>
              </div>
       </div>
@@ -144,12 +144,12 @@ const page = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
       <h4
-          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-yellow-200 mb-4"
+          className="block antialiased tracking-widest  text-xs font-semibold leading-snug text-white mb-4"
         >
           November 25 2024
         </h4>
         <h4
-          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white"
+          className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-yellow-200"
         >
           The Origins of New Zealand Coffee
         </h4>
@@ -162,9 +162,9 @@ const page = () => {
         </p>
         <div className="flex justify-between items-center text-white mt-2">
                  
-                 <Link href="/blog/blog1" className="inline-flex items-center font-medium text-white  hover:underline">
+                 <Link href="/blog/blog1" className="inline-flex items-center font-medium text-yellow-200  hover:underline hover:underline-offset-8">
                      Read more
-                     <LuCircleArrowRight className='ml-2'/>
+                     <LuCircleArrowRight className='ml-2 transition-transform duration-300 hover:-rotate-90'/>
                  </Link>
              </div>
       </div>
