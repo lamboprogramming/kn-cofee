@@ -5,6 +5,7 @@ import img1 from '../../../../public/blog/blog1.jpg'
 import BlogNav from '../../components/BlogNav'
 import BackToTop from '@/app/components/BackToTop';
 import Footer from '@/app/components/Footer';
+import { MdDateRange } from "react-icons/md";
 
 const page = () => {
   return (
@@ -21,9 +22,12 @@ const page = () => {
 
         {/* Title */}
         <div className="flex flex-col items-center text-center font-bold lg:text-3xl text-2xl text-gray-800 leading-tight mt-4">
-            <h2 className='text-xs font-thin '>November 25 2024</h2>
             <h1 className='p-4'>Tracing the Roots: The Origins of New Zealand Coffee Culture</h1>
         </div>
+        <div className='flex justify-center'>
+               <MdDateRange/>
+               <h2 className='text-xs font-medium mt-0.5 ml-0.5 text-gray-800 '> November 25 2024</h2>
+           </div>
 
 
         {/* Post */}
@@ -72,11 +76,15 @@ const page = () => {
           In conclusion, New Zealand&apos;s coffee culture is a testament to the power of immigration, innovation, and cultural exchange. From its humble beginnings in the 19th century to its current status as a <span className="text-amber-600 font-bold">global coffee destination</span>, the evolution of New Zealand&apos;s coffee culture is a rich and dynamic story. As Kiwis continue to embrace and celebrate their love affair with coffee, one thing is clear: the spirit of <span className="font-bold text-gray-900">hospitality, creativity, and community</span> that defines New Zealand&apos;s coffee culture is here to stay.
         </p>
         </div>
-        <div className='flex justify-center text-3xl mt-4'>
+        {/* <div className='flex justify-center text-3xl mt-4'>
+       
+        </div> */}
+        
+    </div>
         <BackToTop />
-        </div>
         <Footer />
-    </div></>
+   
+    </>
   )
 }
 

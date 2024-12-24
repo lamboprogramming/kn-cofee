@@ -1,7 +1,8 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import img1 from '../../../../public/blog/blog3.jpg'
+import { MdDateRange } from "react-icons/md";
+import img1 from '../../../../public/blog/coff4.jpg'
 import Nav from '../../components/BlogNav'
 import BackToTop from '@/app/components/BackToTop';
 import Footer from '@/app/components/Footer';
@@ -10,7 +11,7 @@ const Page = () => {
   return (
     <>
     <Nav />
-      <div className="mt-6 p-4">
+      <div className="mt-4 p-4">
             <Image 
               src={img1}
               alt="Coffee Break" 
@@ -24,7 +25,10 @@ const Page = () => {
    
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="mb-10 text-center">
-          <h2 className='text-xs font-thin mb-6'>December 9 2024</h2>
+        <div className='flex justify-center'>
+               <MdDateRange/>
+               <h2 className='text-xs font-medium mb-4 mt-0.5 ml-1 text-gray-800  '> December 9 2024</h2>
+           </div>
           <h1 className="text-4xl font-bold text-gray-800 mb-4">Coffee Breaks: The Secret Ingredient to Productivity</h1>
           <p className="text-gray-600 text-lg">
             Coffee breaks are more than just a chance to grab a caffeine boost—they&apos;re a secret productivity hack for workplaces worldwide.

@@ -16,7 +16,7 @@ const BackToTop = () => {
         onClick={scrollToTop}
         className="px-6 py-3 text-black   "
       >
-        <div className="flex text-2xl mt-4">
+        <div className="flex text-2xl md:text-3xl mt-4">
         <RxTextAlignTop />
       
         </div>
