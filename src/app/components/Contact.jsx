@@ -1,6 +1,6 @@
 'use client';
 import { useState, useRef } from 'react';
-// import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import ContactInfo from './ContactInfo';
 
 export default function Contact() {
@@ -26,21 +26,23 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      'service_bt2iolr',
-      'template_67d4p1q',
-      form.current,
-      '3R0bhVy61UmW0fUQL'
-    ).then(
-      () => {
-        setIsSubmitted(true);
-        setError('');
-      },
-      (error) => {
-        console.error('Failed to send message:', error);
-        setError('Failed to send message. Please try again later.');
-      }
-    );
+    emailjs
+      .send(
+        'service_bt2iolr', 
+        'template_ogbwug8', 
+        formData, 
+        '3R0bhVy61UmW0fUQL' 
+      )
+      .then(
+        () => {
+          setIsSubmitted(true);
+          setError('');
+        },
+        (error) => {
+          console.error('Failed to send message:', error);
+          setError('Failed to send message. Please try again later.');
+        }
+      );
   };
 
   return (
@@ -57,7 +59,9 @@ export default function Contact() {
         <div className="max-w-screen-lg p-4 sm:mx-auto shadow-md">
           <div className="transition duration-300 transform rounded shadow-sm">
             {isSubmitted ? (
-              <p className="text-center text-green-600">Thank you for contacting us! We&apos;ll get back to you shortly.</p>
+              <p className="text-center text-green-600">
+                Thank you for contacting us! We&apos;ll get back to you shortly.
+              </p>
             ) : (
               <form ref={form} onSubmit={handleSubmit} className="p-4 space-y-4 tracking-widest">
                 {/* Email Field */}
@@ -71,10 +75,12 @@ export default function Contact() {
                     placeholder=" "
                     required
                   />
-                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">Email</label>
+                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
+                    Email
+                  </label>
                 </div>
 
-                {/* First Name Field */}
+                {/* First Name */}
                 <div className="relative z-0 w-full mb-5 group">
                   <input
                     type="text"
@@ -85,10 +91,12 @@ export default function Contact() {
                     placeholder=" "
                     required
                   />
-                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">First Name</label>
+                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
+                    First Name
+                  </label>
                 </div>
 
-                {/* Last Name Field */}
+                {/* Last Name */}
                 <div className="relative z-0 w-full mb-5 group">
                   <input
                     type="text"
@@ -99,10 +107,12 @@ export default function Contact() {
                     placeholder=" "
                     required
                   />
-                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">Last Name</label>
+                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
+                    Last Name
+                  </label>
                 </div>
 
-                {/* Company Field */}
+                {/* Company */}
                 <div className="relative z-0 w-full mb-5 group">
                   <input
                     type="text"
@@ -112,32 +122,33 @@ export default function Contact() {
                     className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-brown-500 peer"
                     placeholder=" "
                   />
-                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">Company</label>
+                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
+                    Company
+                  </label>
                 </div>
 
-            {/* Company Size dropdown */}
-            <div className="relative z-0 w-full mb-5 group">
-            <select
-            name="companySize"
-            value={formData.companySize}
-            onChange={handleInputChange}
-            className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-brown-500 peer"
-            required
-            >
-            <option value="" disabled hidden></option>
-            <option value="1-10">1-10 employees</option>
-            <option value="11-50">11-50 employees</option>
-            <option value="51-200">51-200 employees</option>
-            <option value="201-500">201-500 employees</option>
-            <option value="500+">500+ employees</option>
-            </select>
-          <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform          -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
-           Company Size
-          </label>
-            </div>
+                {/* Company Size */}
+                <div className="relative z-0 w-full mb-5 group">
+                  <select
+                    name="companySize"
+                    value={formData.companySize}
+                    onChange={handleInputChange}
+                    className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-brown-500 peer"
+                    required
+                  >
+                    <option value="" disabled hidden></option>
+                    <option value="1-10">1-10 employees</option>
+                    <option value="11-50">11-50 employees</option>
+                    <option value="51-200">51-200 employees</option>
+                    <option value="201-500">201-500 employees</option>
+                    <option value="500+">500+ employees</option>
+                  </select>
+                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
+                    Company Size
+                  </label>
+                </div>
 
-
-                {/* Phone Number Field */}
+                {/* Phone Number */}
                 <div className="relative z-0 w-full mb-5 group">
                   <input
                     type="text"
@@ -148,10 +159,12 @@ export default function Contact() {
                     placeholder=" "
                     required
                   />
-                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">Phone Number</label>
+                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
+                    Phone Number
+                  </label>
                 </div>
 
-                {/* State Field */}
+                {/* State */}
                 <div className="relative z-0 w-full mb-5 group">
                   <input
                     type="text"
@@ -161,28 +174,29 @@ export default function Contact() {
                     className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-brown-500 peer"
                     placeholder=" "
                   />
-                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">State</label>
+                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
+                    State
+                  </label>
                 </div>
 
-            {/* Additional Comments Field */}
-<div className="relative z-0 w-full mb-5 group">
-<textarea
-  name="comments"
-  value={formData.comments}
-  onChange={handleInputChange}
-  className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-brown-500 peer"
-  placeholder=" "
-  rows="4" // Adjust rows to control textarea height
-  required
-/>
-<label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
-  Additional Comments
-</label>
-</div>
+                {/* Comments */}
+                <div className="relative z-0 w-full mb-5 group">
+                  <textarea
+                    name="comments"
+                    value={formData.comments}
+                    onChange={handleInputChange}
+                    className="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-brown-500 peer"
+                    placeholder=" "
+                    rows="4"
+                  />
+                  <label className="peer-focus:font-medium absolute text-lg text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-brown-500 uppercase tracking-widest">
+                    Additional Comments
+                  </label>
+                </div>
 
                 <button
                   type="submit"
-                  className="w-full text-black duration-200  hover:bg-brown-50 hover:border-orange-800 focus:ring-4 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center  uppercase border border-black"
+                  className="w-full text-black duration-200 hover:bg-brown-50 hover:border-orange-800 focus:ring-4 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center uppercase border border-black"
                 >
                   Submit
                 </button>
