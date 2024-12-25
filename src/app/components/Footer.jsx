@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { IoArrowUpCircleSharp } from "react-icons/io5";
+import { IoIosArrowDropup } from "react-icons/io";
 import { Typography } from "@material-tailwind/react";
 
 const BackToTop = () => {
@@ -15,9 +15,9 @@ const BackToTop = () => {
     <div className="w-full text-center py-8 flex items-center justify-center">
       <button
         onClick={scrollToTop}
-        className=" gap-2 text-black font-medium hover:text-gray-500   "
+        className="   "
       >
-        <IoArrowUpCircleSharp className="flex text-4xl items-center justify-center" />
+        <IoIosArrowDropup className="flex text-3xl items-center justify-center" />
        
       </button>
     </div>
