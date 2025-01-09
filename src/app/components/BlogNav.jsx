@@ -39,7 +39,7 @@ const BlogNav = () => {
                 <FaFacebookSquare />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/stu-mills-749b892a/"
+                href="https://www.linkedin.com/company/kiwi-nutz-coffee/"
                 className="text-blue-500 text-xl"
               >
                 <IoLogoLinkedin />
@@ -54,7 +54,7 @@ const BlogNav = () => {
                 Kiwi Nutz Site
               </button>
             </Link>
-            <Link href="/blog">
+            <Link href="/coffee-blog">
               <button className="bg-blue-900 text-white text-xs py-3 px-6 rounded-lg">
                 Blog Home
               </button>
@@ -95,7 +95,7 @@ const BlogNav = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/blog">
+                <Link href="/coffee-blog">
                   <button className="w-full text-left bg-blue-900 text-white text-xs py-3 px-6 rounded-lg">
                     Blog Home
                   </button>

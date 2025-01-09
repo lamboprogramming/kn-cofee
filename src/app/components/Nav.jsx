@@ -78,7 +78,7 @@ export default function Nav() {
               </li>
               <li>
                 <a
-                  href="../blog"
+                  href="../coffee-blog"
                   className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
                 >
                   Blog
