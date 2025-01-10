@@ -118,7 +118,7 @@ const blogPosts = [
           <div className='mb-12 '>
             <h2 className="lg:text-xl font-semibold text-blue-700 mb-2 md:text-lg ">2. Encouraging Social Interaction</h2>
             <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
-            Coffee breaks aren't just about the coffee—they're about the people you share it with. These informal moments are a key ingredient in building strong workplace relationships.
+            Coffee breaks aren&apos;t just about the coffee—they&appos;re about the people you share it with. These informal moments are a key ingredient in building strong workplace relationships.
             </p>
             <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
@@ -128,7 +128,7 @@ const blogPosts = [
                 <strong>Team Bonding:</strong> Group coffee breaks foster camaraderie, strengthen relationships, and create opportunities for collaboration.
               </li>
               <li>
-                <strong>Cross-Department Networking:</strong> Larger companies can use coffee stations to break down silos, encouraging casual conversations between teams that wouldn't otherwise interact.
+                <strong>Cross-Department Networking:</strong> Larger companies can use coffee stations to break down silos, encouraging casual conversations between teams that wouldn&apos;t otherwise interact.
               </li>
             </ul>
           </div>
