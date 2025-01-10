@@ -78,7 +78,7 @@ export default function Nav() {
               </li>
               <li>
                 <a
-                  href="../coffee-blog"
+                  href="../blog"
                   className="block px-3 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
                 >
                   Blog
@@ -151,7 +151,7 @@ export default function Nav() {
             </li>
             <li>
               <a
-                href="../coffee-blog"
+                href="../blog"
                 className="sm:block px-4 py-2 rounded hover:text-orange-800 md:hover:bg-transparent md:border-0 md:hover:text-orange-800 md:p-0"
               >
                 Blog
