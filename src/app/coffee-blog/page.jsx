@@ -33,7 +33,16 @@ const blogPosts = [
     image: '/blog/img3.jpg',
     date: "December 2 2024",
     description:
-      "While office coffee setups can range from a basic pot to high-tech machines, improving the coffee experience doesn’t have to be complicated or costly.",
+      "While office coffee setups can range from a basic pot to high-tech machines, improving the coffee experience doesn't have to be complicated or costly.",
+  },
+  {
+    id: 4,
+    title: "Tracing the Roots: The Origins of New Zealand's Coffee Culture",
+    slug: "the-origins-of-new-zealands-coffee-culture",
+    image: '/blog/img4.jpg',
+    date: "November 25 2024",
+    description:
+      "In this article, we'll delve into the fascinating origins of New Zealand's coffee culture, tracing its evolution from humble beginnings to its current status as a global coffee destination.",
   },
 ];
 
@@ -63,10 +72,10 @@ const Page = () => {
 
                 {/* Content */}
                 <div className="p-6 relative flex flex-col justify-end">
-                  <h4 className="block antialiased tracking-tight text-xs font-semibold leading-snug text-white mb-4">
+                  <h4 className="block antialiased tracking-tight text-xs font-semibold leading-snug text-blue-300 mb-4">
                     {post.date}
                   </h4>
-                  <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-200">
+                  <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">
                     {post.title}
                   </h4>
                   <p className="block antialiased font-sans text-xs leading-relaxed text-white my-2 font-normal">
@@ -75,7 +84,7 @@ const Page = () => {
                   <div className="flex justify-between items-center text-white mt-2">
                     <Link
                       href={`/coffee-blog/${post.slug}`}
-                      className="inline-flex items-center font-medium text-blue-200 hover:underline hover:underline-offset-8"
+                      className="inline-flex items-center font-medium text-blue-300 hover:underline hover:underline-offset-8"
                     >
                       Read more
                       <LuCircleArrowRight className="ml-2 transition-transform duration-300 hover:-rotate-90" />
