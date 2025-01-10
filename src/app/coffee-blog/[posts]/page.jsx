@@ -34,7 +34,7 @@ const blogPosts = [
 
     {/* Paragraphs */}
     {/* 1 */}
-    <p className="text-sm sm:text-base lg:text-lg leading-loose sm:leading-10 md:leading-8">
+    <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8">
       <span className="font-semibold">Boosts Morale and Motivation:</span> It&apos;s no secret that a fresh cup of coffee has the power to uplift
       spirits and put a spring in one&apos;s step. By offering quality coffee in the office, employers can boost morale and
       motivation among their employees. The simple act of providing access to freshly brewed coffee communicates care and
@@ -44,7 +44,7 @@ const blogPosts = [
     </p>
 
     {/* 2 */}
-    <p className="text-sm sm:text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
       <span className="font-semibold">Promotes Collaboration and Creativity:</span> Coffee breaks have long been recognized as a catalyst
       for spontaneous conversations, brainstorming sessions, and idea exchanges in the workplace. By creating designated coffee
       areas or installing quality coffee machines, employers can encourage informal interactions and collaboration among
@@ -53,7 +53,7 @@ const blogPosts = [
     </p>
 
     {/* 3 */}
-    <p className="text-sm sm:text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
       <span className="font-semibold">Enhances Employee Well-Being:</span> Quality coffee not only satisfies the taste buds but also offers
       potential health benefits when consumed in moderation. Studies have shown that coffee contains antioxidants and bioactive
       compounds that may help reduce the risk of certain diseases, including cardiovascular disease and type 2 diabetes.
@@ -62,7 +62,7 @@ const blogPosts = [
     </p>
 
     {/* 4 */}
-    <p className="text-sm sm:text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
       <span className="font-semibold">Improves Employee Retention:</span> In today&apos;s competitive job market, employers are constantly
       seeking ways to attract and retain top talent. Offering quality coffee in the office can serve as a unique and attractive perk
       that sets companies apart from their competitors. Employees are more likely to feel valued and appreciated when their
@@ -71,7 +71,7 @@ const blogPosts = [
     </p>
 
     {/* 5 */}
-    <p className="text-sm sm:text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
       <span className="font-semibold">Cultivates Company Culture:</span> Coffee has a remarkable ability to bring people together and foster
       a sense of community in the workplace. Whether it&apos;s gathering around the coffee machine for a morning chat or sharing a
       coffee-fueled brainstorming session, coffee breaks provide valuable opportunities for employees to connect and bond with
@@ -94,12 +94,14 @@ const blogPosts = [
     date: "December 9 2024",
     content: (
       <>
-        <div className="space-y-4 font-sans p-2">
-            <h2 className="lg:text-xl font-semibold text-gray-700 mb-2">1. Recharge and Refocus</h2>
-            <p className="text-gray-700 mb-4 md:mb-6 lg:mb-8 text-base">
+        <div className="font-sans p-2 space-y-4  ">
+          {/* First */}
+          <div className='md:mb-12 mb-8'>
+            <h2 className="lg:text-xl font-semibold text-blue-700 mb-2 md:text-lg ">1. Recharge and Refocus</h2>
+            <p className="text-gray-700 mb-8 lg:mb-8 text-base leading-loose md:text-lg ">
               Taking a break, especially with a cup of coffee, can be the perfect way to recharge your mental energy. Studies show that brief breaks improve focus and prevent decision fatigue, leading to better productivity.
             </p>
-            <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base">
+            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>The Science Behind Breaks:</strong> Our brains function in cycles, alternating between high focus and natural dips in attention. A coffee break during these dips can help reset mental clarity.
               </li>
@@ -110,12 +112,15 @@ const blogPosts = [
                 <strong>Preventing Burnout:</strong> Regular coffee breaks throughout the day can help combat the physical and mental exhaustion that leads to burnout.
               </li>
             </ul>
-         
-            <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 ">2. Encouraging Social Interaction</h2>
-            <p className="text-gray-700 mb-4 md:mb-6 lg:mb-8 text-base">
-              Coffee breaks aren&apos;t just about the coffee—they&apos;re about the people you share it with. These informal moments are a key ingredient in building strong workplace relationships.
+          </div>
+
+          {/* Second */}
+          <div className='mb-12 '>
+            <h2 className="lg:text-xl font-semibold text-blue-700 mb-2 md:text-lg ">2. Encouraging Social Interaction</h2>
+            <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
+            Coffee breaks aren&apos;t just about the coffee—they&appos;re about the people you share it with. These informal moments are a key ingredient in building strong workplace relationships.
             </p>
-            <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base">
+            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>Spontaneous Connections:</strong> Coffee areas often serve as informal meeting spaces where employees from different teams can connect and share ideas.
               </li>
@@ -126,12 +131,15 @@ const blogPosts = [
                 <strong>Cross-Department Networking:</strong> Larger companies can use coffee stations to break down silos, encouraging casual conversations between teams that wouldn&apos;t otherwise interact.
               </li>
             </ul>
-       
-            <h2 className="lg:text-xl font-semibold text-gray-700 mb-2">3. Boosting Creativity and Problem-Solving</h2>
-            <p className="text-gray-700 mb-4 md:mb-6 lg:mb-8 text-base">
-              Some of the best ideas are born over a cup of coffee. A brief change in scenery and pace during a coffee break can spark creativity and help employees approach challenges with fresh perspectives.
+          </div>
+
+          {/* Third */}
+          <div className='mb-12'>
+            <h2 className="lg:text-xl font-semibold text-blue-700 mb-2 md:text-lg mt-12 ">3. Boosting Creativity and Problem-Solving</h2>
+            <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
+            Some of the best ideas are born over a cup of coffee. A brief change in scenery and pace during a coffee break can spark creativity and help employees approach challenges with fresh perspectives.
             </p>
-            <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base">
+            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>Relaxation Breeds Creativity:</strong> A coffee break allows employees to step back from intense tasks, creating mental space for new ideas to emerge.
               </li>
@@ -142,15 +150,18 @@ const blogPosts = [
                 <strong>Solving Stuck Problems:</strong> When employees feel stuck on a task, stepping away for a coffee break can help them return with a clearer mind.
               </li>
             </ul>
-         
-            <h2 className="lg:text-xl font-semibold text-gray-700 mb-2">4. The Power of Rituals</h2>
-            <p className="text-gray-700 mb-4 md:mb-6 lg:mb-8 text-base">
-              Regular coffee breaks can become a valued ritual that creates structure in the workday and enhances the workplace experience.
+          </div>
+
+          {/* Fourth */}
+          <div className='mb-12'>
+            <h2 className="lg:text-xl font-semibold text-blue-700 mb-2 md:text-lg mt-12 ">4. The Power of Rituals</h2>
+            <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
+            Regular coffee breaks can become a valued ritual that creates structure in the workday and enhances the workplace experience.
             </p>
-            <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base">
+            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>Morning Coffee Meetups:</strong> Starting the day with a shared coffee ritual helps set a positive tone and ensures employees feel connected right from the start.
-              </li>
+                </li>
               <li>
                 <strong>Scheduled Breaks:</strong> Instituting regular coffee break times encourages employees to step away from their work without guilt.
               </li>
@@ -158,15 +169,18 @@ const blogPosts = [
                 <strong>Cultural Significance:</strong> Coffee breaks can be tied to workplace culture, fostering a sense of belonging and unity.
               </li>
             </ul>
-        
-            <h2 className="lg:text-xl font-semibold text-gray-700 mb-2">5. A Space for Wellness</h2>
-            <p className="text-gray-700 mb-4 md:mb-6 lg:mb-8 text-base">
-              Coffee breaks can double as moments to focus on wellness, helping employees recharge both mentally and physically.
+          </div>
+
+          {/* Fifth */}
+          <div className='mb-12'>
+            <h2 className="lg:text-xl font-semibold text-blue-700 mb-2 md:text-lg mt-12 ">5. A Space for Wellness</h2>
+            <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
+            Coffee breaks can double as moments to focus on wellness, helping employees recharge both mentally and physically.
             </p>
-            <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base">
+            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>Mindful Coffee Moments:</strong> Encourage employees to savor their coffee slowly, taking a mindful approach to the experience.
-              </li>
+                </li>
               <li>
                 <strong>Movement and Hydration:</strong> Use coffee breaks as a reminder for employees to stretch, hydrate, or take a quick walk.
               </li>
@@ -174,13 +188,17 @@ const blogPosts = [
                 <strong>Mental Reset:</strong> Pair coffee breaks with a moment of gratitude, journaling, or breathing exercises for a holistic recharge.
               </li>
             </ul>
-
-            <p className="text-gray-600 text-sm leading-loose md:text-lg mt-6">
+          </div>
+         
+ 
+            <div className='mt-8'>
+            <p className="text-gray-700 text-base leading-loose md:text-lg mt-12">
               Coffee breaks are far more than a quick pit stop during the workday—they&apos;re a strategic tool for boosting productivity, fostering social connections, and nurturing creativity. By encouraging employees to take intentional breaks, workplaces can create a culture that values well-being and collaboration, resulting in happier and more productive teams.
             </p>
-            <p className="text-gray-600 text-sm md:text-lg leading-loose">
+            <p className="text-gray-700 text-base md:text-lg leading-loose mt-4">
               So, take a moment, pour yourself a cup, and start thinking about how your workplace can make the most of this secret ingredient to success!
             </p>
+            </div>
          
         </div>
       </>
@@ -309,7 +327,7 @@ const blogPosts = [
               <strong>Test and Rotate:</strong> Ensure the coffee station is easy to access, with a logical flow for grabbing cups, supplies, and cleaning up.
             </li>
           </ul>
-        <p className="text-sm sm:text-base  font-thin  mt-6 text-gray-700 md:mb-12 mb-10 ">
+        <p className="text-sm sm:text-base font-thin mt-6 text-gray-700 md:mb-12 mb-10 ">
           <span className="font-semibold">Pro Tip:</span> Consider forming a &quot;coffee committee&quot; of interested employees to manage choices and ensure everyone’s needs are met.
         </p>
       </div>
@@ -331,35 +349,30 @@ const blogPosts = [
         New Zealand, renowned for its breathtaking landscapes and vibrant culture, may not be the first place that comes to mind when thinking about coffee. However, this small island nation has quietly cultivated a thriving coffee culture that rivals some of the world&apos;s coffee capitals. 	
         </p>
            {/* par 1 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 underline-offset-8 underline decoration-blue-400">Early Beginnings</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base leading-loose  ">
-          The story of New Zealand&apos;s coffee culture begins in the 19th century when European immigrants brought their coffee-drinking traditions with them to the shores of Aotearoa. Coffeehouses, known as &quot;coffee palaces,&quot; began to emerge in cities like Auckland and Wellington, providing a social hub for locals to gather, converse, and enjoy a cup of coffee. While coffee consumption remained relatively modest during this time, these early establishments laid the groundwork for the coffee culture that would later flourish in New Zealand.
+          <span className='font-semibold'>Early Beginnings: </span>The story of New Zealand&apos;s coffee culture begins in the 19th century when European immigrants brought their coffee-drinking traditions with them to the shores of Aotearoa. Coffeehouses, known as &quot;coffee palaces,&quot; began to emerge in cities like Auckland and Wellington, providing a social hub for locals to gather, converse, and enjoy a cup of coffee. While coffee consumption remained relatively modest during this time, these early establishments laid the groundwork for the coffee culture that would later flourish in New Zealand.
           </p>
           
   
 
            {/* par 2 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-8 underline decoration-blue-400">The Espresso Revolution</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base leading-loose   ">
-          It wasn&apos;t until the mid-20th century that coffee consumption in New Zealand experienced a significant shift, thanks in large part to the influx of European immigrants from coffee-loving countries such as Italy and Greece. These immigrants brought with them their passion for espresso-based coffee drinks, igniting a cultural revolution that would forever change the way New Zealanders approached coffee. Espresso bars began to spring up in urban centers, serving up authentic Italian-style espresso shots and cappuccinos to eager customers.
+          <span className='font-semibold'>The Espresso Revolution: </span>It wasn&apos;t until the mid-20th century that coffee consumption in New Zealand experienced a significant shift, thanks in large part to the influx of European immigrants from coffee-loving countries such as Italy and Greece. These immigrants brought with them their passion for espresso-based coffee drinks, igniting a cultural revolution that would forever change the way New Zealanders approached coffee. Espresso bars began to spring up in urban centers, serving up authentic Italian-style espresso shots and cappuccinos to eager customers.
           </p>
     
            {/* par 3 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-8 underline decoration-blue-400">The Rise of the Café Culture</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base leading-loose  ">
-          The 1980s marked a turning point for New Zealand&apos;s coffee culture with the emergence of the café scene. Inspired by the café cultures of Europe and North America, a new generation of entrepreneurs began opening stylish and eclectic cafés across the country, each with its own unique ambiance and menu offerings. These cafés became more than just places to grab a cup of coffee; they were social hubs where people gathered to relax, converse, and soak in the vibrant atmosphere. With an emphasis on quality, consistency, and customer service, these cafés set the standard for what would become known as &quot;Kiwi café culture.&quot;
+          <span className='font-semibold'>The Rise of the Café Culture: </span>The 1980s marked a turning point for New Zealand&apos;s coffee culture with the emergence of the café scene. Inspired by the café cultures of Europe and North America, a new generation of entrepreneurs began opening stylish and eclectic cafés across the country, each with its own unique ambiance and menu offerings. These cafés became more than just places to grab a cup of coffee; they were social hubs where people gathered to relax, converse, and soak in the vibrant atmosphere. With an emphasis on quality, consistency, and customer service, these cafés set the standard for what would become known as &quot;Kiwi café culture.&quot;
           </p>
      
            {/* par 4 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-8 underline decoration-blue-400">Innovation and Excellence</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base  leading-loose  ">
-          In recent years, New Zealand&apos;s coffee culture has continued to evolve and innovate, driven by a passion for excellence and a commitment to quality. The country&apos;s coffee industry has become increasingly sophisticated, with a focus on specialty coffee roasting, brewing techniques, and barista training. New Zealand has gained recognition on the global stage for its world-class coffee, with Auckland and Wellington consistently ranked among the top coffee cities in the world.
+          <span className='font-semibold'>Innovation and Excellence: </span>In recent years, New Zealand&apos;s coffee culture has continued to evolve and innovate, driven by a passion for excellence and a commitment to quality. The country&apos;s coffee industry has become increasingly sophisticated, with a focus on specialty coffee roasting, brewing techniques, and barista training. New Zealand has gained recognition on the global stage for its world-class coffee, with Auckland and Wellington consistently ranked among the top coffee cities in the world.
           </p>
      
            {/* par 5 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-8 underline decoration-blue-400">Cultural Impact </h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base leading-loose  ">
-          Beyond its culinary significance, coffee plays a central role in New Zealand&apos;s cultural fabric, serving as a symbol of hospitality, connection, and creativity. Whether it&apos;s catching up with friends over a flat white, brainstorming ideas at a local café, or enjoying a leisurely weekend brunch, coffee has become an integral part of everyday life for many New Zealanders. The coffee culture that has flourished in New Zealand reflects the country&apos;s diverse cultural influences, entrepreneurial spirit, and commitment to quality and innovation.
+          <span className='font-semibold'>Cultural Impact: </span>Beyond its culinary significance, coffee plays a central role in New Zealand&apos;s cultural fabric, serving as a symbol of hospitality, connection, and creativity. Whether it&apos;s catching up with friends over a flat white, brainstorming ideas at a local café, or enjoying a leisurely weekend brunch, coffee has become an integral part of everyday life for many New Zealanders. The coffee culture that has flourished in New Zealand reflects the country&apos;s diverse cultural influences, entrepreneurial spirit, and commitment to quality and innovation.
           </p>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base leading-loose mt-4 ">
           In conclusion, New Zealand&apos;s coffee culture is a testament to the power of immigration, innovation, and cultural exchange. From its humble beginnings in the 19th century to its current status as a global coffee destination, the evolution of New Zealand&apos;s coffee culture is a rich and dynamic story. As Kiwis continue to embrace and celebrate their love affair with coffee, one thing is clear: the spirit of hospitality, creativity, and community that defines New Zealand&apos;s coffee culture is here to stay.
