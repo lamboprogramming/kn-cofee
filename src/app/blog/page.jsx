@@ -83,7 +83,7 @@ const Page = () => {
                   </p>
                   <div className="flex justify-between items-center text-white mt-2">
                     <Link
-                      href={`/coffee-blog/${post.slug}`}
+                      href={`/blog/${post.slug}`}
                       className="inline-flex items-center font-medium text-blue-300 hover:underline hover:underline-offset-8"
                     >
                       Read more

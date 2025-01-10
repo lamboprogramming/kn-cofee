@@ -54,7 +54,7 @@ const BlogNav = () => {
                 Kiwi Nutz Site
               </button>
             </Link>
-            <Link href="/coffee-blog">
+            <Link href="/blog">
               <button className="bg-blue-900 text-white text-xs py-3 px-6 rounded-lg">
                 Blog Home
               </button>
@@ -95,7 +95,7 @@ const BlogNav = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/coffee-blog">
+                <Link href="/blog">
                   <button className="w-full text-left bg-blue-900 text-white text-xs py-3 px-6 rounded-lg">
                     Blog Home
                   </button>
