@@ -44,6 +44,25 @@ const blogPosts = [
     description:
       "In this article, we'll delve into the fascinating origins of New Zealand's coffee culture, tracing its evolution from humble beginnings to its current status as a global coffee destination.",
   },
+  {
+    id: 5,
+    title: "Sustainability in Office Coffee: How to Brew Greener",
+    slug: "sustainability-in-office-coffee-how-to-brew-greener",
+    image: '/blog/img5.jpg',
+    date: "November 18 2024",
+    description:
+      "By rethinking how coffee is brewed, sourced, and disposed of in the workplace, companies can take meaningful steps toward a greener future.",
+  },
+  {
+    id: 6,
+    title: "The Best Office Coffee in NJ, NY, and CT: Why Kiwi Nutz Coffee Stands Out",
+    slug: "the-best-office-coffee-in-new-jersey-new-york-and-connecticut",
+    image: '/blog/img6.jpg',
+    date: "November 15 2024",
+    description:
+      "In the bustling tri-state area of New Jersey, New York, and Connecticut, coffee is more than just a drink—it's the fuel that powers workplaces big and small.",
+  },
+
 ];
 
 const Page = () => {
