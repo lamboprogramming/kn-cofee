@@ -98,7 +98,7 @@ const blogPosts = [
       ),
       
      },
-   // Id 7
+   // Id 7 Jan 1
    {
     id: 7,
     title: "New Jersey’s Office Coffee Game Changer: Why Kiwi Nutz Coffee Rules the Garden State",
@@ -162,8 +162,8 @@ const blogPosts = [
         </div>
 
         {/* Section 4 */}
-        <div className="bg-gradient-to-br  p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+        <div className="bg-gradient-to-br from-purple-100 to-purple-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <h2 className="text-2xl font-semibold text-purple-700 mb-4">
           Why Kiwi Nutz Coffee Is the King of Jersey Office Coffee
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
