@@ -5,6 +5,7 @@ import Image from 'next/image';
 import BlogNav from '@/app/components/BlogNav';
 import Footer from '@/app/components/Footer';
 import { MdDateRange } from "react-icons/md";
+import Link from 'next/link';
 
 
 
@@ -12,6 +13,91 @@ import { MdDateRange } from "react-icons/md";
 
 // Array of blog posts
 const blogPosts = [
+    // Id 8
+    {
+      id: 8,
+      title: "Corporate Coffee Solutions in the Tri-State Area: Discover Kiwi Nutz Coffee",
+      slug: "corporate-coffee-solutions-in-the-tri-state-area-discover-kiwi-nutz-coffee",
+      image: '/blog/img8c.jpg',
+      date: "January 8 2025",
+      content: (
+        <>
+      <div className="bg-gradient-to-r from-lime-200 via-emerald-200 to-green-300 text-gray-800 py-12 px-6 sm:px-12 lg:px-24">
+      <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+        <header className="bg-green-700 text-white py-6 px-8">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+            Corporate Coffee Solutions in the Tri-State Area
+          </h1>
+        </header>
+        <div className="p-8 space-y-6">
+          <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed">
+            In the fast-paced world of business, great coffee isn’t just a perk—it’s a necessity. Enter <span className="font-bold text-green-700">Kiwi Nutz Coffee</span>, the Tri-State area’s go-to provider of corporate coffee solutions. With roots in New Zealand, Kiwi Nutz Coffee brings a fresh approach to the workplace coffee experience, combining friendly service, exceptional quality, and unbeatable value.
+          </p>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-green-700 mb-4">A Taste of New Zealand in Your Office</h2>
+            <p className="text-lg leading-relaxed">
+              What sets Kiwi Nutz Coffee apart is its unique New Zealand heritage. Known for its lush landscapes, vibrant culture, and world-class coffee, New Zealand inspires Kiwi Nutz Coffee to deliver a hassle-free coffee experience that captures the essence of its home country. From the rich, nutty blends to the smooth, aromatic brews, each cup is a small escape to the Southern Hemisphere.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-green-700 mb-4">Quality Without Compromise</h2>
+            <p className="text-lg leading-relaxed">
+              Kiwi Nutz Coffee prides itself on offering premium coffee solutions tailored to corporate needs. Using carefully sourced beans and expert roasting techniques, the brand ensures every sip meets the highest standards of quality. Whether you’re serving clients or energizing your team, Kiwi Nutz Coffee guarantees satisfaction with every cup.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-green-700 mb-4">Hassle-Free Service, Every Step of the Way</h2>
+            <p className="text-lg leading-relaxed">
+              Running an office is already challenging enough—your coffee shouldn’t add to the stress. Kiwi Nutz Coffee specializes in hassle-free corporate coffee services. From quick setup to regular maintenance and supplies, their team takes care of everything, allowing you to focus on what matters most: your business.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-green-700 mb-4">Value You Can Count On</h2>
+            <p className="text-lg leading-relaxed">
+              Balancing budgets without sacrificing quality is a challenge for any office, but Kiwi Nutz Coffee makes it simple. Offering competitive pricing and flexible packages, they ensure you get the best value for your investment. Whether you’re a small startup or a large corporation, Kiwi Nutz Coffee has a solution to fit your needs.
+            </p>
+          </section>
+
+          <div className="bg-green-100 p-6 rounded-md">
+            <h3 className="text-xl font-bold text-green-700 mb-4">Why Kiwi Nutz Coffee?</h3>
+            <ul className="list-disc list-inside space-y-2 text-lg">
+              <li><span className="font-bold">Friendly Service:</span> Their team is dedicated to making your coffee experience smooth and enjoyable.</li>
+              <li><span className="font-bold">New Zealand-Inspired:</span> Experience the hospitality of New Zealand, right in your office.</li>
+              <li><span className="font-bold">Quality Guaranteed:</span> Only the best beans and blends for your team and clients.</li>
+              <li><span className="font-bold">Hassle-Free Solutions:</span> Comprehensive service that takes the stress out of coffee management.</li>
+              <li><span className="font-bold">Value for Money:</span> Customized packages to suit businesses of any size.</li>
+            </ul>
+          </div>
+
+          <footer className="text-center">
+            <p className="text-lg sm:text-xl">
+              <span className="font-bold text-green-700">Transform Your Office Coffee Experience Today</span>
+            </p>
+            <p className="mt-4 text-lg">
+              Contact Kiwi Nutz Coffee and discover how they can make your office coffee experience truly exceptional!
+            </p>
+            <Link
+              href="/#contact"
+              className="inline-block mt-6 px-8 py-3 bg-green-700 text-white rounded-lg shadow-md hover:bg-green-800"
+            >
+              Learn More
+            </Link>
+          </footer>
+        </div>
+      </div>
+    </div>
+  
+        
+  
+        </>
+  
+      ),
+      
+     },
    // Id 7
    {
     id: 7,
@@ -98,7 +184,7 @@ const blogPosts = [
 
     ),
     
-  },
+   },
   // Id 1 Fueling Success 12/16/24
   {
     id: 1,
