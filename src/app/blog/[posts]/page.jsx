@@ -12,6 +12,93 @@ import { MdDateRange } from "react-icons/md";
 
 // Array of blog posts
 const blogPosts = [
+   // Id 7
+   {
+    id: 7,
+    title: "New Jersey’s Office Coffee Game Changer: Why Kiwi Nutz Coffee Rules the Garden State",
+    slug: "new-jerseys-office-coffee-game-changer-why-kiwi-nutz-coffee-rules-the-garden-state",
+    image: '/blog/img7a.jpg',
+    date: "January 1 2025",
+    content: (
+      <>
+     <div className="max-w-4xl mx-auto px-6 py-12">
+    
+
+      <div className="grid grid-cols-1 gap-8">
+        {/* Section 1 */}
+        <div className="bg-gradient-to-br from-green-100 to-green-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <h2 className="text-2xl font-semibold text-green-700 mb-4">
+            1. Quality That&apos;ll Knock Your Socks Off
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            New Jersey runs on good coffee, not that watery nonsense from cheap breakroom machines.
+            Kiwi Nutz Coffee delivers the goods with premium blends that&apos;ll have your team singing its
+            praises louder than fans at a Bruce Springsteen concert.
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-gray-600">
+            <li>Beans Built for Jersey: Bold, rich, and unapologetically fresh—just like us.</li>
+            <li>No Sad Office Coffee Here: Every sip feels like a mini vacation.</li>
+            <li>Options for Everyone: From strong brews to lighter blends, they&apos;ve got it all.</li>
+          </ul>
+        </div>
+
+        {/* Section 2 */}
+        <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+            2. Service So Good, You&apos;ll Forget You&apos;re in Jersey
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Let&apos;s be honest, we don&apos;t expect great service everywhere. But Kiwi Nutz Coffee? They&apos;re
+            flipping the script with service that&apos;s as top-notch as a slice from your favorite pizzeria.
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-gray-600">
+            <li>Always On Time: Delivering fresh coffee faster than you can say “jughandle.”</li>
+            <li>Customized for Your Crew: Perfect blends for everyone in the office.</li>
+            <li>Friendly Support: Their team is so helpful, it&apos;s almost suspicious.</li>
+          </ul>
+        </div>
+
+        {/* Section 3 */}
+        <div className="bg-gradient-to-br from-yellow-100 to-yellow-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <h2 className="text-2xl font-semibold text-yellow-700 mb-4">
+            3. Value That&apos;s as Sweet as a Jersey Diner Pancake Stack
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            We all love a good deal—especially when it means getting high-quality coffee without
+            overspending.
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-gray-600">
+            <li>Budget-Friendly Brilliance: Great coffee doesn&apos;t have to break the bank.</li>
+            <li>Eco-Friendly Bonus: Recyclable packaging and refillable options.</li>
+            <li>No Surprises: Clear, affordable pricing with no hidden fees, no drama. (Looking at you, Parkway
+              tolls.).</li>
+          </ul>
+        </div>
+
+        {/* Section 4 */}
+        <div className="bg-gradient-to-br  p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Why Kiwi Nutz Coffee Is the King of Jersey Office Coffee
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Here&apos;s why offices across New Jersey are ditching their sad coffee for Kiwi Nutz Coffee:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-gray-600">
+            <li>Jersey Pride: Strong coffee, no nonsense, no waiting.</li>
+            <li>Taste That Delivers: Better than gas station sludge.</li>
+            <li>Morale Booster: A good cup of coffee makes everyone happier—even Linda in accounting.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+      
+
+      </>
+
+    ),
+    
+  },
   // Id 1 Fueling Success 12/16/24
   {
     id: 1,
@@ -631,6 +718,7 @@ const blogPosts = [
       ),
       
     },
+   
 ];
 
 

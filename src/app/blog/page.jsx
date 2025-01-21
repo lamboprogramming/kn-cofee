@@ -9,6 +9,15 @@ import Footer from '../components/Footer';
 // Blog posts array
 const blogPosts = [
   {
+    id: 7,
+    title: "New Jersey's Office Coffee Game Changer: Why Kiwi Nutz Coffee Rules the Garden State",
+    slug: "new-jerseys-office-coffee-game-changer-why-kiwi-nutz-coffee-rules-the-garden-state",
+    image: '/blog/img7a.jpg',
+    date: "January 1 2025",
+    description:
+      "From the early-morning commuters pounding Route 1 to the boardwalk dreamers plotting their next big idea, caffeine is the lifeblood of the Garden State.",
+  },
+  {
     id: 1,
     title: "Fueling Success: The Benefits of Quality Coffee in the Office",
     slug: "fueling-success-benefits-of-quality-coffee-in-office",
@@ -62,6 +71,7 @@ const blogPosts = [
     description:
       "In the bustling tri-state area of New Jersey, New York, and Connecticut, coffee is more than just a drink—it's the fuel that powers workplaces big and small.",
   },
+
 
 ];
 
