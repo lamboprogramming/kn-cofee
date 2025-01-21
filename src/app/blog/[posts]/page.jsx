@@ -711,7 +711,7 @@ const blogPosts = [
 
           {/* # 1 */}
           <h2 className="lg:text-xl font-bold text-blue-700 mb-2">1. Quality That Speaks for Itself</h2>
-          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider font-thin">
+          <p className="mb-2 sm:mb-4 mt-1 text-lg leading-relaxed tracking-wide">
           When it comes to coffee, quality is non-negotiable. Kiwi Nutz Coffee sets the gold standard with its carefully curated selection of premium blends.
           </p>
           <ul className="list-disc list-outside space-y-4 text-gray-700  mt-2 p-2">
@@ -725,13 +725,13 @@ const blogPosts = [
               <strong className='text-lg'>Crafted with Care:</strong> Their coffee is known for its rich aroma, complex flavors, and velvety smooth finish—a true treat for coffee aficionados.
             </li>
           </ul>
-          <p className="mb-12 sm:mb-16 mt-4 text-sm sm:text-base  leading-loose tracking-wide font-semibold">
+          <p className="mb-12 sm:mb-16 mt-4 text-base  leading-loose tracking-wide font-semibold">
             Whether your team prefers a classic Americano, a robust espresso, or a trendy cold brew, Kiwi Nutz Coffee delivers consistent excellence with every sip.
           </p>
 
           {/* # 2 */}
           <h2 className="lg:text-xl font-bold text-blue-700">2. Service Tailored to Your Office Needs</h2>
-          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider font-thin">
+          <p className="mb-2 sm:mb-4 mt-1 text-lg leading-relaxed tracking-wide">
           Kiwi Nutz Coffee doesn&apos;t just provide coffee—it delivers a comprehensive service experience that takes the hassle out of office coffee management.
           </p>
           <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
@@ -748,13 +748,13 @@ const blogPosts = [
               <strong className='text-lg'>Outstanding Customer Support:</strong> Their responsive and knowledgeable team is always ready to help, from troubleshooting equipment to recommending blends based on employee feedback.
             </li>
           </ul>
-          <p className="mb-12 sm:mb-16 mt-4 text-sm sm:text-base  leading-loose tracking-wide font-semibold">
+          <p className="mb-12 sm:mb-16 mt-4 text-base  leading-loose tracking-wide font-semibold">
            This commitment to service ensures that your office coffee experience is not only stress-free but also enjoyable.
           </p>
 
           {/* # 3 */}
           <h2 className="lg:text-xl font-bold text-blue-700">3. Unmatched Value for Offices in the Tri-State Area</h2>
-          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider font-thin">
+          <p className="mb-2 sm:mb-4 mt-1 text-lg leading-relaxed  tracking-wide">
           In addition to delivering top-tier quality and service, Kiwi Nutz Coffee offers incredible value that makes them a go-to choice for businesses in New Jersey, New York, and Connecticut.
           </p>
           <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
@@ -768,14 +768,14 @@ const blogPosts = [
               <strong className='text-lg'>Sustainability at No Extra Cost:</strong> Kiwi Nutz Coffee prioritizes environmentally-friendly practices, such as sourcing ethically grown beans and offering recyclable packaging.
             </li>
           </ul>
-          <p className="mb-12 sm:mb-16 mt-4 text-sm sm:text-base  leading-loose tracking-wide font-semibold">
+          <p className="mb-12 sm:mb-16 mt-4 text-base  leading-loose tracking-wide font-semibold">
           By striking the perfect balance between price and quality, Kiwi Nutz Coffee proves that you don’t need to compromise to get the best.
           </p>
 
           {/* Outro */}
           <h2 className="lg:text-xl font-bold text-blue-700">Why Offices in the Tri-State Area Love Kiwi Nutz Coffee</h2>
-          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
-          Here’s why businesses in New Jersey, New York, and Connecticut consistently choose Kiwi Nutz Coffee:
+          <p className="mb-2 sm:mb-4 mt-1 text-lg leading-relaxed tracking-wide">
+          Here&apos;s why businesses in New Jersey, New York, and Connecticut consistently choose Kiwi Nutz Coffee:
           </p>
           <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
             <li className='text-base'>
@@ -789,10 +789,7 @@ const blogPosts = [
             </li>
           </ul>
           <h1 className="font-bold text-lg mt-12 ">Conclusion</h1>
-          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
-          Here’s why businesses in New Jersey, New York, and Connecticut consistently choose Kiwi Nutz Coffee:
-          </p>
-       
+        
           <p className="mt-4 text-base leading-loose sm:leading-8 ">
           For offices in New Jersey, New York, and Connecticut, Kiwi Nutz Coffee is more than just a coffee supplier—it&apos;s a partner in creating a vibrant and energized workplace. With their commitment to quality, tailored service, and exceptional value, Kiwi Nutz Coffee has earned its reputation as the best office coffee provider in the tri-state area.
           Ready to elevate your office coffee game? Give Kiwi Nutz Coffee a try and experience the difference that premium coffee and outstanding service can make. Your team—and their taste buds—will thank you!
