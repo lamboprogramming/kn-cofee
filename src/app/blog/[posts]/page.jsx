@@ -12,6 +12,7 @@ import { MdDateRange } from "react-icons/md";
 
 // Array of blog posts
 const blogPosts = [
+  // Id 1 Fueling Success 12/16/24
   {
     id: 1,
     title: "Fueling Success: The Benefits of Quality Coffee in the Office",
@@ -85,7 +86,7 @@ const blogPosts = [
     
   },
 
-  // Blog 2
+  // Id 2
   {
     id: 2,
     title: "Coffee Breaks: The Secret Ingredient to Productivity",
@@ -101,7 +102,7 @@ const blogPosts = [
             <p className="text-gray-700 mb-8 lg:mb-8 text-base leading-loose md:text-lg ">
               Taking a break, especially with a cup of coffee, can be the perfect way to recharge your mental energy. Studies show that brief breaks improve focus and prevent decision fatigue, leading to better productivity.
             </p>
-            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
+            <ul className="list-disc list-outside  space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>The Science Behind Breaks:</strong> Our brains function in cycles, alternating between high focus and natural dips in attention. A coffee break during these dips can help reset mental clarity.
               </li>
@@ -120,7 +121,7 @@ const blogPosts = [
             <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
             Coffee breaks aren&apos;t just about the coffee—they&appos;re about the people you share it with. These informal moments are a key ingredient in building strong workplace relationships.
             </p>
-            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
+            <ul className="list-disc list-outside  space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>Spontaneous Connections:</strong> Coffee areas often serve as informal meeting spaces where employees from different teams can connect and share ideas.
               </li>
@@ -139,7 +140,7 @@ const blogPosts = [
             <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
             Some of the best ideas are born over a cup of coffee. A brief change in scenery and pace during a coffee break can spark creativity and help employees approach challenges with fresh perspectives.
             </p>
-            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
+            <ul className="list-disc list-outside  space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>Relaxation Breeds Creativity:</strong> A coffee break allows employees to step back from intense tasks, creating mental space for new ideas to emerge.
               </li>
@@ -158,7 +159,7 @@ const blogPosts = [
             <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
             Regular coffee breaks can become a valued ritual that creates structure in the workday and enhances the workplace experience.
             </p>
-            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
+            <ul className="list-disc list-outside  space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>Morning Coffee Meetups:</strong> Starting the day with a shared coffee ritual helps set a positive tone and ensures employees feel connected right from the start.
                 </li>
@@ -177,7 +178,7 @@ const blogPosts = [
             <p className="text-gray-700 mb-8 md:mb-6 lg:mb-8 text-base leading-loose md:text-lg ">
             Coffee breaks can double as moments to focus on wellness, helping employees recharge both mentally and physically.
             </p>
-            <ul className="list-disc list-inside space-y-8 text-gray-700 text-base md:text-lg ">
+            <ul className="list-disc list-outside  space-y-8 text-gray-700 text-base md:text-lg ">
               <li>
                 <strong>Mindful Coffee Moments:</strong> Encourage employees to savor their coffee slowly, taking a mindful approach to the experience.
                 </li>
@@ -206,7 +207,7 @@ const blogPosts = [
     
   },
   
-  // Blog 3
+  // Id 3
   {
     id: 3,
     title: "5 Ways to Improve Your Office Coffee Experience",
@@ -223,12 +224,12 @@ const blogPosts = [
           and keep your team energized and satisfied.
         </p>
            {/* par 1 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 underline-offset-8 underline decoration-yellow-400">1. Upgrade the Machine</h2>
+          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 underline-offset-4  underline decoration-yellow-400">1. Upgrade the Machine</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base ">
             Investing in the right coffee machine can make a world of difference. The perfect machine depends on your team&apos;s size
             and preferences.
           </p>
-          <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base mt-2">
+          <ul className="list-disc list-outside  space-y-4 text-gray-700 text-sm md:text-base mt-2">
             <li>
               <strong>Single-Serve Machines:</strong> Ideal for smaller offices or employees with varying tastes. Machines like Keurig
               or Nespresso allow for personalized drinks without waste.
@@ -249,11 +250,11 @@ const blogPosts = [
         </p>
 
            {/* par 2 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-8 underline decoration-yellow-400">2. Curate the Beans</h2>
+          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-4  underline decoration-yellow-400">2. Curate the Beans</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base ">
           The quality of your coffee starts with the beans. Offering a variety of beans or blends can cater to diverse tastes and make employees feel valued.
           </p>
-          <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base mt-2">
+          <ul className="list-disc list-outside  space-y-4 text-gray-700 text-sm md:text-base mt-2">
             <li>
               <strong>Source Locally:</strong> Partner with local roasters to support small businesses and provide fresh, high-quality beans.
             </li>
@@ -268,11 +269,11 @@ const blogPosts = [
           <span className="font-semibold">Pro Tip:</span> Kiwi Nutz Coffee sources Fair Trade coffee beans globally and roasts locally to ensure quality and freshness – it&apos;s a small detail that can enhance the coffee experience.
         </p>
            {/* par 3 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-8 underline decoration-yellow-400">3. Stock the Essentials</h2>
+          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-4  underline decoration-yellow-400">3. Stock the Essentials</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base ">
           Your coffee setup isn&apos;t complete without the extras that make coffee personal. Stocking a range of options shows you care about everyone&apos;s preferences.
           </p>
-          <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base mt-2">
+          <ul className="list-disc list-outside  space-y-4 text-gray-700 text-sm md:text-base mt-2">
             <li>
               <strong>Milk and Milk Alternatives:</strong> Include whole milk, skim milk, almond milk, oat milk, and soy milk.
             </li>
@@ -290,11 +291,11 @@ const blogPosts = [
           <span className="font-semibold">Pro Tip:</span> Use stylish dispensers or containers to keep your coffee station neat and visually appealing.
         </p>
            {/* par 4 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-8 underline decoration-yellow-400">4. Create a Coffee Corner</h2>
+          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-4  underline decoration-yellow-400">4. Create a Coffee Corner</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base ">
           The ambiance of your coffee space can influence how employees feel about their breaks. A well-designed coffee corner invites relaxation and social interaction.
           </p>
-          <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base mt-2">
+          <ul className="list-disc list-outside  space-y-4 text-gray-700 text-sm md:text-base mt-2">
             <li>
               <strong>Comfortable Seating:</strong>  Add a few chairs and small tables to encourage informal conversations.
             </li>
@@ -312,11 +313,11 @@ const blogPosts = [
           <span className="font-semibold">Pro Tip:</span> Rotate decor or add seasonal elements (e.g., pumpkins in fall or festive lights in December) to keep the space fresh and engaging.
         </p>
            {/* par 5 */}
-          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-8 underline decoration-yellow-400">5. Ask for Feedback</h2>
+          <h2 className="lg:text-xl font-semibold text-gray-700 mb-2 mt-4 underline-offset-4  underline decoration-yellow-400">5. Ask for Feedback</h2>
           <p className="text-gray-800 mb-4 md:mb-6 sm:text-lg font-thin mt-2 text-base ">
           The easiest way to improve your office coffee experience is by asking employees what they want. Create an open feedback loop to ensure everyone feels included.
           </p>
-          <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base mt-2">
+          <ul className="list-disc list-outside  space-y-4 text-gray-700 text-sm md:text-base mt-2">
             <li>
               <strong>Surveys:</strong>  Add a few chairs and small tables to encourage informal conversations.
             </li>
@@ -335,7 +336,7 @@ const blogPosts = [
     
   },
 
-  // Blog 4
+  // Id 4
   {
     id: 4,
     title: "Tracing the Roots: The Origins of New Zealand's Coffee Culture",
@@ -382,6 +383,254 @@ const blogPosts = [
     ),
     
   },
+
+    // Id 5
+    {
+      id: 5,
+      title: "Sustainability in Office Coffee: How to Brew Greener",
+      slug: "sustainability-in-office-coffee-how-to-brew-greener",
+      image: '/blog/img5.jpg',
+      date: "November 18 2024",
+      content: (
+        <>
+        <div className='p-2 sm:p-0'>
+        <h1 className="font-bold text-lg ">Introduction</h1>
+        <p className="mb-8 leading-loose">
+        As businesses embrace sustainability, even small changes can make a big impact—starting with office coffee. The coffee industry has significant environmental and social implications, from the way coffee is grown to how it&apos;s consumed.
+         By rethinking how coffee is brewed, sourced, and disposed of in the workplace, companies can take meaningful steps toward a greener future. In this post, we&apos;ll explore actionable ways to make your office coffee setup more sustainable.
+        </p>
+           {/* # 1 */}
+          <h2 className="lg:text-xl font-bold text-gray-700 underline-offset-4 underline decoration-1">1. Choose Eco-Friendly Machines</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
+          The type of coffee machine you use can significantly affect your environmental footprint.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li>
+              <strong>Energy-Efficient Modelss:</strong> Look for machines with energy-saving features like auto-shutoff or programmable timers.
+            </li>
+            <li>
+              <strong>Bean-to-cup Systems:</strong> These machines reduce waste by eliminating the need for single-use pods or filters.
+            </li>
+            <li>
+              <strong>Cold Brew or French Press:</strong> Manual brewing methods like cold brew makers or French presses are both energy-efficient and waste-free.
+            </li>
+            <li>
+              <strong>Ownership Options:</strong> Consider machines that come with maintenance and repair services to extend their lifespan.
+            </li>
+          </ul>
+
+          {/* # 2 */}
+          <h2 className="lg:text-xl font-semibold text-gray-700 mt-6 sm:mt-8 underline-offset-4 underline decoration-1 ">2. Reduce Single-Use Waste</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
+          One of the biggest sustainability challenges in office coffee is waste, particularly from single-use items like pods, cups, and stirrers.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li>
+              <strong>Ditch Single-Use Pods:</strong> Switch to reusable coffee pods or machines that use loose grounds instead.
+            </li>
+            <li>
+              <strong>Encourage Reusable Cup:</strong> These machines reduce waste by eliminating the need for single-use pods or filters.
+            </li>
+            <li>
+              <strong>Compostable Options:</strong> If disposable cups and utensils are necessary, choose compostable or biodegradable alternatives.
+            </li>
+            <li>
+              <strong>Bulk Buying:</strong> Purchase coffee, sugar, and creamers in bulk to reduce packaging waste.
+            </li>
+          </ul>
+
+          {/* # 3 */}
+          <h2 className="lg:text-xl font-semibold text-gray-700 mt-6 sm:mt-8 underline-offset-4 underline decoration-1 ">3. Source Coffee Responsibly</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
+          The coffee you buy has a major impact on the environment and the communities that grow it.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li>
+              <strong>Fair Trade Coffee:</strong> Supports farmers with fair wages and sustainable farming practices.
+            </li>
+            <li>
+              <strong>Organic Coffee:</strong>  Reduces the use of synthetic pesticides and fertilizers, which harm the environment.
+            </li>
+            <li>
+              <strong>Rainforest Alliance Certified:</strong> Ensures coffee is grown in ways that protect ecosystems and promote biodiversity.
+            </li>
+            <li>
+              <strong>Local Roasters:</strong> Partner with local coffee roasters to reduce transportation emissions and support small businesses.
+            </li>
+          </ul>
+
+          {/* # 4 */}
+          <h2 className="lg:text-xl font-semibold text-gray-700 mt-6 sm:mt-8 underline-offset-4 underline decoration-1 ">4. Manage Coffee Grounds Responsibly</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
+          Used coffee grounds can be a hidden sustainability opportunity.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li>
+              <strong>Composting:</strong> Set up a composting program for coffee grounds. They&apos;re rich in nitrogen and perfect for garden soil.
+            </li>
+            <li>
+              <strong>Reuse in the Workplace:</strong> Encourage employees to use coffee grounds as natural fertilizers or in DIY beauty products like scrubs.
+            </li>
+            <li>
+              <strong>Partner with Local Farmers:</strong>  Donate used grounds to local farms or gardens that can use them for composting.
+            </li>
+            <li>
+              <strong>Coffee Grounds Recycling:</strong> Some cities have programs that collect coffee waste for repurposing into biofuels or other products.
+            </li>
+          </ul>
+
+          {/* # 5 */}
+          <h2 className="lg:text-xl font-semibold text-gray-700 mt-6 sm:mt-8 underline-offset-4 underline decoration-1 ">5.  Optimize Water Usage</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
+          Brewing coffee requires a significant amount of water, not just for making the drink but also for growing the beans.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li>
+              <strong>Filter Water On-Site:</strong> Use water filtration systems to reduce the need for bottled water.
+            </li>
+            <li>
+              <strong>Encourage Mindful Brewing:</strong> Train employees to brew only the amount of coffee they need to avoid wasting water and coffee grounds.
+            </li>
+            <li>
+              <strong>Sustainable Coffee Farming:</strong> Opt for coffee from farms that use water-saving irrigation techniques or participate in water conservation programs.
+            </li>
+          </ul>
+
+          {/* # 6 */}
+          <h2 className="lg:text-xl font-semibold text-gray-700 mt-6 sm:mt-8 underline-offset-4 underline decoration-1 ">6.  Educate and Involve Employees</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
+          Sustainability works best when everyone is on board. Engaging employees in your green coffee initiatives ensures their success.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li>
+              <strong>Raise Awareness:</strong> Share facts about the environmental impact of coffee and tips for eco-friendly habits.
+            </li>
+            <li>
+              <strong>Green Coffee Challenges:</strong>  Host friendly competitions like &quot;Most Creative Reuse of Coffee Grounds&quot; or &quot;Best Sustainable Mug Design.&quot;
+            </li>
+            <li>
+              <strong>Feedback Opportunities:</strong>  Involve employees in choosing sustainable coffee options or new practices for the office.
+            </li>
+          </ul>
+        </div>
+        </>
+  
+      ),
+      
+    },
+
+    // Id 6
+    {
+      id: 6,
+      title: "The Best Office Coffee in NJ, NY, and CT: Why Kiwi Nutz Coffee Stands Out",
+      slug: "the-best-office-coffee-in-new-jersey-new-york-and-connecticut",
+      image: '/blog/img6.jpg',
+      date: "November 15 2024",
+      content: (
+        <>
+        <div>
+        <h1 className="font-bold text-lg ">Introduction</h1>
+        <p className="mb-8 leading-relaxed">
+        In the bustling tri-state area of New Jersey, New York, and Connecticut, coffee is more than just a drink—it&apos;s 
+        the fuel that powers workplaces big and small. With countless brands vying for attention, finding the best office
+         coffee provider can be a daunting task. Enter Kiwi Nutz Coffee, a standout brand that delivers exceptional quality, unparalleled service, and unbeatable value for offices across the region.
+        </p>
+
+          {/* # 1 */}
+          <h2 className="lg:text-xl font-bold text-blue-700 mb-2">1. Quality That Speaks for Itself</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider font-thin">
+          When it comes to coffee, quality is non-negotiable. Kiwi Nutz Coffee sets the gold standard with its carefully curated selection of premium blends.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700  mt-2 p-2">
+            <li className='text-base'>
+              <strong className='text-lg'>Freshness Guaranteed:</strong>  Kiwi Nutz Coffee sources its beans from top coffee-growing regions and roasts them to perfection, ensuring every cup is as fresh and flavorful as possible.
+            </li>
+            <li className='text-base'>
+              <strong className='text-lg'>Diverse Options:</strong> From bold dark roasts to smooth medium blends and even cold brew options, there&apos;s something to satisfy every palate in your office.
+            </li>
+            <li className='text-base'>
+              <strong className='text-lg'>Crafted with Care:</strong> Their coffee is known for its rich aroma, complex flavors, and velvety smooth finish—a true treat for coffee aficionados.
+            </li>
+          </ul>
+          <p className="mb-12 sm:mb-16 mt-4 text-sm sm:text-base  leading-loose tracking-wide font-semibold">
+            Whether your team prefers a classic Americano, a robust espresso, or a trendy cold brew, Kiwi Nutz Coffee delivers consistent excellence with every sip.
+          </p>
+
+          {/* # 2 */}
+          <h2 className="lg:text-xl font-bold text-blue-700">2. Service Tailored to Your Office Needs</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider font-thin">
+          Kiwi Nutz Coffee doesn&apos;t just provide coffee—it delivers a comprehensive service experience that takes the hassle out of office coffee management.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li className='text-base'>
+              <strong className='text-lg'>Flexible Delivery Options:</strong> They work around your schedule to ensure your office is always stocked with fresh coffee.
+            </li>
+            <li className='text-base'>
+              <strong>Customizable Plans:</strong> Choose from a variety of subscription packages tailored to your team size and coffee consumption.
+              </li>
+            <li className='text-base'>
+              <strong className='text-lg'>Seamless Setup:</strong> Need equipment? Kiwi Nutz Coffee offers modern, user-friendly machines with setup and maintenance included.
+            </li>
+            <li className='text-base'>
+              <strong className='text-lg'>Outstanding Customer Support:</strong> Their responsive and knowledgeable team is always ready to help, from troubleshooting equipment to recommending blends based on employee feedback.
+            </li>
+          </ul>
+          <p className="mb-12 sm:mb-16 mt-4 text-sm sm:text-base  leading-loose tracking-wide font-semibold">
+           This commitment to service ensures that your office coffee experience is not only stress-free but also enjoyable.
+          </p>
+
+          {/* # 3 */}
+          <h2 className="lg:text-xl font-bold text-blue-700">3. Unmatched Value for Offices in the Tri-State Area</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider font-thin">
+          In addition to delivering top-tier quality and service, Kiwi Nutz Coffee offers incredible value that makes them a go-to choice for businesses in New Jersey, New York, and Connecticut.
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li className='text-base'>
+              <strong className='text-lg'>Competitive Pricing:</strong> Get premium coffee without breaking the budget, thanks to their transparent and affordable pricing models.
+            </li>
+            <li className='text-base'>
+              <strong>Cost-Saving Solutions:</strong> With options like bean-to-cup brewing, bulk bean deliveries, and energy-efficient machines, your office can save money while reducing waste.
+              </li>
+            <li className='text-base'>
+              <strong className='text-lg'>Sustainability at No Extra Cost:</strong> Kiwi Nutz Coffee prioritizes environmentally-friendly practices, such as sourcing ethically grown beans and offering recyclable packaging.
+            </li>
+          </ul>
+          <p className="mb-12 sm:mb-16 mt-4 text-sm sm:text-base  leading-loose tracking-wide font-semibold">
+          By striking the perfect balance between price and quality, Kiwi Nutz Coffee proves that you don’t need to compromise to get the best.
+          </p>
+
+          {/* Outro */}
+          <h2 className="lg:text-xl font-bold text-blue-700">Why Offices in the Tri-State Area Love Kiwi Nutz Coffee</h2>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
+          Here’s why businesses in New Jersey, New York, and Connecticut consistently choose Kiwi Nutz Coffee:
+          </p>
+          <ul className="list-disc list-outside space-y-4 text-gray-700 text-sm sm:text-base md:text-lg mt-2 p-2">
+            <li className='text-base'>
+              <strong className='text-lg'>Convenience:</strong> Local presence means faster delivery times and a better understanding of the unique needs of businesses in the area.
+            </li>
+            <li className='text-base'>
+              <strong>Community Connection:</strong> As a regional brand, Kiwi Nutz Coffee takes pride in supporting local businesses and creating meaningful relationships with its customers.
+              </li>
+            <li className='text-base'>
+              <strong className='text-lg'>Employee Satisfaction:</strong> High-quality coffee boosts employee morale, productivity, and overall workplace happiness—a win-win for any office.
+            </li>
+          </ul>
+          <h1 className="font-bold text-lg mt-12 ">Conclusion</h1>
+          <p className="mb-2 sm:mb-4 mt-1 text-sm sm:text-base md:text-lg leading-snug tracking-wider">
+          Here’s why businesses in New Jersey, New York, and Connecticut consistently choose Kiwi Nutz Coffee:
+          </p>
+       
+          <p className="mt-4 text-sm sm:text-base leading-loose sm:leading-8 ">
+          For offices in New Jersey, New York, and Connecticut, Kiwi Nutz Coffee is more than just a coffee supplier—it&apos;s a partner in creating a vibrant and energized workplace. With their commitment to quality, tailored service, and exceptional value, Kiwi Nutz Coffee has earned its reputation as the best office coffee provider in the tri-state area.
+          Ready to elevate your office coffee game? Give Kiwi Nutz Coffee a try and experience the difference that premium coffee and outstanding service can make. Your team—and their taste buds—will thank you!
+          </p>
+
+        </div>
+        </>
+  
+      ),
+      
+    },
 ];
 
 
