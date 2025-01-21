@@ -793,7 +793,7 @@ const blogPosts = [
           Here’s why businesses in New Jersey, New York, and Connecticut consistently choose Kiwi Nutz Coffee:
           </p>
        
-          <p className="mt-4 text-sm sm:text-base leading-loose sm:leading-8 ">
+          <p className="mt-4 text-base leading-loose sm:leading-8 ">
           For offices in New Jersey, New York, and Connecticut, Kiwi Nutz Coffee is more than just a coffee supplier—it&apos;s a partner in creating a vibrant and energized workplace. With their commitment to quality, tailored service, and exceptional value, Kiwi Nutz Coffee has earned its reputation as the best office coffee provider in the tri-state area.
           Ready to elevate your office coffee game? Give Kiwi Nutz Coffee a try and experience the difference that premium coffee and outstanding service can make. Your team—and their taste buds—will thank you!
           </p>
