@@ -9,6 +9,15 @@ import Footer from '../components/Footer';
 // Blog posts array
 const blogPosts = [
   {
+    id: 8,
+    title: "Corporate Coffee Solutions in the Tri-State Area: Discover Kiwi Nutz Coffee",
+    slug: "corporate-coffee-solutions-in-the-tri-state-area-discover-kiwi-nutz-coffee",
+    image: '/blog/img8c.jpg',
+    date: "January 8 2025",
+    description:
+      "In the fast-paced world of business, great coffee isn't just a perk—it's a necessity. Enter Kiwi Nutz Coffee, the Tri-State area's go-to provider of corporate coffee solutions.",
+  },
+  {
     id: 7,
     title: "New Jersey's Office Coffee Game Changer: Why Kiwi Nutz Coffee Rules the Garden State",
     slug: "new-jerseys-office-coffee-game-changer-why-kiwi-nutz-coffee-rules-the-garden-state",
