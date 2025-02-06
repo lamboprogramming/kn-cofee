@@ -24,7 +24,7 @@ const blogPosts = [
     image: '/blog/img12.jpg', 
     date: "February 3 2025",
     description:
-      "If you're still relying on outdated coffee machines or subpar coffee blends, it's time for a change. Kiwi Nutz Coffee is here to revolutionize your workplace caffeine experience.",
+      "Coffee lovers worldwide are feeling the pinch as the cost of their beloved brew continues to rise. From your local café to the office break room, the impact of soaring coffee prices is evident.",
   },
   {
     id: 11,
