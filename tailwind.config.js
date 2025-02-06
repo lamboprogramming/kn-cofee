@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const withMT = require("@material-tailwind/react/utils/withMT");
+const { Montserrat } = require('next/font/google');
 
 module.exports = withMT({
   content: [
@@ -14,6 +15,7 @@ module.exports = withMT({
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
       serif: ["Roboto Slab", "serif"],
+      montserrat: ["Montserrat", "sans-serif"],
     },
     extend: {
       colors: {

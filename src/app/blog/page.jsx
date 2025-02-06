@@ -9,6 +9,51 @@ import Footer from '../components/Footer';
 // Blog posts array
 const blogPosts = [
   {
+    id: 13,
+    title: "Top Ten Reasons Why You Deserve a Coffee Break (with Kiwi Nutz Coffee)",
+    slug: "top-ten-reasons-why-you-deserve-a-coffee-break",
+    image: '/blog/img13.jpg', 
+    date: "February 5 2025",
+    description:
+      "Work is hard, but coffee breaks make it bearable. Add Kiwi Nutz Coffee to the mix, and suddenly life's not so bad. Here's why you should be sneaking in more coffee breaks—guilt-free.",
+  },
+  {
+    id: 12,
+    title: "The High Cost of Coffee and How Kiwi Nutz Coffee Offers a Cost-Effective Solution",
+    slug: "the-high-cost-of-coffee-and-how-kiwi-nutz-coffee-offers-a-cost-effective-solution",
+    image: '/blog/img12.jpg', 
+    date: "February 3 2025",
+    description:
+      "If you're still relying on outdated coffee machines or subpar coffee blends, it's time for a change. Kiwi Nutz Coffee is here to revolutionize your workplace caffeine experience.",
+  },
+  {
+    id: 11,
+    title: "Top Ten Reasons to Upgrade Your Office Coffee Service with Kiwi Nutz Coffee",
+    slug: "top-ten-reasons-to-upgrade-your-office-coffee-service-with-kiwi-nutz-coffee",
+    image: '/blog/img11.jpg', 
+    date: "January 27 2025",
+    description:
+      "If you're still relying on outdated coffee machines or subpar coffee blends, it's time for a change. Kiwi Nutz Coffee is here to revolutionize your workplace caffeine experience.",
+  },
+  {
+    id: 10,
+    title: "The Benefits of Taking a Coffee Break at Work with Kiwi Nutz Coffee",
+    slug: "the-benefits-of-taking-a-Coffee-break-at-work-with-kiwi-nutz-coffee",
+    image: '/blog/img10.jpg', 
+    date: "January 20 2025",
+    description:
+      "In the hustle and bustle of the modern workplace, it's easy to feel overwhelmed by deadlines and to-do lists. However, taking regular coffee breaks can be a simple yet effective way to recharge and refocus.",
+  },
+  {
+    id: 9, 
+    title: "The Death of Office Coffee and How to Avoid It",
+    slug: "the-death-of-office-coffee-and-how-to-avoid-it",
+    image: '/blog/img9a.jpg', 
+    date: "January 15 2025",
+    description:
+      "With changing work environments, rising expectations for quality, and an increasing number of employees working remotely, the traditional office coffee setup is losing its charm. But all is not lost.",
+  },
+  {
     id: 8,
     title: "Corporate Coffee Solutions in the Tri-State Area: Discover Kiwi Nutz Coffee",
     slug: "corporate-coffee-solutions-in-the-tri-state-area-discover-kiwi-nutz-coffee",

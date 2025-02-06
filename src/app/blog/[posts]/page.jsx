@@ -13,6 +13,398 @@ import Link from 'next/link';
 
 // Array of blog posts
 const blogPosts = [
+     // Id 13
+     {
+      id: 13,
+      title: "Top Ten Reasons Why You Deserve a Coffee Break (with Kiwi Nutz Coffee)",
+      slug: "top-ten-reasons-why-you-deserve-a-coffee-break",
+      image: '/blog/img13.jpg', 
+      date: "February 5 2025",
+      content: (
+        <>
+       <div className="text-gray-900 text-base md:text-lg lg:text-xl leading-relaxed lg:leading-relaxed bg-white p-8 rounded-lg shadow-xl">
+  {/* Intro */}
+  <p>
+    Work is tough, but coffee breaks are here to save the day. With a cup of Kiwi Nutz Coffee in hand, those workday blues don&apos;t seem so bad. Here&apos;s why you deserve more coffee breaks—guilt-free:
+  </p>
+
+  {/* List of Reasons */}
+  <p className="mt-6 text-gray-800 font-bold">1. <span className="font-semibold text-blue-700">Productivity Rocket Fuel:</span> A break + Kiwi Nutz Coffee = supercharged brain power. It&apos;s science (probably).</p>
+  
+  <p className="mt-6 text-gray-800 font-bold">2. <span className="font-semibold text-blue-700">Instant Stress Relief:</span> Stressed? Sip some Kiwi Nutz and pretend your inbox doesn&apos;t exist for five minutes.</p>
+  
+  <p className="mt-6 text-gray-800 font-bold">3. <span className="font-semibold text-blue-700">Creativity Booster:</span> Stuck? Stare at your coffee cup long enough, and inspiration will strike. Bonus points if it&apos;s Kiwi Nutz.</p>
+  
+  <p className="mt-6 text-gray-800 font-bold">4. <span className="font-semibold text-blue-700">Built-in Team Therapy:</span> Coworkers are less annoying over coffee. Share some Kiwi Nutz and maybe even bond.</p>
+
+  <p className="mt-6 text-gray-800 font-bold">5. <span className="font-semibold text-blue-700">Health Perks in a Cup:</span> Caffeine, antioxidants, and the smug satisfaction of drinking premium coffee—what&apos;s not to love?</p>
+
+  <p className="mt-6 text-gray-800 font-bold">6. <span className="font-semibold text-blue-700">Laser-Sharp Focus:</span> Kiwi Nutz Coffee turns you from “What was I doing?” to “I just solved world peace” real quick.</p>
+
+  <p className="mt-6 text-gray-800 font-bold">7. <span className="font-semibold text-blue-700">Office Vibes Upgrade:</span> A break room stocked with Kiwi Nutz Coffee screams “We care” louder than a motivational poster ever could.</p>
+
+  <p className="mt-6 text-gray-800 font-bold">8. <span className="font-semibold text-blue-700">Zen in a Mug:</span> Take a moment, sip, breathe. Kiwi Nutz Coffee is mindfulness with a caffeine kick.</p>
+
+  <p className="mt-6 text-gray-800 font-bold">9. <span className="font-semibold text-blue-700">Pure Job Satisfaction:</span> Fancy coffee = happy employees. Kiwi Nutz Coffee = VERY happy employees.</p>
+
+  <p className="mt-6 text-gray-800 font-bold">10. <span className="font-semibold text-blue-700">Life&apos;s Little Joys:</span> Sometimes, all you need to survive your workday is a great cup of coffee. Enter Kiwi Nutz.</p>
+
+  {/* Conclusion */}
+  <p className="mt-6 text-gray-700">
+    So, go ahead, take that break. Let Kiwi Nutz Coffee remind you why work... kind of doesn&apos;t suck.
+  </p>
+       </div>
+
+  
+        </>
+  
+      ),
+      
+     },
+   // Id 12
+     {
+    id: 12,
+    title: "The High Cost of Coffee and How Kiwi Nutz Coffee Offers a Cost-Effective Solution",
+    slug: "the-high-cost-of-coffee-and-how-kiwi-nutz-coffee-offers-a-cost-effective-solution",
+    image: '/blog/img12.jpg', 
+    date: "February 3 2025",
+    content: (
+      <>
+      <div className="text-gray-800 text-base md:text-lg lg:text-xl leading-relaxed lg:leading-relaxed bg-gray-50 p-6 rounded-lg shadow-md">
+  {/* Intro */}
+  <p>
+    Coffee lovers worldwide are feeling the pinch as the cost of their beloved brew continues to rise. From your local café to the office break room, the impact of soaring coffee prices is evident. Kiwi Nutz Coffee offers a cost-effective, high-quality solution to combat rising prices and keep your caffeine fix affordable.
+  </p>
+  <p className="mt-4">
+    In this post, we explore why coffee prices are climbing and how Kiwi Nutz Coffee is offering a superior yet affordable alternative.
+  </p>
+
+  {/* Paragraphs */}
+  {/* 1 */}
+  <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <span className="font-semibold text-teal-500">The Factors Driving Up Coffee Prices:</span> Several interconnected factors are contributing to the current high cost of coffee:
+    <ul className="list-disc pl-8 mt-2">
+      <li><strong>Climate Change and Extreme Weather:</strong> Severe weather events, like droughts and frosts in key coffee-growing regions, have led to crop losses, increasing costs.</li>
+      <li><strong>Supply Chain Disruptions:</strong> The pandemic caused delays and labor shortages, making coffee harder and more expensive to get from farm to cup.</li>
+      <li><strong>Rising Demand for Specialty Coffee:</strong> Growing demand for high-quality coffee is driving up prices due to more meticulous cultivation and processing.</li>
+      <li><strong>Economic Inflation:</strong> Rising fuel, packaging, and labor costs are also adding to the price hikes in the coffee industry.</li>
+    </ul>
+  </p>
+
+  {/* 2 */}
+  <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <span className="font-semibold text-teal-500">Why Kiwi Nutz Coffee is a Cost-Effective Solution:</span> Kiwi Nutz Coffee stands out for its high-quality beans and commitment to affordability. Here&apos;s why:
+  </p>
+
+  {/* 3 */}
+  <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <span className="font-semibold">High-Quality Beans at Affordable Prices:</span> Kiwi Nutz Coffee sources premium beans directly from trusted farmers, cutting out middlemen and reducing costs. This allows them to maintain competitive pricing, making it accessible for individuals and businesses alike.
+  </p>
+
+  {/* 4 */}
+  <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <span className="font-semibold">Exceptional Service and Customization:</span> Kiwi Nutz Coffee tailors its offerings to suit different tastes and preferences. From small businesses to large corporations, they provide customized solutions, including bulk orders and subscription plans, ensuring clients&apos; needs are met.
+  </p>
+
+  {/* 5 */}
+  <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <span className="font-semibold">Sustainability and Ethical Sourcing:</span> Kiwi Nutz Coffee works closely with farmers, adhering to fair trade practices that support the welfare of coffee-growing communities. This commitment ensures environmental sustainability while enhancing long-term value.
+  </p>
+
+  {/* 6 */}
+  <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    <span className="font-semibold">Value Proposition:</span> Kiwi Nutz Coffee delivers premium quality coffee at a fraction of the cost of other specialty brands. Their offerings, including machines, regular servicing, and beans, provide convenience, value, and a superior coffee experience.
+  </p>
+
+  {/* Conclusion */}
+  <p className="text-base lg:text-lg leading-loose sm:leading-10 md:leading-8 pt-6">
+    The high cost of coffee may be driven by complex factors, but Kiwi Nutz Coffee offers a solution that doesn&apos;t compromise on quality. With exceptional service, sustainable practices, and cost-effective pricing, Kiwi Nutz Coffee is the smart choice for coffee drinkers looking for value without sacrificing taste.
+  </p>
+      </div>
+
+      </>
+
+    ),
+    
+     },
+      // Id 11
+      {
+        id: 11,
+        title: "Top Ten Reasons to Upgrade Your Office Coffee Service with Kiwi Nutz Coffee",
+        slug: "top-ten-reasons-to-upgrade-your-office-coffee-service-with-kiwi-nutz-coffee",
+        image: '/blog/img11.jpg', 
+        date: "January 27 2025", 
+        content: (
+          <>
+              <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-purple-700 text-white py-12 px-6 sm:px-12 lg:px-24">
+      <div className="max-w-4xl mx-auto bg-gray-100 rounded-lg shadow-2xl overflow-hidden">
+        <header className="bg-purple-900 text-white py-6 px-8">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+            The Death of Office Coffee and How to Avoid It
+          </h1>
+        </header>
+        <div className="p-10 space-y-8 text-gray-800 font-sans">
+          <p className="text-xl sm:text-2xl leading-relaxed font-light">
+            Office coffee—a staple in workplaces worldwide—has been a comforting ritual for employees, offering
+            that much-needed caffeine boost to power through meetings, deadlines, and the occasional mid-afternoon slump.
+            However, the once-beloved office coffee experience seems to be under threat. With changing work environments,
+            rising expectations for quality, and an increasing number of employees working remotely, the traditional office coffee setup is losing its charm.
+            But all is not lost. By making strategic changes, businesses can rejuvenate their office coffee offerings and bring back the buzz.
+          </p>
+
+          <section>
+            <h2 className="text-3xl font-bold text-purple-900 mb-4">The Decline of Office Coffee</h2>
+            <p className="text-lg leading-relaxed mb-2">
+              There are several factors contributing to the decline of office coffee:
+            </p>
+            <ul className="list-disc space-y-2 text-lg text-gray-800 pl-6">
+              <li><span className="font-semibold">Quality Over Convenience:</span> Employees have become more discerning about their coffee. With the rise of specialty coffee shops and high-end home brewing equipment, the standard office coffee, often perceived as bland and uninspiring, no longer meets expectations.</li>
+              <li><span className="font-semibold">Remote Work Revolution:</span> The shift towards remote work means fewer employees are in the office to partake in communal coffee breaks. This has led to reduced demand and, in some cases, the complete removal of coffee stations.</li>
+              <li><span className="font-semibold">Health and Wellness Trends:</span> Growing awareness around health and wellness has seen a decline in caffeine consumption, with some employees opting for healthier alternatives like herbal teas or kombucha.</li>
+              <li><span className="font-semibold">Cost-Cutting Measures:</span> In an effort to save costs, some companies have downgraded their coffee offerings or removed them altogether, viewing them as non-essential perks.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-3xl font-bold text-purple-900 mb-4">Strategies to Revitalize Office Coffee</h2>
+            <p className="text-lg leading-relaxed">
+              To combat the death of office coffee, businesses can implement a few key strategies focused on enhancing the coffee experience and meeting employees&apos; evolving needs.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-3xl font-bold text-purple-900 mb-4">Offer Variety and Quality</h2>
+            <p className="text-lg leading-relaxed">
+              Providing a range of high-quality coffee options can reignite enthusiasm. Offering different bean origins, roast levels, and brewing methods like French press, espresso, or pour-over caters to diverse tastes. This demonstrates that the company values employees&apos; preferences and is willing to invest in their comfort.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-3xl font-bold text-purple-900 mb-4">Enhance Accessibility</h2>
+            <p className="text-lg leading-relaxed">
+              Ensure that premium coffee is easily accessible to all employees, whether they&apos;re in the office or working remotely. For those in the office, investing in modern coffee machines or partnering with local coffee roasters for regular supplies can make a significant difference. For remote workers, consider providing coffee care packages to enjoy at home, fostering a sense of connection with the office.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-3xl font-bold text-purple-900 mb-4">Foster a Coffee Culture</h2>
+            <p className="text-lg leading-relaxed">
+              Celebrate coffee culture within the office by organizing regular coffee-tasting sessions, barista training workshops, or themed coffee breaks. Creating a vibrant coffee culture can boost morale and productivity, turning the coffee station into a central hub of social interaction and collaboration.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-3xl font-bold text-purple-900 mb-4">Engage Employees</h2>
+            <p className="text-lg leading-relaxed">
+              Involve employees in the coffee experience by seeking their input and preferences. Conduct surveys to understand their tastes and invite them to participate in selecting new coffee options or brewing methods. Engagement fosters a sense of ownership and can transform the coffee experience into a collective, enjoyable part of the workday.
+            </p>
+          </section>
+
+          <footer>
+            <p className="text-xl font-bold text-purple-900">Conclusion</p>
+            <p className="mt-4 text-lg">
+              The death of office coffee doesn&apos;t have to be inevitable. By adopting these strategies, businesses can transform their coffee culture, making it a source of pride and joy for employees. Offering variety, enhancing accessibility, fostering a coffee culture, and engaging employees are key to revitalizing the office coffee experience, ensuring it remains a cherished part of the workday. So, let&apos;s not bid farewell to office coffee just yet; instead, let&apos;s brew up a revival that benefits everyone.
+            </p>
+          </footer>
+        </div>
+      </div>
+              </div>
+          </>
+    
+        ),
+        
+       },
+      // Id 10
+      {
+        id: 10,
+        title: "The Benefits of Taking a Coffee Break at Work with Kiwi Nutz Coffee",
+        slug: "the-benefits-of-taking-a-Coffee-break-at-work-with-kiwi-nutz-coffee",
+        image: '/blog/img10.jpg', 
+        date: "January 20 2025",
+        content: (
+          <>
+        <div className="bg-white p-6 rounded-lg shadow-md border border-gray-300">
+  
+  {/* Introduction */}
+  <p className="mb-6 text-lg md:text-xl font-medium text-gray-900 leading-relaxed">
+    Office coffee—a staple in workplaces worldwide—has been a comforting ritual for employees, offering 
+    that much-needed caffeine boost to power through meetings, deadlines, and the occasional mid-afternoon slump. 
+    However, the once-beloved office coffee experience seems to be under threat. With changing work environments, 
+    rising expectations for quality, and an increasing number of employees working remotely, the traditional office coffee 
+    setup is losing its charm. But all is not lost. By making strategic changes, businesses can rejuvenate their office coffee 
+    offerings and bring back the buzz.
+  </p>
+
+  {/* The Decline of Office Coffee */}
+  <h2 className="text-lg md:text-xl font-bold text-brown-700 mb-4">The Decline of Office Coffee</h2>
+
+  <p className="text-gray-800 mb-5 leading-relaxed">
+    There are several factors contributing to the decline of office coffee:
+  </p>
+
+  <ul className="list-disc list-inside text-gray-700 space-y-3">
+    <li>
+      <span className="font-semibold">Quality Over Convenience: </span> Employees have become more discerning about their coffee. 
+      With the rise of specialty coffee shops and high-end home brewing equipment, the standard office coffee, often perceived 
+      as bland and uninspiring, no longer meets expectations.
+    </li>
+    <li>
+      <span className="font-semibold">Remote Work Revolution: </span> The shift towards remote work means fewer employees are in 
+      the office to partake in communal coffee breaks. This has led to reduced demand and, in some cases, the complete removal 
+      of coffee stations.
+    </li>
+    <li>
+      <span className="font-semibold">Health and Wellness Trends: </span> Growing awareness around health and wellness has seen 
+      a decline in caffeine consumption, with some employees opting for healthier alternatives like herbal teas or kombucha.
+    </li>
+    <li>
+      <span className="font-semibold">Cost-Cutting Measures: </span> In an effort to save costs, some companies have downgraded 
+      their coffee offerings or removed them altogether, viewing them as non-essential perks.
+    </li>
+  </ul>
+
+  {/* Strategies to Revitalize Office Coffee */}
+  <h2 className="text-lg md:text-xl font-bold text-brown-700 mt-6 mb-4">Strategies to Revitalize Office Coffee</h2>
+
+  <p className="text-gray-800 mb-5 leading-relaxed">
+    To combat the death of office coffee, businesses can implement a few key strategies focused on enhancing the 
+    coffee experience and meeting employees&apos; evolving needs.
+  </p>
+
+  <h3 className="text-md font-semibold text-gray-900 mt-4">Offer Variety and Quality</h3>
+  <p className="text-gray-700 mb-4 leading-relaxed">
+    Providing a range of high-quality coffee options can reignite enthusiasm. Offering different bean origins, roast levels, 
+    and brewing methods like French press, espresso, or pour-over caters to diverse tastes. This demonstrates that the company 
+    values employees&apos; preferences and is willing to invest in their comfort.
+  </p>
+
+  <h3 className="text-md font-semibold text-gray-900 mt-4">Enhance Accessibility</h3>
+  <p className="text-gray-700 mb-4 leading-relaxed">
+    Ensure that premium coffee is easily accessible to all employees, whether they&apos;re in the office or working remotely. 
+    For those in the office, investing in modern coffee machines or partnering with local coffee roasters for regular supplies 
+    can make a significant difference. For remote workers, consider providing coffee care packages to enjoy at home, fostering 
+    a sense of connection with the office.
+  </p>
+
+  <h3 className="text-md font-semibold text-gray-900 mt-4">Foster a Coffee Culture</h3>
+  <p className="text-gray-700 mb-4 leading-relaxed">
+    Celebrate coffee culture within the office by organizing regular coffee-tasting sessions, barista training workshops, or 
+    themed coffee breaks. Creating a vibrant coffee culture can boost morale and productivity, turning the coffee station into 
+    a central hub of social interaction and collaboration.
+  </p>
+
+  <h3 className="text-md font-semibold text-gray-900 mt-4">Engage Employees</h3>
+  <p className="text-gray-700 mb-4 leading-relaxed">
+    Involve employees in the coffee experience by seeking their input and preferences. Conduct surveys to understand their 
+    tastes and invite them to participate in selecting new coffee options or brewing methods. Engagement fosters a sense of 
+    ownership and can transform the coffee experience into a collective, enjoyable part of the workday.
+  </p>
+
+  {/* Conclusion */}
+  <p className="text-gray-900 font-medium text-lg mt-6">
+    The death of office coffee doesn’t have to be inevitable. By adopting these strategies, businesses can transform their 
+    coffee culture, making it a source of pride and joy for employees. Offering variety, enhancing accessibility, fostering 
+    a coffee culture, and engaging employees are key to revitalizing the office coffee experience, ensuring it remains a 
+    cherished part of the workday. So, let’s not bid farewell to office coffee just yet; instead, let’s brew up a revival 
+    that benefits everyone.
+  </p>
+
+</div>
+
+  
+  
+          </>
+    
+        ),
+        
+       },
+     // Id 9
+     {
+      id: 9,
+      title: "The Death of Office Coffee and How to Avoid It",
+      slug: "the-death-of-office-coffee-and-how-to-avoid-it",
+      image: '/blog/img9a.jpg', 
+      date: "January 15 2025",
+      content: (
+        <>
+      <div className="bg-gradient-to-r from-teal-200 via-teal-300 to-teal-200 text-white py-12 px-6 sm:px-12 lg:px-24">
+      <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+        <header className="bg-teal-800 text-white py-6 px-8">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+            The Death of Office Coffee and How to Avoid It
+          </h1>
+        </header>
+        <div className="p-8 space-y-6 text-gray-900">
+          <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed font-montserrat">
+            Office coffee—a staple in workplaces worldwide—has been a comforting ritual for employees, offering
+            that much-needed caffeine boost to power through meetings, deadlines, and the occasional mid-afternoon slump.
+            However, the once-beloved office coffee experience seems to be under threat. With changing work environments,
+            rising expectations for quality, and an increasing number of employees working remotely, the traditional office coffee setup is losing its charm.
+            But all is not lost. By making strategic changes, businesses can rejuvenate their office coffee offerings and bring back the buzz.
+          </p>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-4">The Decline of Office Coffee</h2>
+            <p className="text-lg leading-relaxed mb-2">
+              There are several factors contributing to the decline of office coffee:
+            </p>
+            <ul className="list-disc  space-y-2 text-lg text-gray-900">
+              <li><span className="font-bold">Quality Over Convenience:</span> Employees have become more discerning about their coffee. With the rise of specialty coffee shops and high-end home brewing equipment, the standard office coffee, often perceived as bland and uninspiring, no longer meets expectations.</li>
+              <li><span className="font-bold">Remote Work Revolution:</span> The shift towards remote work means fewer employees are in the office to partake in communal coffee breaks. This has led to reduced demand and, in some cases, the complete removal of coffee stations.</li>
+              <li><span className="font-bold">Health and Wellness Trends:</span> Growing awareness around health and wellness has seen a decline in caffeine consumption, with some employees opting for healthier alternatives like herbal teas or kombucha.</li>
+              <li><span className="font-bold">Cost-Cutting Measures:</span> In an effort to save costs, some companies have downgraded their coffee offerings or removed them altogether, viewing them as non-essential perks.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-4">Strategies to Revitalize Office Coffee</h2>
+            <p className="text-lg leading-relaxed">
+              To combat the death of office coffee, businesses can implement a few key strategies focused on enhancing the coffee experience and meeting employees&apos; evolving needs.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-4">Offer Variety and Quality</h2>
+            <p className="text-lg leading-relaxed">
+              Providing a range of high-quality coffee options can reignite enthusiasm. Offering different bean origins, roast levels, and brewing methods like French press, espresso, or pour-over caters to diverse tastes. This demonstrates that the company values employees&apos; preferences and is willing to invest in their comfort.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-4">Enhance Accessibility</h2>
+            <p className="text-lg leading-relaxed">
+              Ensure that premium coffee is easily accessible to all employees, whether they&apos;re in the office or working remotely. For those in the office, investing in modern coffee machines or partnering with local coffee roasters for regular supplies can make a significant difference. For remote workers, consider providing coffee care packages to enjoy at home, fostering a sense of connection with the office.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-4">Foster a Coffee Culture</h2>
+            <p className="text-lg leading-relaxed">
+              Celebrate coffee culture within the office by organizing regular coffee-tasting sessions, barista training workshops, or themed coffee breaks. Creating a vibrant coffee culture can boost morale and productivity, turning the coffee station into a central hub of social interaction and collaboration.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-4">Engage Employees</h2>
+            <p className="text-lg leading-relaxed">
+              Involve employees in the coffee experience by seeking their input and preferences. Conduct surveys to understand their tastes and invite them to participate in selecting new coffee options or brewing methods. Engagement fosters a sense of ownership and can transform the coffee experience into a collective, enjoyable part of the workday.
+            </p>
+          </section>
+
+          <footer>
+            <p className="text-lg sm:text-xl font-bold text-teal-800">Conclusion</p>
+            <p className="mt-4 text-lg">
+              The death of office coffee doesn’t have to be inevitable. By adopting these strategies, businesses can transform their coffee culture, making it a source of pride and joy for employees. Offering variety, enhancing accessibility, fostering a coffee culture, and engaging employees are key to revitalizing the office coffee experience, ensuring it remains a cherished part of the workday. So, let’s not bid farewell to office coffee just yet; instead, let’s brew up a revival that benefits everyone.
+            </p>
+          </footer>
+        </div>
+      </div>
+      </div>
+        </>
+  
+      ),
+      
+     },
     // Id 8
     {
       id: 8,
@@ -64,7 +456,7 @@ const blogPosts = [
 
           <div className="bg-green-100 p-6 rounded-md">
             <h3 className="text-xl font-bold text-green-700 mb-4">Why Kiwi Nutz Coffee?</h3>
-            <ul className="list-disc list-inside space-y-2 text-lg">
+            <ul className="list-disc  space-y-2 text-lg">
               <li><span className="font-bold">Friendly Service:</span> Their team is dedicated to making your coffee experience smooth and enjoyable.</li>
               <li><span className="font-bold">New Zealand-Inspired:</span> Experience the hospitality of New Zealand, right in your office.</li>
               <li><span className="font-bold">Quality Guaranteed:</span> Only the best beans and blends for your team and clients.</li>
@@ -101,7 +493,7 @@ const blogPosts = [
    // Id 7 Jan 1
    {
     id: 7,
-    title: "New Jersey’s Office Coffee Game Changer: Why Kiwi Nutz Coffee Rules the Garden State",
+    title: "New Jersey's Office Coffee Game Changer: Why Kiwi Nutz Coffee Rules the Garden State",
     slug: "new-jerseys-office-coffee-game-changer-why-kiwi-nutz-coffee-rules-the-garden-state",
     image: '/blog/img7a.jpg',
     date: "January 1 2025",
