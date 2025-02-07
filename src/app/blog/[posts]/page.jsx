@@ -140,7 +140,7 @@ const blogPosts = [
       <div className="max-w-4xl mx-auto bg-gray-100 rounded-lg shadow-2xl overflow-hidden">
         <header className="bg-purple-900 text-white py-6 px-8">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            The Death of Office Coffee and How to Avoid It
+          Top Ten Reasons to Upgrade Your Office Coffee Service with Kiwi Nutz Coffee
           </h1>
         </header>
         <div className="p-10 space-y-8 text-gray-800 font-sans">
