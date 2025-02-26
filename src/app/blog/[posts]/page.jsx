@@ -13,7 +13,89 @@ import Link from 'next/link';
 
 // Array of blog posts
 const blogPosts = [
-     // Id 13
+      // Id 15
+      // {
+      //   id: 15,
+      //   title: "What Is Office Coffee and How Does It Work?",
+      //   slug: "what-is-office-coffee-and-how-does-it-work",
+      //   image: '/blog/img15.jpg', 
+      //   date: "February 10 2025",
+      //   content: (
+      //    <>
+         
+      //    </>
+    
+      //   ),
+        
+      //  },
+    // Id 14
+      {
+        id: 14,
+        title: "Guaranteed No Stress Office Coffee: Kiwi Nutz to the Rescue!",
+        slug: "guaranteed-no-stress-office-coffee-kiwi-nutz-to-the-rescue",
+        image: '/blog/img14.jpg', 
+        date: "February 10 2025",
+        content: (
+          <>
+             <section className="bg-gradient-to-r from-green-300 to-blue-500 py-16 px-6 md:px-12 lg:px-24 text-white">
+      <div className="max-w-4xl mx-auto bg-white text-gray-900 p-8 rounded-2xl shadow-lg">
+
+        <p className="mt-6 text-lg leading-relaxed">
+          Let&apos;s face it, the office coffee situation can make or break your workday. We&apos;ve all been there—those dreadful mornings when you sip a stale, bitter cup of coffee that barely qualifies as drinkable. It&apos;s no wonder that coffee is the lifeblood of the office, fueling productivity and keeping stress levels in check.
+        </p>
+        <p className="mt-4 text-lg leading-relaxed">
+          But what if we told you there&apos;s a way to ensure your office coffee experience is always stress-free? Enter <span className="font-semibold text-green-700">Kiwi Nutz Coffee</span>, the ultimate solution to all your office coffee woes.
+        </p>
+        
+        <h2 className="text-2xl font-bold mt-8 text-green-700">Why Office Coffee Matters</h2>
+        <ul className="list-disc pl-6 mt-4 space-y-2">
+          <li><strong>Boost Productivity:</strong> Caffeine helps increase focus and energy levels.</li>
+          <li><strong>Enhance Mood:</strong> A delicious cup can elevate your mood, setting a positive tone for the day.</li>
+          <li><strong>Foster Social Interaction:</strong> Coffee breaks provide a perfect opportunity for team bonding.</li>
+          <li><strong>Reduce Stress:</strong> A comforting cup of coffee can be a small yet significant stress reliever.</li>
+        </ul>
+        
+        <p className="mt-4">However, bad coffee can have the opposite effect, leading to grumpy employees, decreased productivity, and a lackluster office atmosphere.</p>
+        
+        <h2 className="text-2xl font-bold mt-8 text-green-700">The Kiwi Nutz Coffee Solution</h2>
+        <div className="space-y-6 mt-4">
+          <div>
+            <h3 className="text-xl font-semibold">1. Superior Quality Beans</h3>
+            <p className="mt-2">Kiwi Nutz Coffee is made from the finest, sustainably sourced beans. Each batch is roasted to perfection, ensuring a rich, full-bodied flavor that beats any generic office coffee.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">2. Variety of Flavors</h3>
+            <p className="mt-2">From classic blends to exotic flavors, Kiwi Nutz Coffee offers a wide range of options to cater to every palate. Whether you prefer a bold espresso or a smooth, nutty brew, there’s something for everyone.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">3. Convenient Delivery</h3>
+            <p className="mt-2">Forget the hassle of last-minute coffee runs. Kiwi Nutz Coffee offers a convenient subscription service, delivering fresh coffee straight to your office.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">4. Eco-Friendly Packaging</h3>
+            <p className="mt-2">Kiwi Nutz Coffee is committed to sustainability. Their eco-friendly packaging ensures that you&apos;re not only enjoying great coffee but also contributing to a healthier planet.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">5. Easy-to-Use Brewing Systems</h3>
+            <p className="mt-2">Pair Kiwi Nutz Coffee with their state-of-the-art brewing systems for a seamless coffee-making experience. No more fiddling with complicated machines or dealing with messy coffee grounds.</p>
+          </div>
+        </div>
+        
+        <h2 className="text-2xl font-bold mt-8 text-green-700">Stress-Free Coffee, Every Day</h2>
+        <p className="mt-4 text-lg leading-relaxed">
+          By choosing <span className="font-semibold text-green-700">Kiwi Nutz Coffee</span>, you&apos;re investing in a stress-free coffee experience that boosts morale and keeps your team energized. 
+          With their dedication to quality, variety, convenience, and sustainability, Kiwi Nutz Coffee is the perfect addition to any office.
+        </p>
+        
+        <p className="mt-6 text-lg text-center font-semibold text-green-800">So why settle for mediocre coffee when you can have the best? Make the switch to Kiwi Nutz Coffee today and transform your office coffee game for good. Your taste buds (and your team) will thank you!</p>
+      </div>
+    </section>
+          </>
+    
+        ),
+        
+       },
+    // Id 13
      {
       id: 13,
       title: "Top Ten Reasons Why You Deserve a Coffee Break (with Kiwi Nutz Coffee)",
@@ -61,7 +143,7 @@ const blogPosts = [
       ),
       
      },
-   // Id 12
+    // Id 12
      {
     id: 12,
     title: "The High Cost of Coffee and How Kiwi Nutz Coffee Offers a Cost-Effective Solution",
@@ -127,7 +209,7 @@ const blogPosts = [
     ),
     
      },
-      // Id 11
+    // Id 11
       {
         id: 11,
         title: "Top Ten Reasons to Upgrade Your Office Coffee Service with Kiwi Nutz Coffee",
@@ -214,7 +296,7 @@ const blogPosts = [
         ),
         
        },
-      // Id 10
+    // Id 10
       {
         id: 10,
         title: "The Benefits of Taking a Coffee Break at Work with Kiwi Nutz Coffee",
@@ -577,7 +659,7 @@ const blogPosts = [
     ),
     
    },
-  // Id 1 Fueling Success 12/16/24
+  // Id 1 Dec 16
   {
     id: 1,
     title: "Fueling Success: The Benefits of Quality Coffee in the Office",
