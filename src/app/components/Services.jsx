@@ -22,7 +22,27 @@ export default function Services() {
           </p>
         </div>
 
-   
+        {/* Mobile Menu */}
+        <div className={`lg:hidden fixed bottom-0 left-0 w-full bg-brown-900 p-4 transition-transform ${menuOpen ? 'transform translate-y-0' : 'transform translate-y-full'}`}>
+          <div className="grid gap-4">
+            <div className="flex items-center justify-center">
+              <MdCoffeeMaker className='text-4xl text-white' />
+              <span className="ml-4 text-white">Free Coffee Machine</span>
+            </div>
+            <div className="flex items-center justify-center">
+              <GiCoffeeBeans className='text-4xl text-white' />
+              <span className="ml-4 text-white">Free Coffee Beans</span>
+            </div>
+            <div className="flex items-center justify-center">
+              <IoHammer className='text-4xl text-white' />
+              <span className="ml-4 text-white">Free Maintenance</span>
+            </div>
+            <div className="flex items-center justify-center">
+              <FaMoneyBillAlt className='text-4xl text-white' />
+              <span className="ml-4 text-white">Simple Pricing Policy</span>
+            </div>
+          </div>
+        </div>
 
         <div className="grid max-w-screen-lg gap-8 row-gap-10 mx-auto lg:grid-cols-2">
           <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
