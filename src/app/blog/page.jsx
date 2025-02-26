@@ -8,6 +8,24 @@ import Footer from '../components/Footer';
 
 // Blog posts array
 const blogPosts = [
+  // {
+  //   id: 15,
+  //   title: "What Is Office Coffee and How Does It Work?",
+  //   slug: "what-is-office-coffee-and-how-does-it-work?",
+  //   image: '/blog/img15.jpg', 
+  //   date: "February 14 2025",
+  //   description:
+  //     "Office coffee is more than just brewing a pot of coffee in the break room. It encompasses a range of services, equipment, and supplies designed to create a convenient, high-quality coffee experience atwork.",
+  // },
+  {
+    id: 14,
+    title: "Guaranteed No Stress Office Coffee: Kiwi Nutz to the Rescue!",
+    slug: "guaranteed-no-stress-office-coffee-kiwi-nutz-to-the-rescue",
+    image: '/blog/img14.jpg', 
+    date: "February 10 2025",
+    description:
+      "Let's face it, the office coffee situation can make or break your workday. We've all been there—those dreadful mornings when you sip a stale, bitter cup of coffee that barely qualifies as drinkable.",
+  },
   {
     id: 13,
     title: "Top Ten Reasons Why You Deserve a Coffee Break (with Kiwi Nutz Coffee)",
