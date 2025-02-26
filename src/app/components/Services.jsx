@@ -49,7 +49,7 @@ export default function Services() {
                 Free Coffee Beans
               </h6>
               <p className="mb-3 text-lg tracking-wide text-white">
-                Get fresh, aromatic coffee beans delivered regularly, straight to your door at no cost. We make sure your machine is always ready to brew for you.
+                Get fresh, aromatic coffee beans delivered regularly, at no cost straight to your door. We make sure your machine is always ready to brew for you.
               </p>
             </div>
           </div>
