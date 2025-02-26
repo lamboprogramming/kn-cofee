@@ -54,7 +54,7 @@ export default function Services() {
             <div>
               <h6 className="mb-4 text-xl font-bold leading-5 tracking-wide underline text-brown-50 underline-offset-8 decoration-orange-800">Free Coffee Machine</h6>
               <p className="mb-3 text-lg tracking-wide text-white">
-                We provide a fully automatic coffee machine to your business at no cost. Enjoy the convenience of a high-quality coffee machine without the expense.
+              We install a fully automatic coffee machine at your business for no cost. Enjoy the convenience of a high-quality coffee machine without the expense.
               </p>
             </div>
           </div>
