@@ -24,7 +24,7 @@ const Video = () => {
         preload="auto" // Preload video to allow for autoplay
         className="w-full h-auto"
       >
-        <source src="/kncompress.mp4" type="video/mp4" />
+        <source src="/kncompress720.mp4" type="video/mp4" />
         <track
           src="/captions.vtt"
           kind="subtitles"
