@@ -10,6 +10,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import PicSection from "./components/PicSection";
 import Link from "next/link";
+import Video from "./components/Video";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
   return (
 <div className="">
  <Nav /> 
+ <Video />
 <Hero />
 <About />
 <Content />
