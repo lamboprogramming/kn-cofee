@@ -5,15 +5,12 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import { Lato } from 'next/font/google';
-import Content from "./components/Content"
+import Content from "./components/Content";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import PicSection from "./components/PicSection";
 import Link from "next/link";
-import Video from "./components/Video";
-
-
-
+import Video from "./components/Video";  {/* Keep this import */}
 
 const lato = Lato({
   subsets: ['latin'],
@@ -23,17 +20,17 @@ const lato = Lato({
 
 export default function Home() {
   return (
-<div className="">
- <Nav /> 
- <Video />
-<Hero />
-<About />
-<Content />
-<Services />
-<Testimonials />
-<PicSection />
-<Contact />
-<Footer />
-</div>
+    <div className="">
+      <Nav />
+      <Video />  {/* Keep this component */}
+      <Hero />
+      <About />
+      <Content />
+      <Services />
+      <Testimonials />
+      <PicSection />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
