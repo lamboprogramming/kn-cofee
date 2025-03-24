@@ -7,7 +7,7 @@ import c3 from '../../../public/content3.jpg'
 
 export default function Content() {
   return (
-    <div className='pt-4 sm:pt-0' id='content'>
+    <div className='pt-4 sm:pt-0 min-w-[250px] ' id='content'>
       <div className="px-4 mx-auto mt-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12">
       {/* Tagline */}
         <div className="max-w-xl mb-10 text-center md:mx-auto lg:max-w-2xl md:mb-12">
@@ -41,7 +41,7 @@ export default function Content() {
               Quality Beans, Exceptional Flavor
               </h6>
               <p className="text-base leading-relaxed text-gray-900">
-              Kiwi Nutz coffee is crafted from the highest quality beans. Our signature blends are sourced from Columbia, Brazil and Ethiopia – the homes of coffee.
+              Kiwi Nutz coffee is crafted from the highest quality beans. Our signature blend is sourced from Columbia, Brazil and Ethiopia.
               </p>
             </div>
   

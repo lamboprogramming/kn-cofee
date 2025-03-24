@@ -21,7 +21,7 @@ export default function About() {
   };
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden min-w-[250px]'>
       {/* Cards Start */}
       <div className='flex flex-wrap items-center justify-center bg-brown-800'>
         
@@ -102,7 +102,7 @@ export default function About() {
               </Typography>
               {openIndex === 2 && (
                 <Typography className='pt-2'>
-                  We tailor a pricing plan to suit your company&apos;s needs. No need for pod-based coffee with the cleanup hassle, landfill, and ordinary quality.
+                  Comparable on a per cup basis to pod-based coffee.
                 </Typography>
               )}
               <Button onClick={() => toggleContent(2)} color="white" className="mt-2 text-orange-800 duration-200 border hover:bg-brown-50 hover:border-orange-800">

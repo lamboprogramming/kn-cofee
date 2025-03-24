@@ -1,58 +1,101 @@
+'use client';
 import React from 'react';
-import Image from 'next/image';
-import Logo from '../../../public/knvector.svg'
+import { FaArrowUpFromBracket } from "react-icons/fa6";
 import { Typography } from "@material-tailwind/react";
+
+const BackToTop = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  return (
+    <div className="w-full text-center py-8 flex items-center justify-center">
+      <button
+        onClick={scrollToTop}
+      >
+        <FaArrowUpFromBracket className="flex text-2xl items-center justify-center" />
+       
+      </button>
+    </div>
+  );
+};
 
 export default function Footer() {
   return (
-    <div className=''>
-    <footer className="flex flex-row flex-wrap items-center justify-center w-full py-6 text-center border-t gap-y-6 gap-x-12 border-blue-gray-50 md:justify-evenly">
-      <Typography color="blue-gray" className="font-normal">
-        &copy; 2024 Kiwi Nutz Coffee Company
-      </Typography>
-      <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
-        <li>
-          <Typography
-            as="a"
-            href="#"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-          >
-            About Us
-          </Typography>
-        </li>
-        <li>
-          <Typography
-            as="a"
-            href="#"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-orange-800 focus:text-orange-800"
-          >
-            License
-          </Typography>
-        </li>
-        <li>
-          <Typography
-            as="a"
-            href="#"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-orange-800 focus:text-orange-800"
-          >
-            Contribute
-          </Typography>
-        </li>
-        <li>
-          <Typography
-            as="a"
-            href="#contact"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-orange-800 focus:text-orange-800"
-          >
-            Contact Us
-          </Typography>
-        </li>
-      </ul>
-    </footer>
-    </div>
+    <>
+       {/* Back to Top Link */}
+       <div className="min-w-[250px] bg-transparent text-black">
+        <BackToTop />
+       </div>
+      
+      {/* Footer Section */}
+      <div
+        className="relative opacity-90 "
+        style={{
+          backgroundImage: `url(https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          width: '100%',
+        }}
+      >
+        
+       
+
+          {/* Footer Content */}
+          <footer className="flex flex-row flex-wrap items-center justify-center w-full
+            text-center gap-y-4 gap-x-12  md:justify-evenly pb-12 pt-4 md:pb-20 md:pt-8 lg:pt-20 bg-black opacity-70">
+
+            <Typography color="white" className="font-normal text-sm md:text-xl">
+              &copy; 2024 Kiwi Nutz Coffee Company
+            </Typography>
+            <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
+              <li>
+                <Typography
+                  as="a"
+                  href="#"
+                  color="white"
+                  className="font-normal transition-colors text-sm md:text-xl"
+                >
+                  About Us
+                </Typography>
+              </li>
+              <li>
+                <Typography
+                  as="a"
+                  href="#"
+                  color="white"
+                  className="font-normal transition-colors text-sm md:text-xl"
+                >
+                  License
+                </Typography>
+              </li>
+              <li>
+                <Typography
+                  as="a"
+                  href="#"
+                  color="white"
+                  className="font-normal transition-colors text-sm md:text-xl"
+                >
+                  Contribute
+                </Typography>
+              </li>
+              <li>
+                <Typography
+                  as="a"
+                  href="#contact"
+                  color="white"
+                  className="font-normal transition-color text-sm md:text-xl"
+                >
+                  Contact Us
+                </Typography>
+              </li>
+            </ul>
+          </footer>
+        
+      </div>
+    </>
   );
 }
