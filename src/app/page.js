@@ -10,7 +10,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import PicSection from "./components/PicSection";
 import Link from "next/link";
-import Video from "./components/Video";  {/* Keep this import */}
+import Video from "./components/Video";  
 
 const lato = Lato({
   subsets: ['latin'],
@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="">
       <Nav />
-      <Video />  {/* Keep this component */}
+      <Video />  
       <Hero />
       <About />
       <Content />

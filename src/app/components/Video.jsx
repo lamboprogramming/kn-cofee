@@ -5,10 +5,10 @@ const Video = () => {
 
   useEffect(() => {
     const videoElement = videoRef.current;
-    const track = videoElement.textTracks[1]; // Access the first track (subtitles)
+    const track = videoElement.textTracks[0]; 
     
     if (track) {
-      track.mode = 'showing'; // Ensure captions are visible by default
+      track.mode = 'showing'; 
     }
   }, []);
 
