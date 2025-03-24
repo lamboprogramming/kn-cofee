@@ -13,7 +13,7 @@ const Video = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center">
       <video
         ref={videoRef}
         width="320"
@@ -21,16 +21,16 @@ const Video = () => {
         controls
         autoPlay
         muted
-        preload="auto" // Preload video to allow for autoplay
+        preload="auto" 
         className="w-full h-auto"
       >
-        <source src="/coffee720.mp4" type="video/mp4" />
+        <source src="/kncoffee.mp4" type="video/mp4" />
         <track
           src="/captions.vtt"
           kind="subtitles"
           srcLang="en"
           label="English"
-          default // This ensures captions are enabled by default
+          default 
         />
         Your browser does not support the video tag.
       </video>
