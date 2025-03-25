@@ -13,7 +13,7 @@ const Video = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center m-4">
       <video
         ref={videoRef}
         width="320"
