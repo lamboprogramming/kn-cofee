@@ -32,7 +32,7 @@ const Video = () => {
           label="English"
           default 
         />
-        Your browser does not support the video tag.
+        Your browser does not support this video tag.
       </video>
     </div>
   );

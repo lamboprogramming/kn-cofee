@@ -17,7 +17,7 @@ export default function Testimonials() {
     {
       name: "Employee",
       company: "Financial Technology Business",
-      testimonial: "I think at this point I just enjoy the taste, O literally drink four cups a day.",
+      testimonial: "I think at this point I just enjoy the taste, I literally drink four cups a day.",
       image: "https://randomuser.me/api/portraits/women/45.jpg"
     },
     {
